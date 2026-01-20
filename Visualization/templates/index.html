@@ -1,0 +1,1642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store & District Analytics</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #fafafa;
+            color: #333;
+        }
+
+        .container {
+            position: relative;
+            height: 100vh;
+        }
+
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .sidebar {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 400px;
+            max-height: calc(100vh - 40px);
+            background: white;
+            border: 1px solid #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+        }
+
+        .sidebar.collapsed {
+            width: 60px;
+            height: 60px;
+        }
+
+        .sidebar.collapsed .sidebar-content {
+            display: none;
+        }
+
+        .sidebar-header {
+            padding: 24px;
+            background: white;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .sidebar-header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .sidebar.collapsed .sidebar-header h1 {
+            display: none;
+        }
+
+        .sidebar.collapsed .sidebar-header-content {
+            display: none;
+        }
+
+        .sidebar-header h1 {
+            font-size: 1.4em;
+            font-weight: 600;
+            margin: 0;
+            color: #ff0000;
+        }
+
+        #collapse-btn {
+            background: #e0e0e0;
+            border: 1px solid #ccc;
+            color: #333;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 4px 10px;
+            border-radius: 4px;
+            min-width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+
+        #collapse-btn:hover {
+            background: #d0d0d0;
+        }
+
+        .sidebar-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+        }
+
+        .tabs {
+            display: flex;
+            background: #f8f8f8;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .tab {
+            flex: 1;
+            padding: 12px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.2s;
+            color: #666;
+        }
+
+        .tab:hover {
+            background: #efefef;
+        }
+
+        .tab.active {
+            background: white;
+            border-bottom: 2px solid #ff0000;
+            font-weight: 600;
+            color: #ff0000;
+        }
+
+        .tab-content {
+            flex: 1;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tab-panel {
+            display: none;
+            padding: 20px;
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .tab-panel.active {
+            display: block;
+        }
+
+        .sidebar.collapsed .tabs,
+        .sidebar.collapsed .tab-content {
+            display: none;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px 20px;
+            color: #999;
+            font-style: italic;
+        }
+
+        .control-section {
+            margin-bottom: 24px;
+        }
+
+        .control-section label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #333;
+            font-size: 0.95em;
+        }
+
+        select, input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 0.95em;
+            background: white;
+            transition: border 0.2s;
+        }
+
+        select:hover, input:hover {
+            border-color: #ff0000;
+        }
+
+        select:focus, input:focus {
+            outline: none;
+            border-color: #ff0000;
+            box-shadow: 0 0 0 3px rgba(255, 0, 0, 0.1);
+        }
+
+        .mode-buttons {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+        }
+
+        .mode-btn {
+            padding: 10px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .mode-btn:hover {
+            border-color: #ff0000;
+            background: #fff5f5;
+        }
+
+        .mode-btn.active {
+            background: #ff0000;
+            color: white;
+            border-color: #ff0000;
+        }
+
+        .stats-summary {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            background: #f8f8f8;
+            padding: 16px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #e0e0e0;
+        }
+
+        .stat-value {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #ff0000;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.85em;
+            color: #666;
+            margin-top: 4px;
+            display: block;
+        }
+
+        .legend {
+            background: #f8f8f8;
+            padding: 16px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .legend-title {
+            font-weight: 600;
+            margin-bottom: 12px;
+            font-size: 0.95em;
+        }
+
+        .legend-scale {
+            display: flex;
+            height: 20px;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 8px;
+        }
+
+        .legend-scale div {
+            flex: 1;
+        }
+
+        .legend-labels {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8em;
+            color: #666;
+        }
+
+        .mapboxgl-popup-content {
+            padding: 12px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .popup-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #ff0000;
+        }
+
+        .popup-row {
+            font-size: 0.9em;
+            margin-bottom: 4px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+
+        .error {
+            background: #fee;
+            border: 1px solid #fcc;
+            padding: 12px;
+            border-radius: 6px;
+            color: #c00;
+            margin-bottom: 12px;
+        }
+
+        /* Scrollbar styling */
+        .sidebar-content::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .sidebar-content::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        .sidebar-content::-webkit-scrollbar-thumb {
+            background: #ccc;
+            border-radius: 3px;
+        }
+
+        .sidebar-content::-webkit-scrollbar-thumb:hover {
+            background: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="map"></div>
+        
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-header-top">
+                    <h1>Store Locations Map</h1>
+                    <button id="collapse-btn" title="Collapse sidebar">◀</button>
+                </div>
+                
+                <div class="sidebar-header-content">
+                    <div class="control-section">
+                        <label>Select Category</label>
+                        <select id="category-selector">
+                            <option value="">Loading categories...</option>
+                        </select>
+                    </div>
+
+                    <div class="control-section">
+                        <label>District Metric (Choropleth)</label>
+                        <select id="metric-selector">
+                            <option value="Population (k)">Population (thousands)</option>
+                            <option value="Income per capita">Income per Capita</option>
+                            <option value="Income">Total Income (Billion RM)</option>
+                        </select>
+                    </div>
+
+                    <div class="control-section">
+                        <label>Store Display Mode</label>
+                        <div class="mode-buttons">
+                            <button class="mode-btn active" data-mode="cluster">Cluster</button>
+                            <button class="mode-btn" data-mode="individual">Individual</button>
+                            <button class="mode-btn" data-mode="none">None</button>
+                        </div>
+                    </div>
+
+                    <div class="stats-summary">
+                        <div class="stat-card">
+                            <span class="stat-value" id="store-count">0</span>
+                            <span class="stat-label">Total Stores</span>
+                        </div>
+                        <div class="stat-card" id="dc-stat-card">
+                            <span class="stat-value" id="dc-count">0</span>
+                            <span class="stat-label">DCs</span>
+                        </div>
+                    </div>
+
+                    <div class="legend">
+                        <div class="legend-title" id="legend-title">Population (thousands)</div>
+                        <div class="legend-scale">
+                            <div style="background: #4ade80;"></div>
+                            <div style="background: #facc15;"></div>
+                            <div style="background: #fb923c;"></div>
+                            <div style="background: #ef4444;"></div>
+                        </div>
+                        <div class="legend-labels">
+                            <span id="legend-min">0</span>
+                            <span id="legend-max">100</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tabs">
+                <button class="tab active" data-tab="overview">Overview</button>
+                <button class="tab" data-tab="stores">Stores</button>
+                <button class="tab" data-tab="analytics">Analytics</button>
+            </div>
+            
+            <div class="tab-content">
+                <div class="tab-panel active" id="overview">
+                    <div class="loading">Loading overview data...</div>
+                </div>
+                
+                <div class="tab-panel" id="stores">
+                    <div class="loading">Loading stores...</div>
+                </div>
+                
+                <div class="tab-panel" id="analytics">
+                    <div class="loading">Loading analytics...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Mapbox with existing token
+        mapboxgl.accessToken = 'pk.eyJ1IjoibXNoYW1pIiwiYSI6ImNtMGljY28zMzBqZGsycXF4MGppdmE0bWUifQ.nWArfpCw78mToZi2cN-e8w';
+        
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/light-v11',
+            center: [101.6869, 3.1390], // Malaysia center
+            zoom: 6
+        });
+
+        // Global state
+        let currentCategory = null;
+        let currentMetric = 'Population (k)';
+        let currentViewMode = 'cluster';
+        let districtData = null;
+        let storeData = null;
+        let dcData = null;
+        let categories = [];
+
+        // Category folders that have distribution centers
+        const DC_CATEGORIES = ['99 SpeedMart', 'Food and Beverages', 'MR DIY + MR TOY'];
+
+        // ============================================
+        // DATA LOADING FUNCTIONS
+        // ============================================
+
+        async function loadCategories() {
+            try {
+                // For static implementation, we'll hardcode the categories
+                // In production, this would scan the Finalized Data directory
+                categories = [
+                    '99 SpeedMart',
+                    'Convenience Stores',
+                    'Department Stores',
+                    'Eco Shop',
+                    'Fast Fashion',
+                    'Food and Beverages',
+                    'Gold Shops',
+                    'MR DIY + MR TOY'
+                ];
+
+                const categorySelector = document.getElementById('category-selector');
+                categorySelector.innerHTML = '<option value="">-- Select a category --</option>';
+                
+                categories.forEach(cat => {
+                    const option = document.createElement('option');
+                    option.value = cat;
+                    option.textContent = cat;
+                    categorySelector.appendChild(option);
+                });
+
+                console.log('Categories loaded:', categories);
+            } catch (error) {
+                console.error('Error loading categories:', error);
+            }
+        }
+
+        async function loadStoreGeoJSON(category) {
+            try {
+                console.log('Loading stores for category:', category);
+                
+                // Build path to GeoJSON data
+                const basePath = '/data';
+                const categoryPath = `${basePath}/${category}/GEOJSON Data`;
+                
+                // Map category names to their GeoJSON files
+                const fileMap = {
+                    '99 SpeedMart': ['99 SpeedMart.geojson'],
+                    'Convenience Stores': ['711.geojson', 'Family Mart.geojson', 'KK Mart.geojson', 'MyNews Mart.geojson'],
+                    'Department Stores': ['Aeon.geojson', 'Parkson.geojson'],
+                    'Eco Shop': ['Eco-Shop.geojson'],
+                    'Fast Fashion': ['H&M.geojson', 'HLA.geojson', 'Padini.geojson', 'Uniqlo.geojson'],
+                    'Food and Beverages': ['MemangMeow.geojson', 'OldTown White Coffee.geojson', 'Oriental Kopi.geojson', 'Tea Garden.geojson'],
+                    'Gold Shops': ['Habib Jewels.geojson', 'Poh Kong.geojson', 'Tomei.geojson', 'Wah Chan.geojson'],
+                    'MR DIY + MR TOY': ['Mr_DIY.geojson', 'Mr_Toy.geojson']
+                };
+
+                const files = fileMap[category] || [];
+                const allFeatures = [];
+
+                for (const file of files) {
+                    try {
+                        const response = await fetch(`${categoryPath}/${file}`);
+                        if (response.ok) {
+                            const geojson = await response.json();
+                            if (geojson.features) {
+                                allFeatures.push(...geojson.features);
+                            }
+                        }
+                    } catch (err) {
+                        console.warn(`Could not load ${file}:`, err);
+                    }
+                }
+
+                console.log(`Loaded ${allFeatures.length} stores for ${category}`);
+
+                return {
+                    type: 'FeatureCollection',
+                    features: allFeatures
+                };
+            } catch (error) {
+                console.error('Error loading store GeoJSON:', error);
+                return { type: 'FeatureCollection', features: [] };
+            }
+        }
+
+        async function loadDistributionCenters(category) {
+            if (!DC_CATEGORIES.includes(category)) {
+                return null;
+            }
+
+            try {
+                console.log('Loading distribution centers for:', category);
+                
+                const basePath = '/data';
+                let dcFile = '';
+
+                if (category === '99 SpeedMart') {
+                    dcFile = `${basePath}/99 SpeedMart/DC/99speedmart-distribution-centers.json`;
+                } else if (category === 'Food and Beverages') {
+                    dcFile = `${basePath}/Food and Beverages/DC/oriental_kopi_distribution_centers.json`;
+                } else if (category === 'MR DIY + MR TOY') {
+                    dcFile = `${basePath}/MR DIY + MR TOY/DC/mr_diy_distribution_centers.json`;
+                }
+
+                const response = await fetch(dcFile);
+                if (!response.ok) {
+                    console.warn('DC file not found:', dcFile);
+                    return null;
+                }
+
+                const jsonData = await response.json();
+                
+                // Convert to GeoJSON format
+                const features = [];
+                for (const stateGroup of jsonData) {
+                    for (const location of stateGroup.locations || []) {
+                        const gps = location.gps || '';
+                        if (gps) {
+                            try {
+                                const parts = gps.split(',');
+                                if (parts.length >= 2) {
+                                    const lat = parseFloat(parts[0].trim());
+                                    const lon = parseFloat(parts[1].trim());
+                                    
+                                    features.push({
+                                        type: 'Feature',
+                                        geometry: {
+                                            type: 'Point',
+                                            coordinates: [lon, lat] // GeoJSON uses [lon, lat]
+                                        },
+                                        properties: {
+                                            code: location.code || '',
+                                            name: location.name || '',
+                                            address: location.address || '',
+                                            state: stateGroup.state || '',
+                                            type: 'distribution_center'
+                                        }
+                                    });
+                                }
+                            } catch (err) {
+                                console.warn('Could not parse GPS:', gps, err);
+                            }
+                        }
+                    }
+                }
+
+                console.log(`Loaded ${features.length} distribution centers`);
+
+                return {
+                    type: 'FeatureCollection',
+                    features: features
+                };
+            } catch (error) {
+                console.error('Error loading distribution centers:', error);
+                return null;
+            }
+        }
+
+        async function loadDistrictData() {
+            try {
+                console.log('Loading district data...');
+                
+                // Load district geometry
+                const geomResponse = await fetch('/district-data/malaysia.district.geojson');
+                const geometry = await geomResponse.json();
+                
+                // Load district statistics
+                const statsResponse = await fetch('/district-data/District Statistics.geojson');
+                const statistics = await statsResponse.json();
+                
+                console.log('Loaded geometry:', geometry.features.length, 'districts');
+                console.log('Loaded statistics:', statistics.features.length, 'records');
+                
+                // State abbreviation mapping (geojson uses codes like JHR, SGR, etc)
+                const stateMapping = {
+                    'JHR': 'Johor', 'KDH': 'Kedah', 'KTN': 'Kelantan', 'MLK': 'Melaka',
+                    'NSN': 'Negeri Sembilan', 'PHG': 'Pahang', 'PNG': 'Penang', 
+                    'PRK': 'Perak', 'PLS': 'Perlis', 'SGR': 'Selangor', 
+                    'TRG': 'Terengganu', 'SBH': 'Sabah', 'SWK': 'Sarawak',
+                    'KUL': 'W.P. Kuala Lumpur', 'LBN': 'W.P. Labuan', 'PJY': 'W.P. Putrajaya'
+                };
+                
+                // Create stats lookup by district name (case-insensitive)
+                const statsMap = {};
+                for (const feature of statistics.features) {
+                    const props = feature.properties;
+                    const districtKey = props.District?.toLowerCase();
+                    if (districtKey) {
+                        statsMap[districtKey] = props;
+                    }
+                }
+
+                console.log('Stats map created with', Object.keys(statsMap).length, 'entries');
+
+                // Join statistics to geometry
+                let joinCount = 0;
+                for (const feature of geometry.features) {
+                    const props = feature.properties;
+                    const districtKey = props.name?.toLowerCase();
+                    
+                    if (districtKey && statsMap[districtKey]) {
+                        const stats = statsMap[districtKey];
+                        // Copy all statistics properties
+                        feature.properties['Population (k)'] = stats['Population (k)'];
+                        feature.properties['Income per capita'] = stats['Income per capita'];
+                        feature.properties['Income'] = stats['Income'];
+                        joinCount++;
+                    } else {
+                        console.warn('No stats found for district:', props.name);
+                    }
+                }
+
+                console.log(`✓ Successfully joined ${joinCount} out of ${geometry.features.length} districts`);
+                
+                // Log sample for debugging
+                if (geometry.features.length > 0) {
+                    const sample = geometry.features[0].properties;
+                    console.log('Sample district properties:', {
+                        name: sample.name,
+                        state: sample.state,
+                        population: sample['Population (k)'],
+                        income: sample['Income per capita']
+                    });
+                }
+                
+                return geometry;
+            } catch (error) {
+                console.error('Error loading district data:', error);
+                return null;
+            }
+        }
+
+        // ============================================
+        // LAYER MANAGEMENT FUNCTIONS
+        // ============================================
+
+        function enforceLayerHierarchy() {
+            // CRITICAL: Maintain layer order from bottom to top
+            // 1. District fills (BOTTOM - choropleth)
+            // 2. District borders
+            // 3. DC markers
+            // 4. Store clusters/markers (TOP - must be above choropleth)
+            
+            console.log('Enforcing layer hierarchy...');
+            
+            const layerOrder = [
+                'district-fills',           // MUST BE BOTTOM
+                'district-borders',
+                'dc-markers',
+                'store-clusters',
+                'store-cluster-count',
+                'store-points',
+                'store-markers-individual'  // MUST BE TOP
+            ];
+
+            // Get all map layers
+            const allLayers = map.getStyle().layers;
+            const existingLayers = layerOrder.filter(id => map.getLayer(id));
+            
+            console.log('Existing layers to order:', existingLayers);
+
+            // FORCE correct order by moving each layer
+            // Start from the top and work down, placing each layer above the previous
+            for (let i = existingLayers.length - 1; i >= 0; i--) {
+                const currentLayer = existingLayers[i];
+                
+                if (i === 0) {
+                    // This is the bottom layer (district-fills)
+                    // Find any layer to put it before (to ensure it's at bottom)
+                    const firstMapLayer = allLayers.find(l => 
+                        l.id !== currentLayer && 
+                        l.type !== 'background' && 
+                        !l.id.startsWith('mapbox-')
+                    );
+                    
+                    if (firstMapLayer) {
+                        try {
+                            map.moveLayer(currentLayer, firstMapLayer.id);
+                            console.log(`Moved ${currentLayer} to bottom (before ${firstMapLayer.id})`);
+                        } catch (err) {
+                            console.warn('Could not move to bottom:', err);
+                        }
+                    }
+                } else {
+                    // Place this layer after the previous layer in our order
+                    const previousLayer = existingLayers[i - 1];
+                    if (map.getLayer(previousLayer)) {
+                        try {
+                            map.moveLayer(currentLayer, previousLayer);
+                            console.log(`Moved ${currentLayer} after ${previousLayer}`);
+                        } catch (err) {
+                            console.warn(`Could not move ${currentLayer}:`, err);
+                        }
+                    }
+                }
+            }
+
+            // DOUBLE CHECK: Ensure store layers are absolutely on top
+            const storeLayers = ['store-markers-individual', 'store-points', 'store-cluster-count', 'store-clusters', 'dc-markers'];
+            storeLayers.forEach(layerId => {
+                if (map.getLayer(layerId)) {
+                    try {
+                        // Move to absolute top
+                        const topLayers = map.getStyle().layers;
+                        const topLayerId = topLayers[topLayers.length - 1].id;
+                        if (topLayerId !== layerId) {
+                            map.moveLayer(layerId);  // moveLayer with no second argument moves to top
+                            console.log(`Moved ${layerId} to absolute top`);
+                        }
+                    } catch (err) {
+                        console.warn(`Could not move ${layerId} to top:`, err);
+                    }
+                }
+            });
+
+            console.log('Layer hierarchy enforced');
+        }
+
+        function initializeDistrictLayers() {
+            if (!districtData) {
+                console.warn('District data not loaded yet');
+                return;
+            }
+
+            console.log('Initializing district layers with', districtData.features.length, 'features');
+
+            // Add source if not exists
+            if (!map.getSource('districts')) {
+                map.addSource('districts', {
+                    type: 'geojson',
+                    data: districtData
+                });
+                console.log('Added districts source');
+            } else {
+                map.getSource('districts').setData(districtData);
+            }
+
+            // Add fill layer (choropleth) - MUST BE AT BOTTOM
+            if (!map.getLayer('district-fills')) {
+                map.addLayer({
+                    id: 'district-fills',
+                    type: 'fill',
+                    source: 'districts',
+                    paint: {
+                        'fill-color': '#ccc',
+                        'fill-opacity': 0.7
+                    }
+                });
+                console.log('Added district-fills layer');
+            }
+
+            // Add border layer ABOVE fill
+            if (!map.getLayer('district-borders')) {
+                map.addLayer({
+                    id: 'district-borders',
+                    type: 'line',
+                    source: 'districts',
+                    paint: {
+                        'line-color': '#333',
+                        'line-width': 1.5,
+                        'line-opacity': 0.8
+                    }
+                });
+                console.log('Added district-borders layer');
+            }
+
+            // CRITICAL: Ensure fills are at the bottom
+            enforceLayerHierarchy();
+
+            // Update choropleth with current metric
+            updateChoropleth(currentMetric);
+        }
+
+        function initializeStoreLayers() {
+            // Add store source if not exists
+            if (!map.getSource('stores')) {
+                map.addSource('stores', {
+                    type: 'geojson',
+                    data: { type: 'FeatureCollection', features: [] },
+                    cluster: true,
+                    clusterMaxZoom: 14,
+                    clusterRadius: 50
+                });
+            }
+
+            // Add cluster circle layer
+            if (!map.getLayer('store-clusters')) {
+                map.addLayer({
+                    id: 'store-clusters',
+                    type: 'circle',
+                    source: 'stores',
+                    filter: ['has', 'point_count'],
+                    paint: {
+                        'circle-color': [
+                            'step',
+                            ['get', 'point_count'],
+                            '#ff9999',
+                            10, '#ff6666',
+                            30, '#ff3333',
+                            50, '#ff0000'
+                        ],
+                        'circle-radius': [
+                            'step',
+                            ['get', 'point_count'],
+                            12,
+                            10, 18,
+                            30, 24,
+                            50, 30
+                        ],
+                        'circle-stroke-width': 2,
+                        'circle-stroke-color': '#fff'
+                    }
+                });
+            }
+
+            // Add cluster count layer
+            if (!map.getLayer('store-cluster-count')) {
+                map.addLayer({
+                    id: 'store-cluster-count',
+                    type: 'symbol',
+                    source: 'stores',
+                    filter: ['has', 'point_count'],
+                    layout: {
+                        'text-field': '{point_count_abbreviated}',
+                        'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+                        'text-size': 12
+                    },
+                    paint: {
+                        'text-color': '#ffffff'
+                    }
+                });
+            }
+
+            // Add unclustered point layer
+            if (!map.getLayer('store-points')) {
+                map.addLayer({
+                    id: 'store-points',
+                    type: 'circle',
+                    source: 'stores',
+                    filter: ['!', ['has', 'point_count']],
+                    paint: {
+                        'circle-color': '#ff0000',
+                        'circle-radius': 6,
+                        'circle-stroke-width': 2,
+                        'circle-stroke-color': '#fff'
+                    }
+                });
+            }
+
+            // Add source for individual markers (non-clustered)
+            if (!map.getSource('stores-individual')) {
+                map.addSource('stores-individual', {
+                    type: 'geojson',
+                    data: { type: 'FeatureCollection', features: [] }
+                });
+            }
+
+            // Add individual marker layer
+            if (!map.getLayer('store-markers-individual')) {
+                map.addLayer({
+                    id: 'store-markers-individual',
+                    type: 'circle',
+                    source: 'stores-individual',
+                    paint: {
+                        'circle-color': '#ff0000',
+                        'circle-radius': 6,
+                        'circle-stroke-width': 2,
+                        'circle-stroke-color': '#fff'
+                    },
+                    layout: {
+                        'visibility': 'none'
+                    }
+                });
+            }
+        }
+
+        function initializeDCLayers() {
+            // Add DC source if not exists
+            if (!map.getSource('dc-centers')) {
+                map.addSource('dc-centers', {
+                    type: 'geojson',
+                    data: { type: 'FeatureCollection', features: [] }
+                });
+            }
+
+            // Add DC marker layer (3x larger, distinct color)
+            if (!map.getLayer('dc-markers')) {
+                map.addLayer({
+                    id: 'dc-markers',
+                    type: 'circle',
+                    source: 'dc-centers',
+                    paint: {
+                        'circle-color': '#0066ff',
+                        'circle-radius': 18, // 3x larger than store markers (6px)
+                        'circle-stroke-width': 3,
+                        'circle-stroke-color': '#fff'
+                    }
+                });
+            }
+        }
+
+        function updateStoreSource(geojson) {
+            storeData = geojson;
+            console.log('Updating store source with', geojson.features.length, 'features');
+            
+            if (currentViewMode === 'cluster') {
+                // Update clustered source
+                if (map.getSource('stores')) {
+                    map.getSource('stores').setData(geojson);
+                }
+                // Hide individual source
+                setLayerVisibility('store-markers-individual', false);
+                setLayerVisibility('store-clusters', true);
+                setLayerVisibility('store-cluster-count', true);
+                setLayerVisibility('store-points', true);
+            } else if (currentViewMode === 'individual') {
+                // Update individual source
+                if (map.getSource('stores-individual')) {
+                    map.getSource('stores-individual').setData(geojson);
+                }
+                // Hide cluster layers
+                setLayerVisibility('store-clusters', false);
+                setLayerVisibility('store-cluster-count', false);
+                setLayerVisibility('store-points', false);
+                setLayerVisibility('store-markers-individual', true);
+            } else {
+                // None mode - hide all
+                setLayerVisibility('store-clusters', false);
+                setLayerVisibility('store-cluster-count', false);
+                setLayerVisibility('store-points', false);
+                setLayerVisibility('store-markers-individual', false);
+            }
+
+            // CRITICAL: Enforce hierarchy after updating stores
+            console.log('Enforcing hierarchy after store update');
+            enforceLayerHierarchy();
+        }
+
+        function updateDCSource(geojson) {
+            dcData = geojson;
+            
+            if (map.getSource('dc-centers')) {
+                if (geojson && currentViewMode !== 'none') {
+                    console.log('Updating DC source with', geojson.features.length, 'DCs');
+                    map.getSource('dc-centers').setData(geojson);
+                    setLayerVisibility('dc-markers', true);
+                } else {
+                    map.getSource('dc-centers').setData({ type: 'FeatureCollection', features: [] });
+                    setLayerVisibility('dc-markers', false);
+                }
+            }
+
+            // CRITICAL: Enforce hierarchy after updating DCs
+            console.log('Enforcing hierarchy after DC update');
+            enforceLayerHierarchy();
+        }
+
+        function setLayerVisibility(layerId, visible) {
+            if (map.getLayer(layerId)) {
+                map.setLayoutProperty(layerId, 'visibility', visible ? 'visible' : 'none');
+            }
+        }
+
+        function updateChoropleth(metric) {
+            if (!districtData || !map.getSource('districts')) {
+                console.warn('Cannot update choropleth - data or source missing');
+                return;
+            }
+
+            if (!map.getLayer('district-fills')) {
+                console.warn('Cannot update choropleth - layer missing');
+                return;
+            }
+
+            currentMetric = metric;
+            console.log('Updating choropleth for metric:', metric);
+
+            // Get all values for this metric
+            const values = districtData.features
+                .map(f => f.properties[metric])
+                .filter(v => v != null && !isNaN(v) && v !== 0);
+
+            console.log(`Found ${values.length} valid values for ${metric}`);
+
+            if (values.length === 0) {
+                console.warn('No valid values for metric:', metric);
+                return;
+            }
+
+            const min = Math.min(...values);
+            const max = Math.max(...values);
+            console.log(`Range: ${min} to ${max}`);
+
+            // Create SMOOTH gradient color expression using interpolate
+            const colorExpression = [
+                'case',
+                ['==', ['get', metric], null], '#e0e0e0', // gray for null
+                ['==', ['get', metric], 0], '#f5f5f5',     // very light gray for zero
+                [
+                    'interpolate',
+                    ['linear'],
+                    ['get', metric],
+                    min, '#4ade80',                         // green (low)
+                    min + (max - min) * 0.25, '#a3e635',   // lime
+                    min + (max - min) * 0.50, '#facc15',   // yellow (medium)
+                    min + (max - min) * 0.75, '#fb923c',   // orange
+                    max, '#ef4444'                         // red (high)
+                ]
+            ];
+
+            try {
+                map.setPaintProperty('district-fills', 'fill-color', colorExpression);
+                map.setPaintProperty('district-fills', 'fill-opacity', 0.7);
+                console.log('Choropleth updated successfully');
+                
+                // CRITICAL: Ensure markers stay on top after choropleth update
+                enforceLayerHierarchy();
+            } catch (err) {
+                console.error('Error updating choropleth:', err);
+            }
+
+            // Update legend
+            updateLegend(metric, min, max);
+        }
+
+        function updateLegend(metric, min, max) {
+            document.getElementById('legend-title').textContent = metric;
+            document.getElementById('legend-min').textContent = min.toFixed(1);
+            document.getElementById('legend-max').textContent = max.toFixed(1);
+        }
+
+        function updateSummaryStats(storeCount, dcCount) {
+            document.getElementById('store-count').textContent = storeCount || 0;
+            document.getElementById('dc-count').textContent = dcCount || 0;
+        }
+
+        function updateDCVisibility(category) {
+            const hasDC = DC_CATEGORIES.includes(category);
+            const dcCard = document.getElementById('dc-stat-card');
+            if (dcCard) {
+                dcCard.style.display = hasDC ? 'block' : 'none';
+            }
+        }
+
+        // ============================================
+        // TAB PANEL POPULATION FUNCTIONS
+        // ============================================
+
+        function populateOverviewPanel() {
+            const panel = document.getElementById('overview');
+            
+            if (!storeData || !storeData.features || storeData.features.length === 0) {
+                panel.innerHTML = '<div class="loading">Please select a category first</div>';
+                return;
+            }
+
+            // Calculate statistics
+            const totalStores = storeData.features.length;
+            const states = new Set();
+            const districts = new Set();
+            
+            storeData.features.forEach(f => {
+                if (f.properties.State) states.add(f.properties.State);
+                if (f.properties.District) districts.add(f.properties.District);
+            });
+
+            const statesCount = states.size;
+            const districtsCount = districts.size;
+            const dcCount = dcData ? dcData.features.length : 0;
+            const hasDC = DC_CATEGORIES.includes(currentCategory);
+            
+            // Calculate average stores per district
+            const avgPerDistrict = districtsCount > 0 ? (totalStores / districtsCount).toFixed(1) : 0;
+            
+            // Calculate geographic coverage (out of 160 total districts)
+            const coveragePercent = ((districtsCount / 160) * 100).toFixed(1);
+
+            panel.innerHTML = `
+                <div style="padding: 20px;">
+                    <h3 style="color: #ff0000; margin-bottom: 20px;">${currentCategory || 'Overview'}</h3>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px;">
+                        <div style="background: #f8f8f8; padding: 16px; border-radius: 8px; text-align: center;">
+                            <div style="font-size: 2em; font-weight: 700; color: #ff0000;">${totalStores}</div>
+                            <div style="font-size: 0.9em; color: #666; margin-top: 4px;">Total Stores</div>
+                        </div>
+                        <div style="background: #f8f8f8; padding: 16px; border-radius: 8px; text-align: center;">
+                            <div style="font-size: 2em; font-weight: 700; color: #ff0000;">${statesCount}</div>
+                            <div style="font-size: 0.9em; color: #666; margin-top: 4px;">States Covered</div>
+                        </div>
+                        <div style="background: #f8f8f8; padding: 16px; border-radius: 8px; text-align: center;">
+                            <div style="font-size: 2em; font-weight: 700; color: #ff0000;">${districtsCount}</div>
+                            <div style="font-size: 0.9em; color: #666; margin-top: 4px;">Districts Covered</div>
+                        </div>
+                        ${hasDC ? `
+                        <div style="background: #f8f8f8; padding: 16px; border-radius: 8px; text-align: center;">
+                            <div style="font-size: 2em; font-weight: 700; color: #ff0000;">${dcCount}</div>
+                            <div style="font-size: 0.9em; color: #666; margin-top: 4px;">Distribution Centers</div>
+                        </div>
+                        ` : ''}
+                    </div>
+                    
+                    <div style="background: #fff; padding: 16px; border: 1px solid #e0e0e0; border-radius: 8px;">
+                        <h4 style="margin-bottom: 12px; color: #333;">Key Metrics</h4>
+                        <div style="display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #f0f0f0;">
+                            <span style="color: #666;">Avg stores per district:</span>
+                            <span style="font-weight: 600;">${avgPerDistrict}</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; padding: 8px 0;">
+                            <span style="color: #666;">Geographic coverage:</span>
+                            <span style="font-weight: 600;">${coveragePercent}%</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function populateStoresPanel() {
+            const panel = document.getElementById('stores');
+            
+            if (!storeData || !storeData.features || storeData.features.length === 0) {
+                panel.innerHTML = '<div class="loading">Please select a category first</div>';
+                return;
+            }
+
+            const stores = storeData.features;
+            const storeListHTML = stores.map(store => {
+                const props = store.properties;
+                return `
+                    <div style="padding: 12px; border-bottom: 1px solid #e0e0e0; cursor: pointer;" 
+                         onmouseover="this.style.background='#f8f8f8'" 
+                         onmouseout="this.style.background='white'"
+                         onclick="map.flyTo({center: [${store.geometry.coordinates[0]}, ${store.geometry.coordinates[1]}], zoom: 14})">
+                        <div style="font-weight: 600; color: #333; margin-bottom: 4px;">${props.Name || 'Unnamed Store'}</div>
+                        <div style="font-size: 0.85em; color: #666;">${props.Address || ''}</div>
+                        <div style="font-size: 0.85em; color: #999; margin-top: 4px;">
+                            ${props.District || 'N/A'}, ${props.State || 'N/A'}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            panel.innerHTML = `
+                <div style="padding: 16px; border-bottom: 1px solid #e0e0e0; background: #f8f8f8;">
+                    <input type="text" id="store-search" placeholder="Search stores..." 
+                           style="width: 100%; padding: 8px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 0.9em;"
+                           oninput="filterStores(this.value)">
+                </div>
+                <div id="store-list" style="overflow-y: auto; max-height: calc(100vh - 450px);">
+                    ${storeListHTML}
+                </div>
+            `;
+        }
+
+        function filterStores(searchText) {
+            const storeList = document.getElementById('store-list');
+            const stores = storeData.features;
+            const filtered = stores.filter(store => {
+                const props = store.properties;
+                const searchLower = searchText.toLowerCase();
+                return (props.Name || '').toLowerCase().includes(searchLower) ||
+                       (props.Address || '').toLowerCase().includes(searchLower) ||
+                       (props.District || '').toLowerCase().includes(searchLower) ||
+                       (props.State || '').toLowerCase().includes(searchLower);
+            });
+
+            const storeListHTML = filtered.map(store => {
+                const props = store.properties;
+                return `
+                    <div style="padding: 12px; border-bottom: 1px solid #e0e0e0; cursor: pointer;" 
+                         onmouseover="this.style.background='#f8f8f8'" 
+                         onmouseout="this.style.background='white'"
+                         onclick="map.flyTo({center: [${store.geometry.coordinates[0]}, ${store.geometry.coordinates[1]}], zoom: 14})">
+                        <div style="font-weight: 600; color: #333; margin-bottom: 4px;">${props.Name || 'Unnamed Store'}</div>
+                        <div style="font-size: 0.85em; color: #666;">${props.Address || ''}</div>
+                        <div style="font-size: 0.85em; color: #999; margin-top: 4px;">
+                            ${props.District || 'N/A'}, ${props.State || 'N/A'}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            storeList.innerHTML = storeListHTML || '<div style="padding: 20px; text-align: center; color: #999;">No stores found</div>';
+        }
+
+        function populateAnalyticsPanel() {
+            const panel = document.getElementById('analytics');
+            
+            if (!storeData || !storeData.features || storeData.features.length === 0) {
+                panel.innerHTML = '<div class="loading">Please select a category first</div>';
+                return;
+            }
+
+            // Prepare data for charts
+            const districtCounts = {};
+            const stateCounts = {};
+            
+            storeData.features.forEach(f => {
+                const district = f.properties.District || 'Unknown';
+                const state = f.properties.State || 'Unknown';
+                
+                districtCounts[district] = (districtCounts[district] || 0) + 1;
+                stateCounts[state] = (stateCounts[state] || 0) + 1;
+            });
+
+            // Get top 10 districts
+            const topDistricts = Object.entries(districtCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10);
+
+            panel.innerHTML = `
+                <div style="padding: 20px;">
+                    <h3 style="color: #ff0000; margin-bottom: 20px;">Analytics Dashboard</h3>
+                    
+                    <div style="background: white; padding: 16px; border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 20px;">
+                        <h4 style="margin-bottom: 12px; color: #333;">Top 10 Districts by Store Count</h4>
+                        <canvas id="district-chart" style="max-height: 300px;"></canvas>
+                    </div>
+                    
+                    <div style="background: white; padding: 16px; border: 1px solid #e0e0e0; border-radius: 8px;">
+                        <h4 style="margin-bottom: 12px; color: #333;">Distribution by State</h4>
+                        <canvas id="state-chart" style="max-height: 300px;"></canvas>
+                    </div>
+                </div>
+            `;
+
+            // Wait for DOM to render, then create charts
+            setTimeout(() => {
+                // District bar chart
+                const districtCtx = document.getElementById('district-chart');
+                if (districtCtx && window.Chart) {
+                    new Chart(districtCtx, {
+                        type: 'bar',
+                        data: {
+                            labels: topDistricts.map(d => d[0]),
+                            datasets: [{
+                                label: 'Number of Stores',
+                                data: topDistricts.map(d => d[1]),
+                                backgroundColor: '#ff0000',
+                                borderColor: '#cc0000',
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: true,
+                            plugins: {
+                                legend: {
+                                    display: false
+                                }
+                            },
+                            scales: {
+                                y: {
+                                    beginAtZero: true,
+                                    ticks: {
+                                        precision: 0
+                                    }
+                                }
+                            }
+                        }
+                    });
+                }
+
+                // State pie chart
+                const stateCtx = document.getElementById('state-chart');
+                if (stateCtx && window.Chart) {
+                    const stateEntries = Object.entries(stateCounts).sort((a, b) => b[1] - a[1]);
+                    
+                    new Chart(stateCtx, {
+                        type: 'doughnut',
+                        data: {
+                            labels: stateEntries.map(s => s[0]),
+                            datasets: [{
+                                data: stateEntries.map(s => s[1]),
+                                backgroundColor: [
+                                    '#ff0000', '#cc0000', '#ff3333', '#ff6666', 
+                                    '#ff9999', '#ffcccc', '#990000', '#660000',
+                                    '#ff4444', '#ff5555', '#ff7777', '#ff8888'
+                                ]
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: true,
+                            plugins: {
+                                legend: {
+                                    position: 'right',
+                                    labels: {
+                                        boxWidth: 12,
+                                        font: {
+                                            size: 11
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    });
+                }
+            }, 100);
+        }
+
+        // ============================================
+        // EVENT HANDLERS
+        // ============================================
+
+        document.getElementById('category-selector').addEventListener('change', async (e) => {
+            const category = e.target.value;
+            if (!category) return;
+
+            currentCategory = category;
+            console.log('Category changed to:', category);
+
+            // Update DC card visibility based on category
+            updateDCVisibility(category);
+
+            // Load store data
+            const stores = await loadStoreGeoJSON(category);
+            
+            // Load DC data if applicable
+            const hasDC = DC_CATEGORIES.includes(category);
+            const dcs = hasDC ? await loadDistributionCenters(category) : null;
+
+            // Update map sources
+            updateStoreSource(stores);
+            updateDCSource(dcs);
+
+            // Update stats
+            updateSummaryStats(
+                stores.features.length,
+                dcs ? dcs.features.length : 0
+            );
+            
+            // Refresh overview panel if it's active
+            if (document.getElementById('overview').classList.contains('active')) {
+                populateOverviewPanel();
+            }
+
+            // Fit bounds to data
+            if (stores.features.length > 0) {
+                const bounds = new mapboxgl.LngLatBounds();
+                stores.features.forEach(f => {
+                    bounds.extend(f.geometry.coordinates);
+                });
+                map.fitBounds(bounds, { padding: 50 });
+            }
+        });
+
+        document.getElementById('metric-selector').addEventListener('change', (e) => {
+            const metric = e.target.value;
+            updateChoropleth(metric);
+        });
+
+        document.querySelectorAll('.mode-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const mode = e.target.dataset.mode;
+                currentViewMode = mode;
+
+                // Update active button
+                document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+
+                // Update layer visibility based on mode
+                if (mode === 'cluster') {
+                    if (storeData) {
+                        if (map.getSource('stores')) {
+                            map.getSource('stores').setData(storeData);
+                        }
+                    }
+                    setLayerVisibility('store-clusters', true);
+                    setLayerVisibility('store-cluster-count', true);
+                    setLayerVisibility('store-points', true);
+                    setLayerVisibility('store-markers-individual', false);
+                    if (dcData) setLayerVisibility('dc-markers', true);
+                } else if (mode === 'individual') {
+                    if (storeData) {
+                        if (map.getSource('stores-individual')) {
+                            map.getSource('stores-individual').setData(storeData);
+                        }
+                    }
+                    setLayerVisibility('store-clusters', false);
+                    setLayerVisibility('store-cluster-count', false);
+                    setLayerVisibility('store-points', false);
+                    setLayerVisibility('store-markers-individual', true);
+                    if (dcData) setLayerVisibility('dc-markers', true);
+                } else { // none
+                    setLayerVisibility('store-clusters', false);
+                    setLayerVisibility('store-cluster-count', false);
+                    setLayerVisibility('store-points', false);
+                    setLayerVisibility('store-markers-individual', false);
+                    setLayerVisibility('dc-markers', false);
+                }
+
+                enforceLayerHierarchy();
+            });
+        });
+
+        // Collapse button
+        document.getElementById('collapse-btn').addEventListener('click', () => {
+            const sidebar = document.getElementById('sidebar');
+            const btn = document.getElementById('collapse-btn');
+            
+            sidebar.classList.toggle('collapsed');
+            btn.textContent = sidebar.classList.contains('collapsed') ? '▶' : '◀';
+        });
+
+        // Tab switching functionality
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                const tabName = tab.dataset.tab;
+                
+                // Update active tab
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                
+                // Update active panel
+                document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+                document.getElementById(tabName).classList.add('active');
+                
+                // Populate panel content
+                if (tabName === 'overview') {
+                    populateOverviewPanel();
+                } else if (tabName === 'stores') {
+                    populateStoresPanel();
+                } else if (tabName === 'analytics') {
+                    populateAnalyticsPanel();
+                }
+            });
+        });
+
+        // ============================================
+        // MAP INTERACTIONS
+        // ============================================
+
+        // District click (only in 'none' mode) - show popup with all metrics
+        map.on('click', 'district-fills', (e) => {
+            if (currentViewMode !== 'none') return;
+            
+            const district = e.features[0];
+            const props = district.properties;
+
+            const popupHTML = `
+                <div class="popup-title">${props.District || props.name}, ${props.State || props.state}</div>
+                <div class="popup-row"><strong>Population:</strong> ${props['Population (k)'] || 'N/A'} k</div>
+                <div class="popup-row"><strong>Income per capita:</strong> RM ${props['Income per capita'] || 'N/A'}</div>
+                <div class="popup-row"><strong>Total Income:</strong> RM ${props['Income'] || 'N/A'} B</div>
+            `;
+
+            new mapboxgl.Popup()
+                .setLngLat(e.lngLat)
+                .setHTML(popupHTML)
+                .addTo(map);
+        });
+
+        // Show pointer cursor when hovering district in 'none' mode
+        map.on('mouseenter', 'district-fills', () => {
+            if (currentViewMode === 'none') {
+                map.getCanvas().style.cursor = 'pointer';
+            }
+        });
+
+        map.on('mouseleave', 'district-fills', () => {
+            map.getCanvas().style.cursor = '';
+        });
+
+        // Store marker click popup
+        map.on('click', 'store-points', (e) => {
+            const feature = e.features[0];
+            const props = feature.properties;
+
+            const popupHTML = `
+                <div class="popup-title">${props.Name || 'Store'}</div>
+                <div class="popup-row">${props.Address || ''}</div>
+                <div class="popup-row"><strong>District:</strong> ${props.District || 'N/A'}</div>
+                <div class="popup-row"><strong>State:</strong> ${props.State || 'N/A'}</div>
+            `;
+
+            new mapboxgl.Popup()
+                .setLngLat(e.lngLat)
+                .setHTML(popupHTML)
+                .addTo(map);
+        });
+
+        map.on('click', 'store-markers-individual', (e) => {
+            const feature = e.features[0];
+            const props = feature.properties;
+
+            const popupHTML = `
+                <div class="popup-title">${props.Name || 'Store'}</div>
+                <div class="popup-row">${props.Address || ''}</div>
+                <div class="popup-row"><strong>District:</strong> ${props.District || 'N/A'}</div>
+                <div class="popup-row"><strong>State:</strong> ${props.State || 'N/A'}</div>
+            `;
+
+            new mapboxgl.Popup()
+                .setLngLat(e.lngLat)
+                .setHTML(popupHTML)
+                .addTo(map);
+        });
+
+        // DC marker click popup
+        map.on('click', 'dc-markers', (e) => {
+            const feature = e.features[0];
+            const props = feature.properties;
+
+            const popupHTML = `
+                <div class="popup-title">Distribution Center: ${props.name || props.code}</div>
+                <div class="popup-row">${props.address || ''}</div>
+                <div class="popup-row"><strong>Code:</strong> ${props.code || 'N/A'}</div>
+                <div class="popup-row"><strong>State:</strong> ${props.state || 'N/A'}</div>
+            `;
+
+            new mapboxgl.Popup()
+                .setLngLat(e.lngLat)
+                .setHTML(popupHTML)
+                .addTo(map);
+        });
+
+        // Cluster click - zoom in
+        map.on('click', 'store-clusters', (e) => {
+            const features = map.queryRenderedFeatures(e.point, {
+                layers: ['store-clusters']
+            });
+            const clusterId = features[0].properties.cluster_id;
+            map.getSource('stores').getClusterExpansionZoom(clusterId, (err, zoom) => {
+                if (err) return;
+                map.easeTo({
+                    center: features[0].geometry.coordinates,
+                    zoom: zoom
+                });
+            });
+        });
+
+        // Change cursor on hover
+        map.on('mouseenter', 'store-clusters', () => {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', 'store-clusters', () => {
+            map.getCanvas().style.cursor = '';
+        });
+        map.on('mouseenter', 'store-points', () => {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', 'store-points', () => {
+            map.getCanvas().style.cursor = '';
+        });
+        map.on('mouseenter', 'store-markers-individual', () => {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', 'store-markers-individual', () => {
+            map.getCanvas().style.cursor = '';
+        });
+        map.on('mouseenter', 'dc-markers', () => {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', 'dc-markers', () => {
+            map.getCanvas().style.cursor = '';
+        });
+
+        // ============================================
+        // INITIALIZATION
+        // ============================================
+
+        map.on('load', async () => {
+            console.log('Map loaded, initializing...');
+
+            // Load district data first
+            districtData = await loadDistrictData();
+            
+            // Initialize all layers IN CORRECT ORDER
+            initializeDistrictLayers();    // Bottom layers first
+            initializeStoreLayers();       // Then store layers
+            initializeDCLayers();          // Then DC layers on top
+
+            // CRITICAL: Enforce layer hierarchy immediately after initialization
+            console.log('Initial hierarchy enforcement');
+            enforceLayerHierarchy();
+
+            // Load categories
+            await loadCategories();
+
+            // CRITICAL: Enforce hierarchy again after everything is loaded
+            console.log('Post-load hierarchy enforcement');
+            enforceLayerHierarchy();
+
+            console.log('Initialization complete');
+        });
+    </script>
+</body>
+</html>

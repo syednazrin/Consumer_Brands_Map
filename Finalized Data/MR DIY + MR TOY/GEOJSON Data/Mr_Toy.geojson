@@ -1,0 +1,1031 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73419,
+          3.20211
+        ]
+      },
+      "properties": {
+        "Name": "AEON Alpha Angle",
+        "Address": "Lot F11 &amp; F12, First Floor, Aeon Alpha Angle Shopping Centre, Jalan R1, Seksyen 1 Bandar Baru, Wangsa Maju, 53300 Kuala Lumpur.",
+        "Postcode": 53300,
+        "Coordinate": "3.20211, 101.73419",
+        "State": "Wp Kuala Lumpur",
+        "District": "Setapak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7505579,
+          3.1771854
+        ]
+      },
+      "properties": {
+        "Name": "AEON AU2",
+        "Address": "Lot F51, First Floor, AEON AU2 Shopping Centre, Jalan Taman Setiawangsa (Jalan 37/56), AU2 Taman Setiawangsa, Taman Keramat, 54200 Kuala Lumpur",
+        "Postcode": 54200,
+        "Coordinate": "3.1771854, 101.7505579",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6557625,
+          1.4817523
+        ]
+      },
+      "properties": {
+        "Name": "AEON Bukit Indah Shopping Centre, Johor",
+        "Address": "Lot S35, S36 & S37, Second Floor, Aeon Bukit Indah, Grand Mezzanine, No 8, Jalan Indah 15/2, Taman Bukit Indah, 79100 Iskandar Puteri, Johor",
+        "Postcode": 79100,
+        "Coordinate": "1.4817523, 103.6557625",
+        "State": "Johor",
+        "District": "Iskandar Puteri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4775282,
+          5.3210688
+        ]
+      },
+      "properties": {
+        "Name": "AEON Bukit Mertajam",
+        "Address": "Lot S43, Second Floor, Aeon Mall Bukit Mertajam Shopping Centre, Lot No. 30908, Jalan Rozhan Alma, 14000 Bukit Mertajam, Pulau Pinang.",
+        "Postcode": 14000,
+        "Coordinate": "5.3210688, 100.4775282",
+        "State": "Pulau Pinang",
+        "District": "Bukit Mertajam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3371765,
+          1.526717
+        ]
+      },
+      "properties": {
+        "Name": "AEON Kuching Central",
+        "Address": "Lot S23, Second Floor, Aeon Mall Kuching Central, Jalan Tun Datuk Patinggi Haji Ahmad Zaidi Adruce, Min Chu Garden, 93200 Kuching, Sarawak",
+        "Postcode": 93200,
+        "Coordinate": "1.526717, 110.3371765",
+        "State": "Sarawak",
+        "District": "Kuching"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7345281,
+          1.563759
+        ]
+      },
+      "properties": {
+        "Name": "AEON MALL Bandar Dato Onn",
+        "Address": "Lot F26, First Floor, No 3, Jln Dato' Onn 3, Bandar Dato Onn, 81100 Johor Bahru, Johor",
+        "Postcode": 81100,
+        "Coordinate": "1.563759, 103.7345281",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4722676,
+          3.0608814
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Bukit Raja, Klang",
+        "Address": "Lot F28 & F29, First Floor, Aeon Bukit Raja Shopping Centre, Persiaran Bukit Raja 2 (Bandar Baru Klang), 41150 Klang, Selangor.",
+        "Postcode": 41150,
+        "Coordinate": "3.0608814, 101.4722676",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.0703202,
+          4.5446378
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Ipoh Station",
+        "Address": "Lot F10, First Floor, AEON Ipoh Station 18 Shopping Centre, Susunan Stesen 18, Station 18, 31650 Ipoh, Negeri Perak",
+        "Postcode": 31650,
+        "Coordinate": "4.5446378, 101.0703202",
+        "State": "Perak",
+        "District": "Ipoh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.1229595,
+          4.6765454
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Klebang, Ipoh",
+        "Address": "Lot S16, S17 &amp; S18, Second Floor, AEON Mall Ipoh Klebang, Klebang Perdana, 31200 Chemor, Perak",
+        "Postcode": 31200,
+        "Coordinate": "4.6765454, 101.1229595",
+        "State": "Perak",
+        "District": "Chemor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6170961,
+          1.6405852
+        ]
+      },
+      "properties": {
+        "Name": "Aeon Mall Kulaijaya",
+        "Address": "Lot F19, F20 &amp; F21, First Floor, Aeon Mall Kulaijaya, PTD 106273, Persiaran Indahpura Utama, Bandar Indahpura, 81000 Kulaijaya, Johor",
+        "Postcode": 81000,
+        "Coordinate": "1.6405852, 103.6170961",
+        "State": "Johor",
+        "District": "Kulai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5365756,
+          3.3173712
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Rawang Anggun",
+        "Address": "Lot F11, F12 &amp; F13, First Floor, AEON Rawang Shopping Centre, Persiaran Anggun, Taman Anggun, 48000 Rawang, Selangor.",
+        "Postcode": 48000,
+        "Coordinate": "3.3173712, 101.5365756",
+        "State": "Selangor",
+        "District": "Rawang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5482713,
+          3.0767621
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Shah Alam",
+        "Address": "Lot F28, First Floor, AEON Mall Shah Alam, Jalan Akuatik 13/64, Seksyen 12, 40100 Shah Alam, Selangor",
+        "Postcode": 40100,
+        "Coordinate": "3.0767621, 101.5482713",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.282382,
+          2.2342296
+        ]
+      },
+      "properties": {
+        "Name": "AEON Melaka Shopping Centre",
+        "Address": "Lot F05, F06, F07, F08 &amp; F09, First Floor, Aeon Melaka Shopping Centre, Lebuh Ayer Keroh, 75450 Melaka",
+        "Postcode": 75450,
+        "Coordinate": "2.2342296, 102.282382",
+        "State": "Melaka",
+        "District": "Ayer Keroh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7298124,
+          4.8728469
+        ]
+      },
+      "properties": {
+        "Name": "AEON Taiping",
+        "Address": "Lot F30, F31 &amp; F32, First Floor, Aeon Mall Taiping Shopping Centre, Lot 8576 &amp; 8577, Jalan Kamunting, 34000 Taiping, Perak",
+        "Postcode": 34000,
+        "Coordinate": "4.8728469, 100.7298124",
+        "State": "Perak",
+        "District": "Taiping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6751274,
+          2.99525
+        ]
+      },
+      "properties": {
+        "Name": "AEON Taman Equine",
+        "Address": "Lot G25, Ground Floor, Aeon Taman Equine, Jalan Equine, Pusat Bandar Putra Permai, 43300 Seri Kembangan, Selangor.",
+        "Postcode": 43300,
+        "Coordinate": "2.99525, 101.6751274",
+        "State": "Selangor",
+        "District": "Seri Kembangan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6291529,
+          1.5427763
+        ]
+      },
+      "properties": {
+        "Name": "AEON Taman Universiti Skudai",
+        "Address": "Lot UG17 &amp; UG18, Upper Ground Floor, Aeon Taman Universiti Shopping Centre, No.4, Jalan Pendidikan, Taman Universiti, 81300 Johor Bahru, Johor",
+        "Postcode": 81300,
+        "Coordinate": "1.5427763, 103.6291529",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.2906221,
+          5.3961368
+        ]
+      },
+      "properties": {
+        "Name": "All Seasons Place",
+        "Address": "Unit No. 6H-2-5 &amp; 6H-2-6, Level 2, All Seasons Place, Lebuhraya Thean Teik, Bandar Baru Air Itam, 11500 Penang",
+        "Postcode": 11500,
+        "Coordinate": "5.3961368, 100.2906221",
+        "State": "Pulau Pinang",
+        "District": "Ayer Itam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3667935,
+          6.1248637
+        ]
+      },
+      "properties": {
+        "Name": "Aman Central, Kedah",
+        "Address": "Lot 2-29, Second Floor, Aman Central, No.1, Darul Aman Highway, Kampung Lubok Peringgi, 05100 Alor Setar, Kedah",
+        "Postcode": 5100,
+        "Coordinate": "6.1248637, 100.3667935",
+        "State": "Kedah",
+        "District": "Alor Setar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.75099,
+          3.15784
+        ]
+      },
+      "properties": {
+        "Name": "Ampang Point Shopping Centre",
+        "Address": "M06, Mezzanie Floor, Ampang Point Shopping Centre, Jalan Mamanda 3, Taman Dato Ahmad Razali, 68000 Ampang, Selangor",
+        "Postcode": 68000,
+        "Coordinate": "3.15784, 101.75099",
+        "State": "Selangor",
+        "District": "Ampang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7653442,
+          2.9332818
+        ]
+      },
+      "properties": {
+        "Name": "Bangi Gateway Shopping Complex",
+        "Address": "Lot 2-15, Second Floor, Block A, Bangi Gateway Shopping Complex, Bangi Gateway, Seksyen 15, 43650 Bandar Baru Bangi, Selangor",
+        "Postcode": 43650,
+        "Coordinate": "2.9332818, 101.7653442",
+        "State": "Selangor",
+        "District": "Bandar Baru Bangi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4817408,
+          3.0624082
+        ]
+      },
+      "properties": {
+        "Name": "Central I-City Shah Alam",
+        "Address": "Lot L4-13 &amp; 14, Level 4, Central I-City, No. 1, Persiaran Multimedia, Seksyen 7, Jalan Plumbum 7/102, I-City, 40000 Shah Alam, Selangor.",
+        "Postcode": 40000,
+        "Coordinate": "3.0624082, 101.4817408",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.3262428,
+          3.8183575
+        ]
+      },
+      "properties": {
+        "Name": "East Coast Mall Kuantan",
+        "Address": "L3-12*13A, East Coast Mall, Level 3, Centre Management Office, Jalan Putra Square 6, Putra Square, 25200 Kuantan, Pahang.",
+        "Postcode": 25200,
+        "Coordinate": "3.8183575, 103.3262428",
+        "State": "Pahang",
+        "District": "Kuantan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5343287,
+          3.0002501
+        ]
+      },
+      "properties": {
+        "Name": "Gamuda Walk",
+        "Address": "L1-06 & L1-07, First Floor, Gamuda Walk, No. 12, Jalan Anggerik Vanilla, 31/99 Kota Kemuning, Seksyen 31, 40460 Shah Alam, Selangor.",
+        "Postcode": 40460,
+        "Coordinate": "3.0002501, 101.5343287",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7135501,
+          2.9706416
+        ]
+      },
+      "properties": {
+        "Name": "IOI City Mall",
+        "Address": "L2-54, Second Floor, IOI City Mall, Lebuh IRC, IOI Resort City, 62502 Putrajaya, Selangor",
+        "Postcode": 62502,
+        "Coordinate": "2.9706416, 101.7135501",
+        "State": "Wp Putrajaya",
+        "District": "Putrajaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6265492,
+          1.6481162
+        ]
+      },
+      "properties": {
+        "Name": "IOI Mall Kulai",
+        "Address": "L1-18/46/47/48/49/50/77/78/79/80/OS5, First Floor, IOI Mall Kulai, Lebuh Putra Utama, Bandar Putra Kulai, 81000 Kulai, Johor",
+        "Postcode": 81000,
+        "Coordinate": "1.6481162, 103.6265492",
+        "State": "Johor",
+        "District": "Kulai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6186159,
+          3.0459312
+        ]
+      },
+      "properties": {
+        "Name": "IOI Mall Puchong",
+        "Address": "2F(S-W02), Second Floor, IOI Mall Batu 9, Jalan Puchong, Bandar Puchong Jaya, 47170 Puchong, Selangor",
+        "Postcode": 47170,
+        "Coordinate": "3.0459312, 101.6186159",
+        "State": "Selangor",
+        "District": "Puchong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.0911675,
+          4.5975136
+        ]
+      },
+      "properties": {
+        "Name": "Ipoh Parade",
+        "Address": "T18, Third Floor, Ipoh Parade, Jalan Sultan Abdul Jalil, 31350 Ipoh, Perak",
+        "Postcode": 31350,
+        "Coordinate": "4.5975136, 101.0911675",
+        "State": "Perak",
+        "District": "Ipoh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1454668,
+          5.77774
+        ]
+      },
+      "properties": {
+        "Name": "Jalan Cempaka Merah, Tanah Merah",
+        "Address": "PT 4943 (Lot 6098) (Ground Floor), Taman Kota Harmoni, Jalan Cempaka Merah, 17500 Tanah Merah, Kelantan Darul Naim.",
+        "Postcode": 17500,
+        "Coordinate": "5.77774, 102.1454668",
+        "State": "Kelantan",
+        "District": "Tanah Merah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.3494583,
+          3.4842982
+        ]
+      },
+      "properties": {
+        "Name": "Jalan Mok Hee Kiang, Mentakab, Pahang",
+        "Address": "No. 37 (Ground Floor), Jalan Mok Hee Kiang, 28400 Mentakab, Pahang Darul Makmur.",
+        "Postcode": 28400,
+        "Coordinate": "3.4842982, 102.3494583",
+        "State": "Pahang",
+        "District": "Mentakab"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6947485,
+          2.8227401
+        ]
+      },
+      "properties": {
+        "Name": "KIPMall Kota Warisan",
+        "Address": "M30 &amp; M31, KIPMall Kota Warisan, 43900 Sepang, Selangor",
+        "Postcode": 43900,
+        "Coordinate": "2.8227401, 101.6947485",
+        "State": "Selangor",
+        "District": "Sepang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.2924959,
+          5.3341412
+        ]
+      },
+      "properties": {
+        "Name": "Kompleks Bukit Jambul, Bayan Lepas",
+        "Address": "3A-01-888A (First Floor), Kompleks Bukit Jambul, Jalan Rumbia, 11900 Bayan Lepas, Pulau Pinang.",
+        "Postcode": 11900,
+        "Coordinate": "5.3341412, 100.2924959",
+        "State": "Pulau Pinang",
+        "District": "Bayan Lepas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5012862,
+          5.6598987
+        ]
+      },
+      "properties": {
+        "Name": "Lagenda Village Mall",
+        "Address": "Lot 1-9 &amp; 1-10, First Floor, Legenda Village Mall, Sungai Petani, 08000 Kedah Darul Aman",
+        "Postcode": 8000,
+        "Coordinate": "5.6598987, 100.5012862",
+        "State": "Kedah",
+        "District": "Sungai Petani"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.2900628,
+          2.0188493
+        ]
+      },
+      "properties": {
+        "Name": "Lotus's Kluang",
+        "Address": "G5, Ground Floor, Lotus's Kluang, PTD 108366, Jalan Persiaran Utama, Bandar Newpark Kluang, Mukim Kluang, 86000 Kluang, Johor.",
+        "Postcode": 86000,
+        "Coordinate": "2.0188493, 103.2900628",
+        "State": "Johor",
+        "District": "Kluang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.810621,
+          2.5606117
+        ]
+      },
+      "properties": {
+        "Name": "Lotus's Lukut, Port Dickson",
+        "Address": "Lot No. L7, Ground Floor, Lotus's Lukut, No.35, Jalan Prima 1 Lukut Prima, 71010 Port Dickson, Negeri Sembilan.",
+        "Postcode": 71010,
+        "Coordinate": "2.5606117, 101.810621",
+        "State": "Negeri Sembilan",
+        "District": "Port Dickson"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9709753,
+          2.6843703
+        ]
+      },
+      "properties": {
+        "Name": "Lotus's Seremban Jaya",
+        "Address": "Lot F12, First Floor, Lotus's Seremban Jaya, No 12264, Jalan Seremban Jaya, Taman Seremban Jaya, 70400 Seremban, Negeri Sembilan.",
+        "Postcode": 70400,
+        "Coordinate": "2.6843703, 101.9709753",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3690871,
+          6.0796005
+        ]
+      },
+      "properties": {
+        "Name": "Lotus's Stargate",
+        "Address": "Lot No G-06, Ground Floor, Lotus's Stargate, No.1, Susuran Stargate, Lebuhraya Sultanah Bahiyah, 05400 Alor Setar, Kedah Darul Aman",
+        "Postcode": 5400,
+        "Coordinate": "6.0796005, 100.3690871",
+        "State": "Kedah",
+        "District": "Alor Setar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7526412,
+          3.2098589
+        ]
+      },
+      "properties": {
+        "Name": "Melawati Mall",
+        "Address": "L5-07*08*09, Level 5, Jalan Bandar Melawati, Pusat Bandar Melawati, 53100 Kuala Lumpur.",
+        "Postcode": 53100,
+        "Coordinate": "3.2098589, 101.7526412",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7774146,
+          2.8249092
+        ]
+      },
+      "properties": {
+        "Name": "Mesa Mall, Nilai",
+        "Address": "Lot No F-28A, F-28B & F-29, First Floor, Mesa Mall, Lot 13865, Persiaran Ilmu, Bandar Baru Nilai, 78100 Nilai, Negeri Sembilan.",
+        "Postcode": 78100,
+        "Coordinate": "2.8249092, 101.7774146",
+        "State": "Melaka",
+        "District": "Lubok China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7940995,
+          2.9914759
+        ]
+      },
+      "properties": {
+        "Name": "Metro Point Complex, Kajang",
+        "Address": "F7A, First Floor, Metro Point Complex, Jalan Jelok 6, Bandar Kajang, 43000 Kajang, Selangor",
+        "Postcode": 43000,
+        "Coordinate": "2.9914759, 101.7940995",
+        "State": "Selangor",
+        "District": "Kajang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7229622,
+          3.1343589
+        ]
+      },
+      "properties": {
+        "Name": "MyTOWN Shopping Centre",
+        "Address": "L2-028, Level 2, MyTown Shopping Centre, Level 3, No.6, Jalan Cochrane, Seksyen 90, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 55100,
+        "Coordinate": "3.1343589, 101.7229622",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9229003,
+          2.7198558
+        ]
+      },
+      "properties": {
+        "Name": "Palm Mall, Seremban",
+        "Address": "Units No. 32, 33, 34 &amp; 35, Second Floor, Palm Mall Sertemban, Bukit Nenas, Kemayan Square, 70200 Seremban, Negeri Sembilan",
+        "Postcode": 70200,
+        "Coordinate": "2.7198558, 101.9229003",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0722093,
+          5.9781708
+        ]
+      },
+      "properties": {
+        "Name": "Palm Square, Centre Point",
+        "Address": "Lot No. P29-P31, 4th Floor, Palm Square, Centre Point, 88000 Kota Kinabalu",
+        "Postcode": 88000,
+        "Coordinate": "5.9781708, 116.0722093",
+        "State": "Sabah",
+        "District": "Kota Kinabalu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9903458,
+          4.4004328
+        ]
+      },
+      "properties": {
+        "Name": "Permaisuri Imperial City Mall",
+        "Address": "PICM-TF11, TF12 &amp; TF12A, Third Floor, Permaisuri Imperial City Mall, Jalan Merpati, 98000 Miri, Sarawak",
+        "Postcode": 98000,
+        "Coordinate": "4.4004328, 113.9903458",
+        "State": "Sarawak",
+        "District": "Miri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.854473,
+          3.8071358
+        ]
+      },
+      "properties": {
+        "Name": "Pusat Perniagaan Putra Raub, Pahang",
+        "Address": "No. 19 (Ground Floor), Lorong Putra Raub 1, Pusat Perniagaan Putra Raub, 27600 Raub, Pahang Darul Makmur.",
+        "Postcode": 27600,
+        "Coordinate": "3.8071358, 101.854473",
+        "State": "Pahang",
+        "District": "Raub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7210854,
+          3.2043282
+        ]
+      },
+      "properties": {
+        "Name": "Setapak Central",
+        "Address": "Lot No. S-13 &amp; S-14, Second Floor, Setapak Central, No.67, Jalan Taman Ibu Kota, Taman Danau Kota, Setapak, 53300 Kuala Lumpur.",
+        "Postcode": 53300,
+        "Coordinate": "3.2043282, 101.7210854",
+        "State": "Wp Kuala Lumpur",
+        "District": "Setapak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.8565806,
+          2.9246306
+        ]
+      },
+      "properties": {
+        "Name": "Setia Ecohill Mall, Semenyih",
+        "Address": "Lot L2-05, Level 2, Setia Ecohill Mall, Kompleks Membeli Belah Dataran Ecohill, Jalan Ecohill 1/2, Setia Ecohill, 43500 Semenyih, Selangor",
+        "Postcode": 43500,
+        "Coordinate": "2.9246306, 101.8565806",
+        "State": "Selangor",
+        "District": "Semenyih"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3974871,
+          5.3983112
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Carnival Mall, Penang",
+        "Address": "Unit No. 2F-05, Second Floor, Sunway Carnival, 3068, Jalan Todak, Seberang Jaya, 13700 Perai, Pulau Pinang",
+        "Postcode": 13700,
+        "Coordinate": "5.3983112, 100.3974871",
+        "State": "Pulau Pinang",
+        "District": "Perai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7313679,
+          4.8660982
+        ]
+      },
+      "properties": {
+        "Name": "Taiping Sentral Mall",
+        "Address": "F06 &amp; F07, First Floor, Taiping Sentral Mall, Jalan Istana Larut, 34000 Taiping, Perak",
+        "Postcode": 34000,
+        "Coordinate": "4.8660982, 100.7313679",
+        "State": "Perak",
+        "District": "Taiping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6632542,
+          1.4831185
+        ]
+      },
+      "properties": {
+        "Name": "Tesco Bukit Indah",
+        "Address": "G1, G2, G3, G4, Ground Floor, Tesco Bukit Indah, Jalan Indah 15, Taman Bukit Indah, 81200 Johor Bahru",
+        "Postcode": 81200,
+        "Coordinate": "1.4831185, 103.6632542",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9141727,
+          2.711891
+        ]
+      },
+      "properties": {
+        "Name": "Tesco Extra Seremban 2",
+        "Address": "Lot F4A, F5 &amp; F6, First Floor, Tesco Extra Seremban 2, No. 1, Jalan Haruan 2, 70300 Seremban, Negeri Sembilan",
+        "Postcode": 70300,
+        "Coordinate": "2.711891, 101.9141727",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.118685,
+          4.6159207
+        ]
+      },
+      "properties": {
+        "Name": "Tesco Ipoh",
+        "Address": "Lot No. G3, G4, G4A &amp; G4B, Tesco Ipoh, No.2, Jalan Jambu, Taman Teh Teik Seng, 31400 Ipoh, Perak",
+        "Postcode": 31400,
+        "Coordinate": "4.6159207, 101.118685",
+        "State": "Perak",
+        "District": "Ipoh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2323702,
+          6.1149072
+        ]
+      },
+      "properties": {
+        "Name": "Tesco Kota Bahru",
+        "Address": "G11 &amp; G12, Ground Floor, Tesco Kota Bahru, Lot 1828, Seksyen 17, Bandar Kota Bahru, 15050 Kota Bahru, Kelantan",
+        "Postcode": 15050,
+        "Coordinate": "6.1149072, 102.2323702",
+        "State": "Kelantan",
+        "District": "Kota Bharu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3637594,
+          6.1427169
+        ]
+      },
+      "properties": {
+        "Name": "Tesco Mergong",
+        "Address": "G23, Ground Floor, Tesco Mergong, No. 1, Lebuhraya Sultanah Bahiyah, 05051 Alor Setar, Kedah",
+        "Postcode": 5051,
+        "Coordinate": "6.1427169, 100.3637594",
+        "State": "Kedah",
+        "District": "Alor Setar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5981711,
+          3.302141
+        ]
+      },
+      "properties": {
+        "Name": "Tesco Rawang",
+        "Address": "Lot No. F12 &amp; F13, First Floor, Tesco Rawang, Jalan Rawang, 48000 Rawang, Selangor",
+        "Postcode": 48000,
+        "Coordinate": "3.302141, 101.5981711",
+        "State": "Selangor",
+        "District": "Rawang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.719161,
+          3.0285941
+        ]
+      },
+      "properties": {
+        "Name": "The Mines Shopping Mall",
+        "Address": "L4-06E/06F/07A(P), Level 4, The Mines, Jalan Dulang, Mines Resort City, 43300 Seri Kembangan, Selangor",
+        "Postcode": 43300,
+        "Coordinate": "3.0285941, 101.719161",
+        "State": "Selangor",
+        "District": "Seri Kembangan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.034922,
+          3.1811596
+        ]
+      },
+      "properties": {
+        "Name": "The Spring, Bintulu",
+        "Address": "Lot No. F22, F23, F24, First Floor, The Spring Bintulu, Jalan Tun Abdul Razak, 97000 Bintulu, Sarawak",
+        "Postcode": 97000,
+        "Coordinate": "3.1811596, 113.034922",
+        "State": "Sarawak",
+        "District": "Bintulu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3695884,
+          1.5268545
+        ]
+      },
+      "properties": {
+        "Name": "Vivacity Megamall, Kuching",
+        "Address": "Lot L2-MA01A &amp; L2-018, Level 2, Vivacity Megamall Kuching, Jalan Wan Alwi, 93350 Kuching, Sarawak",
+        "Postcode": 93350,
+        "Coordinate": "1.5268545, 110.3695884",
+        "State": "Sarawak",
+        "District": "Kuching"
+      }
+    }
+  ]
+}

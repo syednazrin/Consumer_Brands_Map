@@ -1,0 +1,1787 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.25079987107848,
+          2.238470831251738
+        ]
+      },
+      "properties": {
+        "Name": "OldTown KIP Mart",
+        "Address": "Lot L1-A009B, KIP Mart Melaka, Jalan Tun Fatimah, 75350 Bachang, Melaka",
+        "Postcode": 75350,
+        "Coordinates": "2.238470831251738, 102.25079987107848",
+        "District": "Melaka",
+        "State": "Melaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.29312725161728,
+          2.2768540476094317
+        ]
+      },
+      "properties": {
+        "Name": "OldTown MetraSquare",
+        "Address": "No 8 & 9, Block A Ground Floor,Jalan Pkak 1 & Pkak 2, Pusat Komersial Air Keroh, 75450, Melaka",
+        "Postcode": 75450,
+        "Coordinates": "2.2768540476094317, 102.29312725161728",
+        "District": "Ayer Keroh",
+        "State": "Melaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.23338473627612,
+          2.2389210519656286
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Malim Jaya",
+        "Address": "Lot No. G-87, Block B1, Jalan Rahmat 3, Taman Malim Jaya, 75250 Melaka",
+        "Postcode": 75250,
+        "Coordinates": "2.2389210519656286, 102.23338473627612",
+        "District": "Melaka",
+        "State": "Melaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2725953092879,
+          2.245887795011381
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Bukit Beruang Bazaar",
+        "Address": "No.G17 & G18, Bukit Beruang Bazaar, 660, Jalan Delima 2, Bukit Beruang, 75450 Melaka",
+        "Postcode": 75450,
+        "Coordinates": "2.245887795011381, 102.2725953092879",
+        "District": "Ayer Keroh",
+        "State": "Melaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.81837642278262,
+          1.496162451710885
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Aeon Permas Jaya",
+        "Address": "Lot G 55, Jusco Permas Jaya Shopping Center, Bandar Baru Permas Jaya, 81750, Masai, Johor",
+        "Postcode": 81750,
+        "Coordinates": "1.496162451710885, 103.81837642278262",
+        "District": "Masai",
+        "State": "Johor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.96293375161753,
+          1.8641305149762732
+        ]
+      },
+      "properties": {
+        "Name": "Oldtown Batu Pahat Mall",
+        "Address": "G 63A & G65 Batu Pahat Mall, Lot 2566 Jln Kluang, 83000, Batu Pahat, Johor",
+        "Postcode": 83000,
+        "Coordinates": "1.8641305149762732, 102.96293375161753",
+        "District": "Batu Pahat",
+        "State": "Johor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.62398105123768,
+          1.612860492238965
+        ]
+      },
+      "properties": {
+        "Name": "OldTown JPO",
+        "Address": "Suite No. 1112, Johor Premium outlets, Jalan Premium outlets Indahpura, 81000 Kulai, Johor",
+        "Postcode": 81000,
+        "Coordinates": "1.612860492238965, 103.62398105123768",
+        "District": "Kulai",
+        "State": "Johor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.65572562093548,
+          1.481277228784062
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Aeon Bukit Indah",
+        "Address": "F15, AEON Bukit Indah Shopping Centre. No.8, Jalan 15/2 Bukit Indah, 81200 Johor Bahru, Johor",
+        "Postcode": 81200,
+        "Coordinates": "1.481277228784062, 103.65572562093548",
+        "District": "Johor Bahru",
+        "State": "Johor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.81477287860609,
+          1.528137823898181
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Giant Plentong",
+        "Address": "Lot No.R134,Giant Hypermarket Plentong, No.3, Jln Masai Lama, Mukim Plentong, 81750 Masai, Johor Bahru, Johor",
+        "Postcode": 81750,
+        "Coordinates": "1.528137823898181, 103.81477287860609",
+        "District": "Masai",
+        "State": "Johor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.32058366511147,
+          2.040249572541373
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Kluang Mall",
+        "Address": "LG-12 & LG-13, Lower Ground Floor, The Street, Kluang Mall, Jalan Rambutan, Bandar Kluang, 86000 Kluang, Johor",
+        "Postcode": 86000,
+        "Coordinates": "2.040249572541373, 103.32058366511147",
+        "District": "Kluang",
+        "State": "Johor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.66671681113542,
+          1.6359545344052007
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Pantai Batu Pahat Hospital",
+        "Address": "Pantai Hospital Batu Pahat, 9s, Jalan Bintang 1, Taman Koperasi Bahagia, 83000 Batu Pahat, Johor",
+        "Postcode": 83000,
+        "Coordinates": "1.6359545344052007, 103.66671681113542",
+        "District": "Batu Pahat",
+        "State": "Johor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.66674899764133,
+          1.6359438099424488
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Senai Airport",
+        "Address": "Lot N11, Aeromall, Senai International Airport, 81250 Johor",
+        "Postcode": 81250,
+        "Coordinates": "1.6359438099424488, 103.66674899764133",
+        "District": "Johor Bahru",
+        "State": "Johor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.71191543627671,
+          1.5449518724882236
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Setia Tropika",
+        "Address": "No.2, Jalan Setia Tropika 1/24, Taman Setia Tropika, 81200 Johor Bahru, Johor",
+        "Postcode": 81200,
+        "Coordinates": "1.5449518724882236, 103.71191543627671",
+        "District": "Johor Bahru",
+        "State": "Johor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.63149445161791,
+          1.5411744228666955
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Taman Universiti",
+        "Address": "35, Jalan Kebudayaan 8, Taman University, 81300 Skudai, Johor",
+        "Postcode": 81300,
+        "Coordinates": "1.5411744228666955, 103.63149445161791",
+        "District": "Johor Bahru",
+        "State": "Johor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.82994107357847,
+          2.6225341916116864
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Sri Utama",
+        "Address": "No.23, Jalan Utama 3/2, Pusat Komersial Sri Utama, 85000 Segamat, Johor",
+        "Postcode": 85000,
+        "Coordinates": "2.6225341916116864, 102.82994107357847",
+        "District": "Segamat",
+        "State": "Johor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.56645676511148,
+          2.0444302600945896
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Wetex Parade",
+        "Address": "Wetex Parade Shopping Centre, Lot S1-3 & 3a, Level 2, No. 69, Jalan Ali, 84000 Muar, Johor Darul Takzim.",
+        "Postcode": 84000,
+        "Coordinates": "2.0444302600945896, 102.56645676511148",
+        "District": "Muar",
+        "State": "Johor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.77735736511198,
+          1.5010033261239424
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Southkey Megamall",
+        "Address": "Lg-051, Lower Ground Floor, Southkey Megamall, Kem Majidee, 80150, Johor Bahru",
+        "Postcode": 80150,
+        "Coordinates": "1.5010033261239424, 103.77735736511198",
+        "District": "Johor Bahru",
+        "State": "Johor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.79810727944239,
+          1.5533428096896458
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Toppen Mall",
+        "Address": "L3.07 & L3.A07, Level 3, Toppen Shopping Centre, No. 33, Jalan Harmonium, Taman Desa Tebrau, 81100 Johor Bahru, Johor",
+        "Postcode": 81100,
+        "Coordinates": "1.5533428096896458, 103.79810727944239",
+        "District": "Johor Bahru",
+        "State": "Johor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7638027804533,
+          1.4628649813430863
+        ]
+      },
+      "properties": {
+        "Name": "OldTown City Square",
+        "Address": "Lot J3-25a, Level 3, Johor Bahru City Square, No. 106-108, Jalan Wong Ah Fook, 80000 Johor Bahru, Johor Darul Takzim",
+        "Postcode": 80000,
+        "Coordinates": "1.4628649813430863, 103.7638027804533",
+        "District": "Johor Bahru",
+        "State": "Johor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.50986890929775,
+          5.674821000735238
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Aman Jaya",
+        "Address": "Lot G29, Ground Floor, Amanjaya Mall, Jalan Jati 1, 08000 Sungai Petani, Kedah",
+        "Postcode": 8000,
+        "Coordinates": "5.674821000735238, 100.50986890929775",
+        "District": "Sungai Petani",
+        "State": "Kedah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.7312397362903,
+          6.342279367593768
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Langkawi International Airport",
+        "Address": "Langkawi International Airport, 07000 Langkawi, Kedah",
+        "Postcode": 7000,
+        "Coordinates": "6.342279367593768, 99.7312397362903",
+        "District": "Langkawi",
+        "State": "Kedah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.85251590930189,
+          6.306742507909095
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Basic Langkawi Jetty Point",
+        "Address": "Zone 3, Lot 8 & 9, Jetty Point Duty Free Complex, 07000 Langkawi, Kedah",
+        "Postcode": 7000,
+        "Coordinates": "6.306742507909095, 99.85251590930189",
+        "District": "Langkawi",
+        "State": "Kedah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.72784405347826,
+          6.291120570945917
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Cenang Mall",
+        "Address": "Lot FF3, Cenang Mall, Jalan Pantai Cenang, Mukim Kedawang, 07000 Langkawi, Kedah",
+        "Postcode": 7000,
+        "Coordinates": "6.291120570945917, 99.72784405347826",
+        "District": "Langkawi",
+        "State": "Kedah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.57137734977833,
+          5.38991657837927
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Kulim",
+        "Address": "No. 159 & 160 Persiaran 3, Kulim Avenue, Kulim Hi-Tech, 09000 Kulim, Kedah",
+        "Postcode": 9000,
+        "Coordinates": "5.38991657837927, 100.57137734977833",
+        "District": "Kulim",
+        "State": "Kedah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.84763675347851,
+          6.322023329104662
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Langkawi Kuah (Mahacity)",
+        "Address": "1-G , Jalan Mahawangsa 1,Langkawi City, Jalan, Langkawi Kedah MY, Persiaran Putera, 07000 Kuah",
+        "Postcode": 7000,
+        "Coordinates": "6.322023329104662, 99.84763675347851",
+        "District": "Langkawi",
+        "State": "Kedah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.48337540929741,
+          5.614887860483961
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Taman Sejati",
+        "Address": "C1, Jalan Permatang Gedong, Taman Sejati Indah, 08000 Sungai Petani, Kedah",
+        "Postcode": 8000,
+        "Coordinates": "5.614887860483961, 100.48337540929741",
+        "District": "Sungai Petani",
+        "State": "Kedah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3949586939598,
+          6.191517621358648
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Alor Setar Airport",
+        "Address": "Lot No. L1l01, Level 1, Departure Hall (Landside), Alor Setar Airport, 06200 Alor Setar, Kedah Darul Aman",
+        "Postcode": 6200,
+        "Coordinates": "6.191517621358648, 100.3949586939598",
+        "District": "Kepala Batas",
+        "State": "Kelantan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.23993499690415,
+          6.130569829937232
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Kota Bharu",
+        "Address": "1852 & 1854, Jalan Pendek, 15000, Kota Bharu, Kelantan",
+        "Postcode": 15000,
+        "Coordinates": "6.130569829937232, 102.23993499690415",
+        "District": "Kota Bharu",
+        "State": "Kelantan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2787221093004,
+          6.09741546115203
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Kubang Kerian",
+        "Address": "Lot 1675 & 1676, Tingkat Bawah, Hadapan Kolej Jururawat Husm, Jalan Sultanah Zainab Ii, Bandar Baru Kubang Kerian, 16150 Kota Bharu, Kelantan Darul Naim",
+        "Postcode": 16150,
+        "Coordinates": "6.09741546115203, 102.2787221093004",
+        "District": "Kota Bharu",
+        "State": "Kelantan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.91173092462923,
+          2.70115592018963
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Aeon Seremban 2",
+        "Address": "Lot G37, Seremban 2 Shopping Centre, Jalan Jusco, 112 Persiaran S2 B1, 70300 Seremban, Negeri Sembilan",
+        "Postcode": 70300,
+        "Coordinates": "2.70115592018963, 101.91173092462923",
+        "District": "Seremban",
+        "State": "Negeri Sembilan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.94108553627619,
+          2.7200548154864785
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Seremban Prima",
+        "Address": "G14, Ground Floor, Seremban Prima, Lot 4973 Jalan Dato Bandar Tunggal, 70000 Seremban , Negeri Sembilan",
+        "Postcode": 70000,
+        "Coordinates": "2.7200548154864785, 101.94108553627619",
+        "District": "Seremban",
+        "State": "Negeri Sembilan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.33641260928981,
+          3.8326150172214444
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Air Putih",
+        "Address": "B1-1383 Tingkat Bawah, Jalan Air Putih, 25300 Kuantan, Pahang",
+        "Postcode": 25300,
+        "Coordinates": "3.8326150172214444, 103.33641260928981",
+        "District": "Kuantan",
+        "State": "Pahang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.79269636547265,
+          3.4233522507209
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Basic Genting Highlands",
+        "Address": "B5, Taxi Stand Resort Hotel, 69000, Genting Highland, Pahang",
+        "Postcode": 69000,
+        "Coordinates": "3.4233522507209, 101.79269636547265",
+        "District": "Genting Highlands",
+        "State": "Pahang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.78228806936629,
+          3.4062639951357894
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Basic GPO",
+        "Address": "Lot 1502, Low Street, Genting Highlands Premium Outlet, 69000 Genting Highlands, Pahang",
+        "Postcode": 69000,
+        "Coordinates": "3.4062639951357894, 101.78228806936629",
+        "District": "Genting Highlands",
+        "State": "Pahang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.90145624977133,
+          3.539064947749048
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Bentong",
+        "Address": "P23-G & P23AG, Jalan MG2, Pusat Perniagaan Mutiara Gemilang, 28700 Bentong, Pahang",
+        "Postcode": 28700,
+        "Coordinates": "3.539064947749048, 101.90145624977133",
+        "District": "Bentong",
+        "State": "Pahang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.3754062246331,
+          4.470091566401211
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Cameron Fair",
+        "Address": "Unit C-G-007, Ground Floor, Cameron Fair Tanah Rata, 39000 Cameron Highland, Pahang",
+        "Postcode": 39000,
+        "Coordinates": "4.470091566401211, 101.3754062246331",
+        "District": "Tanah Rata",
+        "State": "Pahang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.40806743628023,
+          4.50853640386897
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Cameron Square",
+        "Address": "Lot G08 & G08A, Cameron Square,Jalan Aranda Nova, 39100 Greencow, Cameron Highlands, Pahang",
+        "Postcode": 39100,
+        "Coordinates": "4.50853640386897, 101.40806743628023",
+        "District": "Brinchang",
+        "State": "Pahang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.3492322362772,
+          3.4829419859137856
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Mentakab",
+        "Address": "49 Jalan Bunga Tanjung, 28400 Mentakab, Pahang",
+        "Postcode": 28400,
+        "Coordinates": "3.4829419859137856, 102.3492322362772",
+        "District": "Mentakab",
+        "State": "Pahang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.8549528362779,
+          3.7920755512799245
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Raub",
+        "Address": "No 1 & No 2, Dataran Bukit Idaman, 27600 Raub Pahang",
+        "Postcode": 27600,
+        "Coordinates": "3.7920755512799245, 101.8549528362779",
+        "District": "Raub",
+        "State": "Pahang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.33717769579579,
+          3.82537819974995
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Star City",
+        "Address": "No.1, A-1, Tingkat Bawah, Lorong Seri Kuantan 80, Kuantan Star City, 25300 Kuantan, Pahang",
+        "Postcode": 25300,
+        "Coordinates": "3.82537819974995, 103.33717769579579",
+        "District": "Kuantan",
+        "State": "Pahang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4160347514445,
+          3.449897094041841
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Temerloh",
+        "Address": "No.2, Jalan Bahaman 3, 28000 Termerloh, Pahang",
+        "Postcode": 28000,
+        "Coordinates": "3.449897094041841, 102.4160347514445",
+        "District": "Temerloh",
+        "State": "Pahang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.32892488230168,
+          3.8149136075676116
+        ]
+      },
+      "properties": {
+        "Name": "OldTown The Forum",
+        "Address": "A175/6 & A175/7, Lorong Tun Ismail 6, 25000 Kuantan, Pahang Darul Makmur",
+        "Postcode": 25000,
+        "Coordinates": "3.8149136075676116, 103.32892488230168",
+        "District": "Kuantan",
+        "State": "Pahang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.07116639211053,
+          5.85591621539481
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Sandakan",
+        "Address": "Block 40, Lot 9 Ground Floor, Bandar Indah Mile 4 North Road, 90000 Sandakan, Sabah",
+        "Postcode": 90000,
+        "Coordinates": "5.85591621539481, 118.07116639211053",
+        "District": "Sandakan",
+        "State": "Sabah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.43073889396099,
+          6.356459177002605
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Kota Belud",
+        "Address": "Lot 6, Ground Floor & First Floor, Plaza Kong Guan Kota Belud, 89157 Kota Belud, Sabah",
+        "Postcode": 89157,
+        "Coordinates": "6.356459177002605, 116.43073889396099",
+        "District": "Kota Belud",
+        "State": "Sabah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73047580928845,
+          3.1305240892376567
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Taman Maluri 2",
+        "Address": "74, Jalan Jejaka 9, Taman Maluri Cheras, 55100 Wilayah Persekutuan, Kuala Lumpur",
+        "Postcode": 55100,
+        "Coordinates": "3.1305240892376567, 101.73047580928845",
+        "District": "Kuala Lumpur",
+        "State": "Wp Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.68727328015927,
+          2.9302005130025783
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Menara Perkeso",
+        "Address": "Lot No. G-07, G, Persiaran Perdana, Presint 2, 62100 Putrajaya, Wilayah Persekutuan Putrajaya",
+        "Postcode": 62100,
+        "Coordinates": "2.9302005130025783, 101.68727328015927",
+        "District": "Putrajaya",
+        "State": "Wp Putrajaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6924270421245,
+          3.1666185825597135
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Sunway Putra Mall Express",
+        "Address": "Lg-26a, Sunway Putra Mall, No. 100, Jalan Putra, 50350 Kuala Lumpur",
+        "Postcode": 50350,
+        "Coordinates": "3.1666185825597135, 101.6924270421245",
+        "District": "Kuala Lumpur",
+        "State": "Wp Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.68964560928823,
+          2.9352299332185185
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Souq Putrajaya",
+        "Address": "G-004, Selera Putra Fine Dining At Souq Putrajaya, Precint 1, 62000 Putrajaya, Wilayah Persekutuan Putrajaya.",
+        "Postcode": 62000,
+        "Coordinates": "2.9352299332185185, 101.68964560928823",
+        "District": "Putrajaya",
+        "State": "Wp Putrajaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72952867860613,
+          3.199558263258862
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Sri Rampai",
+        "Address": "No 55 Jalan Rampai Niaga 5, Medan Niaga Rampai, 53300 Kuala Lumpur",
+        "Postcode": 53300,
+        "Coordinates": "3.199558263258862, 101.72952867860613",
+        "District": "Setapak",
+        "State": "Wp Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.66712103627663,
+          3.1199601426064194
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Pantai Hospital",
+        "Address": "A1, Fresco, Ground Floor, Block A, Pantai Hospital Kuala Lumpur, 8, Jalan Bukit Pantai, 59100 Kuala Lumpur",
+        "Postcode": 59100,
+        "Coordinates": "3.1199601426064194, 101.66712103627663",
+        "District": "Kuala Lumpur",
+        "State": "Wp Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74186318045311,
+          3.090836661479571
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Leisure Mall",
+        "Address": "Lot No. L2-58 & 59 & L2-72 & 73, Level 2, Cheras Leisure Mall, Jalan Manis 6, Taman Segar, 56100 Kuala Lumpur",
+        "Postcode": 56100,
+        "Coordinates": "3.090836661479571, 101.74186318045311",
+        "District": "Kuala Lumpur",
+        "State": "Wp Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67454940928839,
+          3.1203348589215594
+        ]
+      },
+      "properties": {
+        "Name": "OldTown KL Eco City",
+        "Address": "Lot UG -10, Level UG, KL Eco City Mall, Pantai Baru, Jalan Bangsar, 59200 Kuala Lumpur",
+        "Postcode": 59200,
+        "Coordinates": "3.1203348589215594, 101.67454940928839",
+        "District": "Kuala Lumpur",
+        "State": "Wp Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67318849509206,
+          3.232295412759607
+        ]
+      },
+      "properties": {
+        "Name": "OldTown KIP Park",
+        "Address": "No. 38 (G & M Floor), Jalan Sri Utara 1, Sri Utara, Off Jalan Ipoh-Rawang, 68100 Kuala Lumpur",
+        "Postcode": 68100,
+        "Coordinates": "3.232295412759607, 101.67318849509206",
+        "District": "Batu Caves",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6949697921002,
+          3.1557126487324187
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Menara Commerce",
+        "Address": "Lower Ground Floor, Menara Commerce, Jalan Raja Laut, 50350 Kuala Lumpur",
+        "Postcode": 50350,
+        "Coordinates": "3.1557126487324187, 101.6949697921002",
+        "District": "Kuala Lumpur",
+        "State": "Wp Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.63916275346511,
+          3.2134610720099457
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Aeon Metro Prima",
+        "Address": "No. G35, Jusco Metro Prima Shooping Centre, Metro Prima Shopping Centre, 1, Jalan Metro Prima, Taman Kepong, 52100 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+        "Postcode": 52100,
+        "Coordinates": "3.2134610720099457, 101.63916275346511",
+        "District": "Kuala Lumpur",
+        "State": "Wp Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.76727370744138,
+          3.1473405372537995
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Ampang Waterfront",
+        "Address": "3A, Jalan AWF1, Ampang Waterfront, 68000 Ampang, Kuala Lumpur",
+        "Postcode": 68000,
+        "Coordinates": "3.1473405372537995, 101.76727370744138",
+        "District": "Ampang",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72212310103376,
+          3.1725566965180776
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Basic UTM KL Residence",
+        "Address": "1-18 Gurney Mall, Residensi Utmkl, 8 Jalan Maktab 54100 Kuala Lumpur",
+        "Postcode": 54100,
+        "Coordinates": "3.1725566965180776, 101.72212310103376",
+        "District": "Kuala Lumpur",
+        "State": "Wp Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6737947651119,
+          3.084561409576024
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Pearl Point",
+        "Address": "Lot No. F.15, First Floor, Pearl Point Shopping Mall, Batu 5, Jalan Klang Lama, 58000 Kuala Lumpur",
+        "Postcode": 58000,
+        "Coordinates": "3.084561409576024, 101.6737947651119",
+        "District": "Kuala Lumpur",
+        "State": "Wp Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.33092990744909,
+          5.413436900198619
+        ]
+      },
+      "properties": {
+        "Name": "OldTown 1st Avenue",
+        "Address": "LG K01 & 02, Lower Ground Floor, 1st Avenue, 10300 George Town, Penang",
+        "Postcode": 10300,
+        "Coordinates": "5.413436900198619, 100.33092990744909",
+        "District": "Pulau Pinang",
+        "State": "Pulau Pinang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.42956326327219,
+          5.337925370088758
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Auto City",
+        "Address": "1826-G1, Jln Perusahaan, North-South Highway, Autocity Juru, 13600 Prai, Pulau Pinang",
+        "Postcode": 13600,
+        "Coordinates": "5.337925370088758, 100.42956326327219",
+        "District": "Perai",
+        "State": "Pulau Pinang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.43705866696668,
+          5.367896203184098
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Bandar Perda",
+        "Address": "G01-G02, Jalan Perda Selatan Bandar Perda, 14000 Bukit Mertajam, Pulau Pinang",
+        "Postcode": 14000,
+        "Coordinates": "5.367896203184098, 100.43705866696668",
+        "District": "Bukit Mertajam",
+        "State": "Pulau Pinang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.45008837861438,
+          5.517134052012467
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Bertam Perdana",
+        "Address": "Lot No.9-1 & 11-1, Jalan Dagangan 7, Pusat Bandar Bertam Perdana, 13200 Kepala Batas, Pulau Pinang",
+        "Postcode": 13200,
+        "Coordinates": "5.517134052012467, 100.45008837861438",
+        "District": "Kepala Batas",
+        "State": "Pulau Pinang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.41920031083362,
+          5.515253347359454
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Sunway Perdana (Bandar Sunway)",
+        "Address": "23, Ground Floor & 2nd Floor, Jalan Todak 6, Sunway Perdana, Seberang Jaya, 13700 Prai, Pulau Pinang",
+        "Postcode": 13700,
+        "Coordinates": "5.515253347359454, 100.41920031083362",
+        "District": "Perai",
+        "State": "Pulau Pinang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.07056816696283,
+          4.546466721582764
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Aeon Station 18 (G)",
+        "Address": "No. G56, AEON Ipoh Station 18 Shopping Centre, 31650 Ipoh Perak",
+        "Postcode": 31650,
+        "Coordinates": "4.546466721582764, 101.07056816696283",
+        "District": "Ipoh",
+        "State": "Perak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.73089126696414,
+          4.873748926341017
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Aeon Taiping",
+        "Address": "Lot G07, Gf, Aeon Taiping, Jln Kamunting, 34600 Taiping Perak",
+        "Postcode": 34600,
+        "Coordinates": "4.873748926341017, 100.73089126696414",
+        "District": "Kamunting",
+        "State": "Perak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.93866485346662,
+          3.8972785967528947
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Basic Simpang Empat",
+        "Address": "B-12, Regat Komersial 2,Pusat Komersial Simpang Empat, 36400 Hutan Melintang, Perak",
+        "Postcode": 36400,
+        "Coordinates": "3.8972785967528947, 100.93866485346662",
+        "District": "Hutan Melintang",
+        "State": "Perak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.0211403246333,
+          4.499974106521673
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Batu Gajah",
+        "Address": "No 15A, Persiaran Batu Gajah Perdana 1, Taman Batu Gajah Perdana, 31550 Pusing, Perak",
+        "Postcode": 31550,
+        "Coordinates": "4.499974106521673, 101.0211403246333",
+        "District": "Pusing",
+        "State": "Perak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.12052398230433,
+          4.625389879369367
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Bercham",
+        "Address": "No. 29, Jalan Bercham, Medan Vercham Selatan, 31400 Ipoh, Perak",
+        "Postcode": 31400,
+        "Coordinates": "4.625389879369367, 101.12052398230433",
+        "District": "Ipoh",
+        "State": "Perak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.05659128230423,
+          4.578670760352629
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Falim",
+        "Address": "No.62 & 64, Laluan Perusahaan Menglembu 1, Kawasan Perindustrian Menglembu, 31450 Ipoh, Perak",
+        "Postcode": 31450,
+        "Coordinates": "4.578670760352629, 101.05659128230423",
+        "District": "Ipoh",
+        "State": "Perak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.09172812093934,
+          4.599905575249381
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Greentown",
+        "Address": "NO.2, Persiaran Tugu, Greentown Avenue, 31400 Ipoh, Perak",
+        "Postcode": 31400,
+        "Coordinates": "4.599905575249381, 101.09172812093934",
+        "District": "Ipoh",
+        "State": "Perak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.11327328230414,
+          4.571422573649048
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Gunung Rapat",
+        "Address": "248, Jln Sultan Nazrin Shah, Taman Cemerlang Rapat, 31350 Ipoh, Perak",
+        "Postcode": 31350,
+        "Coordinates": "4.571422573649048, 101.11327328230414",
+        "District": "Ipoh",
+        "State": "Perak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.07631953711302,
+          4.598278642159605
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Ipoh Padang",
+        "Address": "No. 3, Jalan Tun Sambathan, 30000 Ipoh, Perak",
+        "Postcode": 30000,
+        "Coordinates": "4.598278642159605, 101.07631953711302",
+        "District": "Ipoh",
+        "State": "Perak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.06478852278664,
+          4.641921592034395
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Jelapang",
+        "Address": "No.2, Jalan Jelapang 2, Pusat Komersial Jelapang, 30020 Ipoh Perak",
+        "Postcode": 30020,
+        "Coordinates": "4.641921592034395, 101.06478852278664",
+        "District": "Ipoh",
+        "State": "Perak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.08735622278667,
+          4.633628239637568
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Kuala Kangsar Road",
+        "Address": "34, Persiaran Kuala Kangsar 1, Taman Wing Onn, 30010 Ipoh Perak",
+        "Postcode": 30010,
+        "Coordinates": "4.633628239637568, 101.08735622278667",
+        "District": "Ipoh",
+        "State": "Perak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.11969406696309,
+          4.61796490963366
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Medan Ipoh",
+        "Address": "No. 18 & 20 Jalan Medan Ipoh 4, Bandar Baru Medan Ipoh, 31400 Ipoh, Perak",
+        "Postcode": 31400,
+        "Coordinates": "4.61796490963366, 101.11969406696309",
+        "District": "Ipoh",
+        "State": "Perak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.48417982463594,
+          5.114486345035505
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Parit Buntar",
+        "Address": "2 Jalan Bestari 3, Pusat Bandar Fasa 2, 34200 Parit Buntar, Perak",
+        "Postcode": 34200,
+        "Coordinates": "5.114486345035505, 100.48417982463594",
+        "District": "Parit Buntar",
+        "State": "Perak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.02752322463155,
+          4.017576730557406
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Teluk Intan",
+        "Address": "Lot No. G27 & G28 Ground Floor, Rapid Mall Seri Intan, Jalan Changkap Jong, 36000 Teluk Intan, Perak",
+        "Postcode": 36000,
+        "Coordinates": "4.017576730557406, 101.02752322463155",
+        "District": "Teluk Intan",
+        "State": "Perak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.11166732463342,
+          4.547943071827592
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Taman Botani",
+        "Address": "Shell Petrol Station, Lot 379450 Persiaran Lapangan Siber 1, Bandar Seri Botani, 31350 Ipoh Perak",
+        "Postcode": 31350,
+        "Coordinates": "4.547943071827592, 101.11166732463342",
+        "District": "Ipoh",
+        "State": "Perak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.47238467860592,
+          3.0610067539734853
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Aeon Bukit Raja",
+        "Address": "Lot G28 & G29, Ground Floor, Bukit Raja Shopping Center, Persiaran Bukit Raja, 41150 Klang, Selangor",
+        "Postcode": 41150,
+        "Coordinates": "3.0610067539734853, 101.47238467860592",
+        "District": "Klang",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.53656279764182,
+          3.317040957361358
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Aeon Rawang",
+        "Address": "No.49, Ground Floor, Komplex Beli Belah Aeon Anggun Rawang No. 1, Persiaran Anggun, Taman Anggun, 48000 Rawang, Selangor Darul Ehsan",
+        "Postcode": 48000,
+        "Coordinates": "3.317040957361358, 101.53656279764182",
+        "District": "Rawang",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61609137860583,
+          3.026912988188002
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Bandar Puteri Puchong",
+        "Address": "28 & 28-1, 28-3 & 28-3 Jalan Puteri ½ Bandar Puteri, 47100 Puchong, Selangor",
+        "Postcode": 47100,
+        "Coordinates": "3.026912988188002, 101.61609137860583",
+        "District": "Puchong",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6510752823,
+          2.9222048054526075
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Basic D'Pulze Cyberjaya",
+        "Address": "Lot UGE B3A, Upper Ground Floor,D'Pulze Shopping Centre, Linkaran Cyber Point Timur, Cyber 12, 63000 Cyberjaya, Selangor",
+        "Postcode": 63000,
+        "Coordinates": "2.9222048054526075, 101.6510752823",
+        "District": "Cyberjaya",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.55385879579434,
+          3.1334242191604824
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Basic Skypark",
+        "Address": "M25 (Mezzanine Floor), Skypark Terminal, Sultan Abdul Aziz Shah Airport, 47200 Subang, Selangor Darul Ehsan",
+        "Postcode": 47200,
+        "Coordinates": "3.1334242191604824, 101.55385879579434",
+        "District": "Subang Airport",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.46817088045309,
+          3.106110262986146
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Basic SunSuria",
+        "Address": "Kiosk 1, Ground Floor, Sunsuria Forum @7th Avenue, No 1, Seksyen U13, Jln Setia Dagang AL U13/AL, Setia Alam, 40170 Shah Alam, Selangor",
+        "Postcode": 40170,
+        "Coordinates": "3.106110262986146, 101.46817088045309",
+        "District": "Shah Alam",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.78720155161774,
+          3.055057287160562
+        ]
+      },
+      "properties": {
+        "Name": "OldTown BMC Mall",
+        "Address": "Lot No. G18, AEON Mahkota Cheras Shopping Centre, Jalan Temenggung 21/9, Persiaran Mahkota Cheras 1, 43200 Cheras, Selangor",
+        "Postcode": 43200,
+        "Coordinates": "3.055057287160562, 101.78720155161774",
+        "District": "Cheras",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.63631019210014,
+          3.1180482207093005
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Jaya One",
+        "Address": "31-LG1, Block C Jaya One, No. 72A Jalan Universiti, Section 13, 46200 Petaling Jaya, Selangor",
+        "Postcode": 46200,
+        "Coordinates": "3.1180482207093005, 101.63631019210014",
+        "District": "Petaling Jaya",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45361269394714,
+          3.064153080370439
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Klang Parade",
+        "Address": "Lot G63 , Ground Floor, Klang Parade, No. 2112, KM2, Jalan Meru, 41050 Klang, Selangor",
+        "Postcode": 41050,
+        "Coordinates": "3.064153080370439, 101.45361269394714",
+        "District": "Klang",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.68575725640473,
+          2.7440403576057193
+        ]
+      },
+      "properties": {
+        "Name": "OldTown KLIA 2 Arrival",
+        "Address": "S2-2IC5, Arrival Level, Public Concourse, KLIA 2 64000 Sepang, Selangor",
+        "Postcode": 64000,
+        "Coordinates": "2.7440403576057193, 101.68575725640473",
+        "District": "KLIA",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.70607424845205,
+          2.75492464808407
+        ]
+      },
+      "properties": {
+        "Name": "OldTown KLIA 2 Gateway",
+        "Address": "Unit L3-27, 28 & 29, Level 3, Gateway@Klia 2 64000 Sepang, Selangor",
+        "Postcode": 64000,
+        "Coordinates": "2.75492464808407, 101.70607424845205",
+        "District": "KLIA",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.70397138925237,
+          2.7554818141459325
+        ]
+      },
+      "properties": {
+        "Name": "OldTown KLIA CP",
+        "Address": "Lot CPI 22, Contact Pier International, KL International Airport, 64000 Sepang, Selangor",
+        "Postcode": 64000,
+        "Coordinates": "2.7554818141459325, 101.70397138925237",
+        "District": "KLIA",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.53802798045294,
+          3.0050865786410617
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Kota Kemuning",
+        "Address": "NO.8, Jalan Anggerik Vanilla S31/S, Kota Kemuning, Sekyen 31, 40460 Shah Alam, Selangor",
+        "Postcode": 40460,
+        "Coordinates": "3.0050865786410617, 101.53802798045294",
+        "District": "Shah Alam",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.85674049394694,
+          2.9303037191695425
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Lotus's Semenyih",
+        "Address": "G06 & 07 GROUND FLOOR, OLD TOWN SEMENYIH , LOT, NO.1, JALAN TPS 1/1, Taman Pelangi, 43500 Semenyih, Selangor",
+        "Postcode": 43500,
+        "Coordinates": "2.9303037191695425, 101.85674049394694",
+        "District": "Semenyih",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7936934516176,
+          2.9921080238322464
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Metro Point",
+        "Address": "Lot G 07 & G 39,Jalan Semenyih, Metro Point Kajang, 43000 Kajang, Selangor",
+        "Postcode": 43000,
+        "Coordinates": "2.9921080238322464, 101.7936934516176",
+        "District": "Kajang",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.70020449210031,
+          3.238205930864952
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Sri Gombak",
+        "Address": "95, Jalan Prima SG 3/2, Prima Seri Gombak, 68100 Batu Caves, Selangor",
+        "Postcode": 68100,
+        "Coordinates": "3.238205930864952, 101.70020449210031",
+        "District": "Batu Caves",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.57080069394732,
+          3.209446024940474
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Sungai Buloh 2",
+        "Address": "No. 67-G, Jalan Nautika Bu 20.B, Section U20, Pusat Komersil Tsb Sg Buloh,40160 Sungai Buloh Selangor",
+        "Postcode": 40160,
+        "Coordinates": "3.209446024940474, 101.57080069394732",
+        "District": "Shah Alam",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.59066495742948,
+          3.154016235517934
+        ]
+      },
+      "properties": {
+        "Name": "OLDTOWN White Coffee @ Sunway Giza",
+        "Address": "G.05, Sunway Giza Mall, Jalan PJU 5/14, Kota Damansara, 47810 Petaling Jaya, Selangor",
+        "Postcode": 47810,
+        "Coordinates": "3.154016235517934, 101.59066495742948",
+        "District": "Petaling Jaya",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.58284610928841,
+          3.0821114499289495
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Empire Subang",
+        "Address": "LG-33 & 335, Lower Ground, Empire Shopping Gallery, Jalan SS16/1, 47500, Subang Jaya Selangor",
+        "Postcode": 47500,
+        "Coordinates": "3.0821114499289495, 101.58284610928841",
+        "District": "Subang Jaya",
+        "State": "Selangor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71558267860583,
+          2.969512458807758
+        ]
+      },
+      "properties": {
+        "Name": "OldTown IOI City Mall",
+        "Address": "Lg252, Lower Ground Floor, Ioi City Mall, 62502 Putrajaya, Selangor Darul Ehsan",
+        "Postcode": 62502,
+        "Coordinates": "2.969512458807758, 101.71558267860583",
+        "District": "Putrajaya",
+        "State": "Wp Putrajaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.51336562647684,
+          3.1621553593433465
+        ]
+      },
+      "properties": {
+        "Name": "OldTown Denai Alam",
+        "Address": "no. 30, Jalan Electron F U 16/f, Denai Alam, 40160 Shah Alam, Selangor Darul Ehsan",
+        "Postcode": 40160,
+        "Coordinates": "3.1621553593433465, 101.51336562647684",
+        "District": "Shah Alam",
+        "State": "Selangor"
+      }
+    }
+  ]
+}

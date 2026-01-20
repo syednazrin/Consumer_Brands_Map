@@ -1,0 +1,2019 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.63062613801019,
+          1.3971679910564454
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Big Box Retail Park - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "G26A & G27, Ground Floor, Sunway Big Box Pusat Komersial, Sunway Marketplace, Persiaran Medini 5 Sunway City",
+        "Postcode": 79250,
+        "State": "Johor",
+        "District": "Iskandar Puteri",
+        "Coordinates": "1.3971679910564454, 103.63062613801019"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.65616682266541,
+          1.4824685509569637
+        ]
+      },
+      "properties": {
+        "Name": "AEON Bukit Indah Shopping Centre - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "G01, Ground Floor, No. 8, Jalan Indah 15/2, Bukit Indah\nJohor Bahru, Johor, 81200",
+        "Postcode": 81200,
+        "State": "Johor",
+        "District": "Johor Bahru",
+        "Coordinates": "1.4824685509569637, 103.65616682266541"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.65616682266543,
+          1.4824685509569637
+        ]
+      },
+      "properties": {
+        "Name": "AEON Bukit Indah Shopping Centre - Vincc",
+        "Type": "Vincci",
+        "Address": "LOT G67, GROUND FLOOR, NO. 8, JALAN INDAH 15/2\nBUKIT INDAH, Johor, 81200",
+        "Postcode": 81200,
+        "State": "Johor",
+        "District": "Johor Bahru",
+        "Coordinates": "1.4824685509569637, 103.65616682266542"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.65616682266543,
+          1.4824685509569637
+        ]
+      },
+      "properties": {
+        "Name": "AEON Bukit Indah Shopping Centre - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "G01, Ground Floor, No. 8, Jalan Indah 15/2, Bukit Indah\nJohor Bahru, Johor, 81200",
+        "Postcode": 81200,
+        "State": "Johor",
+        "District": "Johor Bahru",
+        "Coordinates": "1.4824685509569637, 103.65616682266543"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.68569005150141,
+          1.5159857261606926
+        ]
+      },
+      "properties": {
+        "Name": "Paradigm Mall Johor Bahru - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "GF-08 & GF-09, Paradigm Mall Johor Bahru, Jalan Skudai\nSkudai, Johor, 81200",
+        "Postcode": 81200,
+        "State": "Johor",
+        "District": "Johor Bahru",
+        "Coordinates": "1.5159857261606926, 103.68569005150141"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.68592222266531,
+          1.5153639255813272
+        ]
+      },
+      "properties": {
+        "Name": "Paradigm Mall Johor Bahru - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "ot 1F-67 & 1F-68, Paradign Mall Johor Bahru, Jalan Skudai\nSkudai, Johor, 82100",
+        "Postcode": 81200,
+        "State": "Johor",
+        "District": "Johor Bahru",
+        "Coordinates": "1.5153639255813272, 103.68592222266531"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76389237358484,
+          1.4665828860533823
+        ]
+      },
+      "properties": {
+        "Name": "Johor Bahru City Square - Vincci",
+        "Type": "Vincci",
+        "Address": "Lot No J2-28 & J2-29 Level 2, Johor Bahru City Square,106-108, Jalan Wong Ah Fook\nJohor Bahru, Johor, 80000",
+        "Postcode": 80000,
+        "State": "Johor",
+        "District": "Johor Bahru",
+        "Coordinates": "1.4665828860533823, 103.76389237358484"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76389237358485,
+          1.4665828860533823
+        ]
+      },
+      "properties": {
+        "Name": "Johor Bahru City Square - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "OT NO.MF-01, LEVEL 03, JOHOR BAHRU CITY SQUARE, 106 - 108, JALAN WONG AH FOOK,\nJohor Bahru, Johor, 80000",
+        "Postcode": 80000,
+        "State": "Johor",
+        "District": "Johor Bahru",
+        "Coordinates": "1.4665828860533823, 103.76389237358485"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.77744272567939,
+          1.501052399720734
+        ]
+      },
+      "properties": {
+        "Name": "The Mall, Mid Valley Southkey - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "OT LG 041, THE MALL, MID VALLEY SOUTHKEY, NO.1, PERSIARAN SOUTHKEY 1,\nJohor Bahru, Johor, 80150",
+        "Postcode": 80150,
+        "State": "Johor",
+        "District": "Johor Bahru",
+        "Coordinates": "1.501052399720734, 103.77744272567939"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7765214780343,
+          1.502284535047902
+        ]
+      },
+      "properties": {
+        "Name": "The Mall, Mid Valley Southkey - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot G-047&048, The Mall, Mid Valley Southkey, No.1, Persiaran Southkey 1\nJohor Bahru, Johor, 80150",
+        "Postcode": 80150,
+        "State": "Johor",
+        "District": "Johor Bahru",
+        "Coordinates": "1.502284535047902, 103.7765214780343"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.79473498335237,
+          1.5484281964885978
+        ]
+      },
+      "properties": {
+        "Name": "AEON Tebrau City Shopping Centre - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot G01, Ground Floor, No. 1, Jalan Desa Tebrau\nJohor Bahru, Johor, 81100",
+        "Postcode": 81100,
+        "State": "Johor",
+        "District": "Johor Bahru",
+        "Coordinates": "1.5484281964885978, 103.79473498335237"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.79654519238238,
+          1.5500740908805515
+        ]
+      },
+      "properties": {
+        "Name": "AEON Tebrau City Shopping Centre - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "F40, First Floor, No. 1, Jalan Desa Tebrau\nJohor Bahru, Johor, 81100\n",
+        "Postcode": 81100,
+        "State": "Johor",
+        "District": "Johor Bahru",
+        "Coordinates": "1.5500740908805515, 103.79654519238238"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.62014569313075,
+          1.604972415555683
+        ]
+      },
+      "properties": {
+        "Name": "Johor Premium Outlets - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Suite No. 100, 102 & 300, Johor Premium Outlets, Jalan Premium Outlets, Indahpura\nKulai, Johor, 81000",
+        "Postcode": 81000,
+        "State": "Johor",
+        "District": "Kulai",
+        "Coordinates": "1.604972415555683, 103.62014569313075"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.62197519869848,
+          1.603983392500397
+        ]
+      },
+      "properties": {
+        "Name": "Johor Premium Outlets - Vincci",
+        "Type": "Vincci",
+        "Address": "Suite NO. 100, 102 & 300, Johor Premium Outlets,Jalan Premium Outlets, Indahpura\nKulai, Johor, 81000",
+        "Postcode": 81000,
+        "State": "Johor",
+        "District": "Kulai",
+        "Coordinates": "1.603983392500397, 103.62197519869848"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.32067635637051,
+          2.0402988606723413
+        ]
+      },
+      "properties": {
+        "Name": "Kluang Mall - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot G01-03A, Ground Floor, Kluang Mall, Jalan Rambutan, Bandar Kluang\nKluang, Johor, 86000",
+        "Postcode": 86000,
+        "State": "Johor",
+        "District": "Kluang",
+        "Coordinates": "2.0402988606723413, 103.32067635637051"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.96313511218808,
+          1.8649804538014358
+        ]
+      },
+      "properties": {
+        "Name": "Batu Pahat Mall - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot G888B Ground Floor, Batu Pahat Mall, No. 325, Jalan Kluang,",
+        "Postcode": 83000,
+        "State": "Johor",
+        "District": "Batu Pahat",
+        "Coordinates": "1.8649804538014358, 102.96313511218808"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24483971218734,
+          2.2162623221111764
+        ]
+      },
+      "properties": {
+        "Name": "AEON Bandaraya Melaka - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot F35, 1st Floor, No.2 Jalan Lagenda, Taman 1-Lagenda\nMelaka, Melaka, 75400",
+        "Postcode": 83000,
+        "State": "Johor",
+        "District": "Batu Pahat",
+        "Coordinates": "2.2162623221111764, 102.24483971218734"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2448216084755,
+          2.216341776410088
+        ]
+      },
+      "properties": {
+        "Name": "AEON Bandaraya Melaka - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot F33, 1st Floor, No.2 Jalan Lagenda, Taman I-Lagenda\nMelaka, Melaka, 75400",
+        "Postcode": 75400,
+        "State": "Melaka",
+        "District": "Melaka",
+        "Coordinates": "2.216341776410088, 102.2448216084755"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.25001368520672,
+          2.190915611593003
+        ]
+      },
+      "properties": {
+        "Name": "Dataran Pahlawan - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "BW-008 & BW-009, BW-011, BW-012, BW-013, BW-013a, G-015, G-016 & G-017 (Lower Floor), Dataran Pahlawan Melaka, Jalan Merdeka\nBandar Hilir Melaka, Melaka, 75000",
+        "Postcode": 75000,
+        "State": "Melaka",
+        "District": "Melaka",
+        "Coordinates": "2.190915611593003, 102.25001368520672"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24990639684114,
+          2.1908084016594955
+        ]
+      },
+      "properties": {
+        "Name": "Dataran Pahlawan - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot No. A-12, Dataran Pahlawan Melaka Megamall, Jalan Merdeka\nBandar Hilir Melaka, Melaka, 75000",
+        "Postcode": 75000,
+        "State": "Melaka",
+        "District": "Melaka",
+        "Coordinates": "2.1908084016594955, 102.24990639684114"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.22336189869714,
+          2.2018398160833965
+        ]
+      },
+      "properties": {
+        "Name": "Limbongan Klebang Melaka - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "No.188 Jalan Persiaran Pantai, Pekan Klebang\nKlebang, Melaka, 75250",
+        "Postcode": 75250,
+        "State": "Melaka",
+        "District": "Melaka",
+        "Coordinates": "2.2018398160833965, 102.22336189869714"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.22365157695027,
+          2.201636109835732
+        ]
+      },
+      "properties": {
+        "Name": "Limbongan Klebang Melaka - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "PT.237, HSD88899 Tat Max Corporation, KB.XLIV\nDaerah Melaka Tengah, Melaka, 75200",
+        "Postcode": 75000,
+        "State": "Melaka",
+        "District": "Melaka",
+        "Coordinates": "2.201636109835732, 102.22365157695027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.91178725265742,
+          2.7024734131197716
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Seremban 2 Shopping Centre - Vincci",
+        "Type": "Vincci",
+        "Address": "Lot G07, Ground Floor, AEON Mall Seremban 2 Shopping Centre, 112, Persiaran S2 B1, Seremban 2,\nSeremban, Negeri Sembilan, 70300",
+        "Postcode": 70300,
+        "State": "Negeri Sembilan",
+        "District": "Seremban",
+        "Coordinates": "2.7024734131197716, 101.91178725265742"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.92231258520583,
+          2.7198825490131386
+        ]
+      },
+      "properties": {
+        "Name": "Palm Mall - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "No.13, 14, 15 & 16, 1st Floor, Palm Mall Seremban, Kemayan Square\nSeremban, Negeri Sembilan, 70200",
+        "Postcode": 70200,
+        "State": "Negeri Sembilan",
+        "District": "Seremban",
+        "Coordinates": "2.7198825490131386, 101.92231258520583"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.92231258520583,
+          2.7199361327593397
+        ]
+      },
+      "properties": {
+        "Name": "Palm Mall - Vincci",
+        "Type": "Vincci",
+        "Address": "Lot No. 21, UG Floor, Palm Mall Seremban, Kemayan Square\nSeremban, Negeri Sembilan, 70200",
+        "Postcode": 70200,
+        "State": "Negeri Sembilan",
+        "District": "Seremban",
+        "Coordinates": "2.7199361327593397, 101.92231258520583"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.92272959498433,
+          2.7201816489570305
+        ]
+      },
+      "properties": {
+        "Name": "Palm Mall - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot 19 & 20, Upper Ground Floor, Palm Mall\nSeremban, Negeri Sembilan, 70200",
+        "Postcode": 70200,
+        "State": "Negeri Sembilan",
+        "District": "Seremban",
+        "Coordinates": "2.7201816489570305, 101.92272959498433"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7137710238204,
+          2.9702906864342657
+        ]
+      },
+      "properties": {
+        "Name": "IOI City Mall - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "L1-28, 29 & 30, First Floor, IOI City Mall, Lebuh IRC, IOI Resort City\nPutrajaya, Selangor, 62502",
+        "Postcode": 62502,
+        "State": "Wp Putrajaya",
+        "District": "Putrajaya",
+        "Coordinates": "2.9702906864342657, 101.7137710238204"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71455443731082,
+          2.9700314432207158
+        ]
+      },
+      "properties": {
+        "Name": "IOI City Mall - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot G30, 31, 32, 35 & 36 Ground Floor, IOI City Mall, IOI Resort City\nPutrajaya, Selangor, 62502",
+        "Postcode": 62502,
+        "State": "Wp Putrajaya",
+        "District": "Putrajaya",
+        "Coordinates": "2.9700314432207158, 101.71455443731082"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.76501062753232,
+          3.0337658177433853
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Cheras Selatan - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot G10a, Ground Floor, AEON Mall Cheras Selatan Store, Lebuh Tun Hussein Onn\nBalakong, Selangor, 43200",
+        "Postcode": 43200,
+        "State": "Selangor",
+        "District": "Cheras",
+        "Coordinates": "3.0337658177433853, 101.76501062753232"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.78621576429148,
+          3.0045550301145987
+        ]
+      },
+      "properties": {
+        "Name": "Tesco Kajang - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "F02, First Floor, Tesco Kajang, Lot PT 37280 & PT 11196, Mukim Kajang Saujana Impian,\nKajang, Selangor, 43000",
+        "Postcode": 43000,
+        "State": "Selangor",
+        "District": "Kajang",
+        "Coordinates": "3.0045550301145987, 101.78621576429148"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44441725080118,
+          2.9941594807881033
+        ]
+      },
+      "properties": {
+        "Name": "AEON Bukit Tinggi - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot G51 & G52, AEON Bukit Tinggi Shopping Centre, No.1, Persiaran Batu Nilam 1/KS6, Bandar Bukit Tinggi 2\nKlang, Selangor, 41200",
+        "Postcode": 41200,
+        "State": "Selangor",
+        "District": "Klang",
+        "Coordinates": "2.9941594807881033, 101.44441725080118"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44450122171514,
+          2.994234972769994
+        ]
+      },
+      "properties": {
+        "Name": "AEON Bukit Tinggi - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot G52, AEON Bukit Tinggi Shopping Centre, No.1, Persiaran Batu Nilam 1/KS 6, Bandar Bukit Tinggi 2\nKlang, Selangor, 42100",
+        "Postcode": 42100,
+        "State": "Selangor",
+        "District": "Klang",
+        "Coordinates": "2.994234972769994, 101.44450122171514"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.48273256800323,
+          3.0630933805888287
+        ]
+      },
+      "properties": {
+        "Name": "Central i-City - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "G-03, Ground Floor, Central i-City, Plot 1, i-City, Persiaran Multimedia, Seksyen 7\nShah Alam, Selangor, 40000",
+        "Postcode": 40000,
+        "State": "Selangor",
+        "District": "Shah Alam",
+        "Coordinates": "3.0630933805888287, 101.48273256800323"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.48171846800324,
+          3.0624677807209078
+        ]
+      },
+      "properties": {
+        "Name": "Central i-City - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "L1-03, Level 1, Central I-City, Plot 1, I-City, Persiaran Multimedia, Seksyen 7\nShah Alam, Selangor, 40000",
+        "Postcode": 40000,
+        "State": "Selangor",
+        "District": "Shah Alam",
+        "Coordinates": "3.0624677807209078, 101.48171846800324"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.58121096985916,
+          3.026480705031129
+        ]
+      },
+      "properties": {
+        "Name": "The Main Place - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot 1F-22 & 1F-23, First Floor, The Main Place, Jalan USJ 21/10\nSubang Jaya, Selangor, 46730",
+        "Postcode": 46730,
+        "State": "Selangor",
+        "District": "Petaling Jaya",
+        "Coordinates": "3.026480705031129, 101.58121096985916"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61872179683985,
+          3.046951261718385
+        ]
+      },
+      "properties": {
+        "Name": "IOI Mall - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot G19B & EG21, Ground Floor, IOI Mall, Batu 9, Jalan Puchong, Bandar Puchong Jaya\nPuchong, Selangor, 47180",
+        "Postcode": 47180,
+        "State": "Selangor",
+        "District": "Puchong",
+        "Coordinates": "3.046951261718385, 101.61872179683985"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61630697055195,
+          3.0472825946543822
+        ]
+      },
+      "properties": {
+        "Name": "IOI Mall - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot EF-1B, First Floor, IOI Mall, Batu 9, Jalan Puchong, Bandar Puchong Jaya\nPuchong, Selangor, 47170",
+        "Postcode": 47170,
+        "State": "Selangor",
+        "District": "Puchong",
+        "Coordinates": "3.0472825946543822, 101.61630697055195"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67093318149357,
+          3.0505196650520805
+        ]
+      },
+      "properties": {
+        "Name": "Pavilion Bukit Jalil - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot 2.29.00, Level 2, Pavilion Bukit Jalil, No. 2, Persiaran Bukit Jalil 8, Bandar Bukit Jalil,\nKuala Lumpur, Wilayah Persekutuan, 47000",
+        "Postcode": 47000,
+        "State": "Selangor",
+        "District": "Sungai Buloh",
+        "Coordinates": "3.0505196650520805, 101.67093318149357"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67100972567636,
+          3.0504188150788782
+        ]
+      },
+      "properties": {
+        "Name": "Pavilion Bukit Jalil - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot 2.30.00, Level 2, Pavilion Bukit Jalil, No. 2, Persiaran Bukit Jalil 8, Bandar Bukit Jalil,\nKuala Lumpur, Wilayah Persekutuan, 47000",
+        "Postcode": 47000,
+        "State": "Selangor",
+        "District": "Sungai Buloh",
+        "Coordinates": "3.0504188150788782, 101.67100972567636"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.48176138334946,
+          3.0624463536930904
+        ]
+      },
+      "properties": {
+        "Name": "Central i-City - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "L1-03, Level 1, Central I-City, Plot 1, I-City, Persiaran Multimedia, Seksyen 7\nShah Alam, Selangor, 40000",
+        "Postcode": 40000,
+        "State": "Selangor",
+        "District": "Shah Alam",
+        "Coordinates": "3.0624463536930904, 101.48176138334946"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.48270038149356,
+          3.063200515658847
+        ]
+      },
+      "properties": {
+        "Name": "Central i-City - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "G-03, Ground Floor, Central i-City, Plot 1, i-City, Persiaran Multimedia, Seksyen 7\nShah Alam, Selangor, 40000",
+        "Postcode": 40000,
+        "State": "Selangor",
+        "District": "Shah Alam",
+        "Coordinates": "3.063200515658847, 101.48270038149356"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.54789376800314,
+          3.076503777751368
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Shah Alam - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "ot G40, G41 & G41A, Ground Floor, AEON Mall Shah Alam, No 1, Jalan Akuatik 13/64, Seksyen 13\nShah Alam, Selangor, 40100",
+        "Postcode": 40100,
+        "State": "Selangor",
+        "District": "Shah Alam",
+        "Coordinates": "3.076503777751368, 101.54789376800314"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.54789376800315,
+          3.076503777751368
+        ]
+      },
+      "properties": {
+        "Name": "AEON MALL SHAH ALAM - VINCCI",
+        "Type": "Vincci",
+        "Address": "G26 Ground Floor, AEON Mall Shah No 1, Jalan Akuatik 13/64, Seksyen 13\nShah Alam , Selangor, 40100",
+        "Postcode": 40100,
+        "State": "Selangor",
+        "District": "Shah Alam",
+        "Coordinates": "3.076503777751368, 101.54789376800315"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.54789376800316,
+          3.076503777751368
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Shah Alam - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "F23, Lot 2437, AEON Mall Shah Alam, No 1, Jalan Akuatik 13/64, D'Kayangan, Seksyen 13\nShah Alam, Selangor, 40100",
+        "Postcode": 40100,
+        "State": "Selangor",
+        "District": "Shah Alam",
+        "Coordinates": "3.076503777751368, 101.54789376800316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.59254016800318,
+          3.058208754502238
+        ]
+      },
+      "properties": {
+        "Name": "Da Men Mall - Brands Outlet",
+        "Type": "IOI City Mall - Brands Outlet",
+        "Address": "Lot G-01B, G-01C & G27, 1, Persiaran Kewajipan, USJ 1\nSubang Jaya, Selangor, 47600",
+        "Postcode": 47600,
+        "State": "Selangor",
+        "District": "Subang Jaya",
+        "Coordinates": "3.058208754502238, 101.59254016800318"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.60552515265691,
+          3.073097051654479
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Pyramid - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot No. F1.88 & F1.97, First Floor, Sunway Pyramid Shopping Mall, No.3, Jalan PJS 11/15, Bandar Sunway\nPetaling Jaya, Selangor, 47500",
+        "Postcode": 47500,
+        "State": "Selangor",
+        "District": "Subang Jaya",
+        "Coordinates": "3.073097051654479, 101.60552515265691"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.60661876800329,
+          3.073255818664096
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Pyramid - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot LG2.147 & LG2.148, Sunway Pyramid Shopping Mall, No.3, Jalan PJS 11/15, Bandar Sunway\nPetaling Jaya, Selangor, 46150",
+        "Postcode": 46150,
+        "State": "Selangor",
+        "District": "Petaling Jaya",
+        "Coordinates": "3.073255818664096, 101.60661876800329"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.59605935636871,
+          3.1053756108526676
+        ]
+      },
+      "properties": {
+        "Name": "Paradigm Mall Petaling Jaya - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot CF05 & CF07, Paradigm Mall, No. 1, Jalan SS 7/26A, Kelana Jaya\nPetaling Jaya, Selangor, 47301",
+        "Postcode": 47301,
+        "State": "Selangor",
+        "District": "Petaling Jaya",
+        "Coordinates": "3.1053756108526676, 101.59605935636871"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.59622796800312,
+          3.1061979629557634
+        ]
+      },
+      "properties": {
+        "Name": "Paradigm Mall Petaling Jaya - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot CF 02 & 03, Concourse Floor, Paradigm Mall, No. 1, Jalan SS 7/26A, Kelana Jaya\nPetaling Jaya, Selangor, 47301",
+        "Postcode": 47301,
+        "State": "Selangor",
+        "District": "Petaling Jaya",
+        "Coordinates": "3.1061979629557634, 101.59622796800312"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67782775265695,
+          3.1189983557334044
+        ]
+      },
+      "properties": {
+        "Name": "Mid Valley Megamall - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "ot G026, Ground Floor, Mid Valley, Lingkaran Syed Putra\nKuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 59200",
+        "Postcode": 59200,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.1189983557334044, 101.67782775265695"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67694717035818,
+          3.1172928435147815
+        ]
+      },
+      "properties": {
+        "Name": "Mid Valley Megamall - Vincci",
+        "Type": "Vincci",
+        "Address": "LOT NO G020 & G021, GROUND FLOOR\nKuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 59200",
+        "Postcode": 59200,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.1172928435147815, 101.67694717035818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67732487617515,
+          3.117742763458666
+        ]
+      },
+      "properties": {
+        "Name": "Mid Valley Megamall - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot No.S-JA3(A), Mid Valley Megamall, Lingkaran Syed Putra, Mid Valley City\nKuala Lumpur, Wilayah Persekutuan, 59200",
+        "Postcode": 59200,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.117742763458666, 101.67732487617515"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72432581033,
+          3.12827208234336
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Velocity Mall - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "G-22, 23, 24,25, Ground Floor, Sunway Velocity Mall, Lingkaran SV, Sunway Velocity\nKuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 55100",
+        "Postcode": 55100,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.12827208234336, 101.72432581033"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72432581034,
+          3.12827208234336
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Velocity - Vincci",
+        "Type": "Vincci",
+        "Address": "G-32 & G-33, Ground Floor, Sunway Velocity Mall, Lingkaran SV, Sunway Velocity\nKuala Lumpur, Wilayah Persekutuan, 55100",
+        "Postcode": 55100,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.12827208234336, 101.72432581034"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72432581035,
+          3.12827208234336
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Velocity Mall - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "ot 1-24, 1-25 & 1-90, First Floor, Sunway Velocity Mall, Lingkaran SV, Sunway Velocity\nKuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 55100",
+        "Postcode": 55100,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.12827208234336, 101.72432581035"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72344599675657,
+          3.1346461540930606
+        ]
+      },
+      "properties": {
+        "Name": "MyTown Shopping Centre - Brands Outle",
+        "Type": "Brands Outlet",
+        "Address": "Lot L1-017, MyTown Shopping Centre, Lot PT479, Jalan Cochrane, Seksyen 90\nKuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 55100",
+        "Postcode": 55100,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.1346461540930606, 101.72344599675657"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72284289683968,
+          3.135163054659452
+        ]
+      },
+      "properties": {
+        "Name": "MyTown Shopping Centre - Vincci",
+        "Type": "Vincci",
+        "Address": "G-070 & G-071, Ground Floor, MyTown Shopping Centre, Lot PT479, Jalan Cochrane, Seksyen 90\nKuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 55100",
+        "Postcode": 55100,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.135163054659452, 101.72284289683968"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72279328334938,
+          3.135404454589979
+        ]
+      },
+      "properties": {
+        "Name": "MyTOWN Shopping Centre - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "G056, G067, G068, G069, Ground Floor, MyTown Shopping Centre, Lot PT479, Jalan Cochrane, Seksyen 90\nKuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 55100",
+        "Postcode": 55100,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.135404454589979, 101.72279328334938"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71873718149348,
+          3.1433701888118732
+        ]
+      },
+      "properties": {
+        "Name": " The Exchange TRX - Vincci",
+        "Type": "Vincci",
+        "Address": "Unit No C.66.0, Concourse Level, Plaza The Exchange TRX, Persiaran TRX, Tun Razak Exchange\nKuala Lumpur, Wilayah Persekutuan, 55188",
+        "Postcode": 55188,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.1433701888118732, 101.71873718149348"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71863659869565,
+          3.1434061888033136
+        ]
+      },
+      "properties": {
+        "Name": "The Exchange TRX - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "ot C15.0, Plaza The Exchange TRX, Persiaran TRX, Tun Razak Exchange,\nKuala Lumpur, Wilayah Persekutuan, 55188",
+        "Postcode": 55188,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.1434061888033136, 101.71863659869565"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71138322567622,
+          3.1452407376605667
+        ]
+      },
+      "properties": {
+        "Name": "Sungei Wang Plaza - Vincci",
+        "Type": "Vincci",
+        "Address": "Lot LG028 & LG044, Lower Ground Floor, Sungei Wang Plaza, Jalan Sultan Ismail\nKuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 50250",
+        "Postcode": 50250,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.1452407376605667, 101.71138322567622"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71272076985902,
+          3.1478219142665926
+        ]
+      },
+      "properties": {
+        "Name": "Fahrenheit88 - Brands Outlet",
+        "Type": "Vincci",
+        "Address": "G 1-01 & LG 1-02, Lower Ground One, 179, Jalan Bukit Bintang\nKuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 55100",
+        "Postcode": 55100,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.1478219142665926, 101.71272076985902"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71263666429137,
+          3.1501521377090085
+        ]
+      },
+      "properties": {
+        "Name": "Pavilion - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "LOT 4.01.01 & 4.01.02, Level 4, Pavilion Kuala Lumpur, 168, Jalan Bukit Bintang\nKuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 55100",
+        "Postcode": 55100,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.1501521377090085, 101.71263666429137"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7124320735708,
+          3.158193674966754
+        ]
+      },
+      "properties": {
+        "Name": "Suria KLCC - Vincci",
+        "Type": "Vincci",
+        "Address": "Lot C15L & C15M, Concourse Floor Suria KLCC\nKuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 50088",
+        "Postcode": 50088,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.158193674966754, 101.7124320735708"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.75092884102254,
+          3.1576621599277668
+        ]
+      },
+      "properties": {
+        "Name": "Ampang Point - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot M 12, Mezzanine Centre, Ampang Point Shopping Centre, Jalan Mamanda 3\nAmpang, Selangor, 68000",
+        "Postcode": 68000,
+        "State": "Selangor",
+        "District": "Ampang",
+        "Coordinates": "3.1576621599277668, 101.75092884102254"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.69307736800305,
+          3.1668214704145905
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Putra Mall - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot 1-23, 1-24 & 1-25, First Floor, Sunway Putra Mall, 100, Jalan Putra\nKuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 50350",
+        "Postcode": 50350,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.1668214704145905, 101.69307736800305"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.69258445265682,
+          3.1663809836646806
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Putra Mall - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot 2-16, Second Floor, Sunway Putra Mall, 100, Jalan Putra\nKuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 50350",
+        "Postcode": 50350,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.1663809836646806, 101.69258445265682"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74866469869549,
+          3.210836248648464
+        ]
+      },
+      "properties": {
+        "Name": "Melawati Mall - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "GF-17, GF-18 & GF-19, Ground Floor, Melawati Mall, 355, Jalan Bandar Melawati, Pusat Bandar Melawati\nKuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 53100",
+        "Postcode": 53100,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.210836248648464, 101.74866469869549"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74858959683958,
+          3.210879096621988
+        ]
+      },
+      "properties": {
+        "Name": "Melawati Mall - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "L1-32 & L1-33, First Floor, Melawati Mall, 355, Jalan Bandar Melawati, Pusat Bandar Melawati\nKuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 53100",
+        "Postcode": 53100,
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur",
+        "Coordinates": "3.210879096621988, 101.74858959683958"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7938447121857,
+          3.424200567673308
+        ]
+      },
+      "properties": {
+        "Name": "SkyAvenue - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot No. T2C-05, Level T2C, SkyAvenue Genting Highlands Resort\nGenting Highlands, Pahang, 69000",
+        "Postcode": 69000,
+        "State": "Pahang",
+        "District": "Genting Highlands",
+        "Coordinates": "3.424200567673308, 101.7938447121857"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.32700061825213,
+          3.817917782173965
+        ]
+      },
+      "properties": {
+        "Name": "Kuantan City Mall - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot No. GF-18, Ground Floor, Kuantan City Mall, Jalan Putra Square 6/1, Putra Square\nKuantan, Pahang, 25300",
+        "Postcode": 25300,
+        "State": "Pahang",
+        "District": "Kuantan",
+        "Coordinates": "3.817917782173965, 103.32700061825213"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.32702207575856,
+          3.817949889575559
+        ]
+      },
+      "properties": {
+        "Name": "Kuantan City Mall - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot No. L1-17, Level 1, Kuantan City Mall, Jalan Putra Square 6/1, Putra Square,\nKuantan, Pahang, 25300",
+        "Postcode": 25300,
+        "State": "Pahang",
+        "District": "Kuantan",
+        "Coordinates": "3.817949889575559, 103.32702207575856"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.32613550847358,
+          3.818625121599577
+        ]
+      },
+      "properties": {
+        "Name": "East Coast Mall - Vincci",
+        "Type": "Vincci",
+        "Address": "Lot GF-13A*16, Ground Floor, Jalan Putra Square 6, Putra Square\nKuantan, Pahang, 25200",
+        "Postcode": 25200,
+        "State": "Pahang",
+        "District": "Kuantan",
+        "Coordinates": "3.818625121599577, 103.32613550847358"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.32641733916601,
+          3.8184741266685935
+        ]
+      },
+      "properties": {
+        "Name": "East Coast Mall - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Ground Floor, Lot No. GF-12 & 13, Jalan Putra Square 6, Putra Square\nKuantan, Pahang, 25200",
+        "Postcode": 25200,
+        "State": "Pahang",
+        "District": "Kuantan",
+        "Coordinates": "3.8184741266685935, 103.32641733916601"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.07104137171444,
+          4.545074992487187
+        ]
+      },
+      "properties": {
+        "Name": "AEON Ipoh Station 18 - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot G25, AEON Ipoh Station 18 Shopping Centre, No 2, Susuran Stesen 18, Station 18\nIpoh, Perak, 31650",
+        "Postcode": 31650,
+        "State": "Perak",
+        "District": "Ipoh",
+        "Coordinates": "4.545074992487187, 101.07104137171444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.07055801032953,
+          4.547064016513647
+        ]
+      },
+      "properties": {
+        "Name": "AEON Ipoh Station 18 - Vincci",
+        "Type": "Vincci",
+        "Address": "ot G20-G21, AEON Ipoh Station 18 Shopping Centre, No 2, Susuran Stesen 18, Station 18\nIpoh, Perak, 31650",
+        "Postcode": 31650,
+        "State": "Perak",
+        "District": "Ipoh",
+        "Coordinates": "4.547064016513647, 101.07055801032953"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.07042673916598,
+          4.5461627921470775
+        ]
+      },
+      "properties": {
+        "Name": "AEON Ipoh Station 18 - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot F20 & F23, AEON Mall Station 18, No 2, Susuran Stesen 18, Station 18\nIpoh, Perak, 31650",
+        "Postcode": 31650,
+        "State": "Perak",
+        "District": "Ipoh",
+        "Coordinates": "4.5461627921470775, 101.07042673916598"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.09010850847363,
+          4.595718153947951
+        ]
+      },
+      "properties": {
+        "Name": "Ipoh Parade - Vincci",
+        "Type": "Vincci",
+        "Address": "Lot No F08, First Floor, Ipoh Parade, No 105, Jalan Sultan Abdul Jalil, Greentown\nIpoh, Perak, 30450",
+        "Postcode": 30450,
+        "State": "Perak",
+        "District": "Ipoh",
+        "Coordinates": "4.595718153947951, 101.09010850847363"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.11865218334887,
+          4.613608876826966
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Kinta City - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "F37, F38 & F39, Kinta City Shopping Centre, No.2, Jalan Teh Lean Swee, Off Jalan Sultan Azlan Shah Utara\nIpoh, Perak, 31400",
+        "Postcode": 31400,
+        "State": "Perak",
+        "District": "Ipoh",
+        "Coordinates": "4.613608876826966, 101.11865218334887"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.12152667336609,
+          4.681158906927305
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Ipoh Klebang - Padini Concept S",
+        "Type": "Padini Concept Store",
+        "Address": "Lot G06, G26 & G27, Ground Floor, Aeon Mall Ipoh Klebang\nChemor, Perak, 31200",
+        "Postcode": 31200,
+        "State": "Perak",
+        "District": "Chemor",
+        "Coordinates": "4.681158906927305, 101.12152667336609"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.72845482381997,
+          4.8729566564942575
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Taiping - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot G36A, Ground Floor, Lot 8576 & 8577, Jalan Kamunting\nTaiping, Perak, 34000",
+        "Postcode": 34000,
+        "State": "Perak",
+        "District": "Taiping",
+        "Coordinates": "4.8729566564942575, 100.72845482381997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.43622883916662,
+          5.243373857522435
+        ]
+      },
+      "properties": {
+        "Name": "Design Village - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "G-35, G-36, G-37 & G-38, 1, Jalan Cassia Barat 2, Bandar Cassia\nBandar Cassia, Penang, 14110",
+        "Postcode": 14110,
+        "State": "Pulau Pinang",
+        "District": "Simpang Ampat",
+        "Coordinates": "5.243373857522435, 100.43622883916662"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.43622883916663,
+          5.243373857522435
+        ]
+      },
+      "properties": {
+        "Name": "Design Village - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot G39, G40, G41, No.1, Jalan Cassia Barat 2, Bandar Cassia\nBandar Cassia, Penang, 14110",
+        "Postcode": 14110,
+        "State": "Pulau Pinang",
+        "District": "Simpang Ampat",
+        "Coordinates": "5.243373857522435, 100.43622883916663"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.47831476800322,
+          5.320707642512499
+        ]
+      },
+      "properties": {
+        "Name": "AEON Bukit Mertajam - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "G30B, Ground Floor, AEON Bukit Mertajam, Jalan Rozhan, Alma\nBukit Mertajam, Penang, 14000",
+        "Postcode": 14000,
+        "State": "Pulau Pinang",
+        "District": "Bukit Mertajam",
+        "Coordinates": "5.320707642512499, 100.47831476800322"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.30727656800318,
+          5.332409030720197
+        ]
+      },
+      "properties": {
+        "Name": "Queensbay Mall - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot GF-65, 63A, 63, 62, 61, 60, & 59, Ground Floor, Queensbay Mall, No.100, Persiaran Bayan Indah\nBayan Lepas, Penang, 11900",
+        "Postcode": 11900,
+        "State": "Pulau Pinang",
+        "District": "Bayan Lepas",
+        "Coordinates": "5.332409030720197, 100.30727656800318"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.30719409498373,
+          5.332457513114073
+        ]
+      },
+      "properties": {
+        "Name": "Queensbay Mall - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot 1F-81-82-83 & 83A, First Floor, No.100, Persiaran Bayan Indah\nBayan Lepas, Penang, 11900",
+        "Postcode": 11900,
+        "State": "Pulau Pinang",
+        "District": "Bayan Lepas",
+        "Coordinates": "5.332457513114073, 100.30719409498373"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3980313140419,
+          5.399616519154666
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Carnival Mall - Vincci",
+        "Type": "Vincci",
+        "Address": "GF-32, Ground Floor, Sunway Carnival Mall, 3068, Jalan Todak, Pusat Bandar Seberang Jaya,\nSeberang Jaya, Pulau Pinang, 13700",
+        "Postcode": 13700,
+        "State": "Pulau Pinang",
+        "District": "Perai",
+        "Coordinates": "5.399616519154666, 100.3980313140419"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.39841669869567,
+          5.4008736435489935
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Carnival Mall - Padini Concept Stor",
+        "Type": "Padini Concept Store",
+        "Address": "GF-32 & 33, Ground Floor, Sunway Carnival Mall, 3068,Jalan Todak, Pusat Bandar Seberang Jaya,\nSeberang Jaya, Pulau Pinang, 13700",
+        "Postcode": 13700,
+        "State": "Pulau Pinang",
+        "District": "Perai",
+        "Coordinates": "5.4008736435489935, 100.39841669869567"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.39830899659034,
+          5.400850971691309
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Carnival Mall - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "1F-33A, First Floor, Sunway Carnival Mall, 3068, Jalan Todak, Pusat Bandar Seberang Jaya,\nSeberang Jaya, Pulau Pinang, 13700",
+        "Postcode": 13700,
+        "State": "Pulau Pinang",
+        "District": "Perai",
+        "Coordinates": "5.400850971691309, 100.39830899659034"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.33096677011494,
+          5.413315623785229
+        ]
+      },
+      "properties": {
+        "Name": "1st Avenue Mall - Vincci",
+        "Type": "Vincci",
+        "Address": "Unit No. LG-11 & LG-12, Lower Ground Floor, 1st Avenue Mall, 182, Jalan Magazine\nGeorge Town, Penang, 10300",
+        "Postcode": 10300,
+        "State": "Pulau Pinang",
+        "District": "Pulau Pinang",
+        "Coordinates": "5.413315623785229, 100.33096677011494"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3319113986958,
+          5.413281533329064
+        ]
+      },
+      "properties": {
+        "Name": "1st Avenue Mall - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "LG-11 & LG-12, Lower Ground Floor, 1st Avenue Mall,182, Jalan Magazine\nGeorge Town, Penang, 10300",
+        "Postcode": 10300,
+        "State": "Pulau Pinang",
+        "District": "Pulau Pinang",
+        "Coordinates": "5.413281533329064, 100.3319113986958"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.33117248334945,
+          5.413263208632118
+        ]
+      },
+      "properties": {
+        "Name": "1st Avenue Mall - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot No. 1-12 & 13, First Floor, 1st Avenue, 182, Jalan Magazine\nGeorge Town, Penang, 10300",
+        "Postcode": 10300,
+        "State": "Pulau Pinang",
+        "District": "Pulau Pinang",
+        "Coordinates": "5.413263208632118, 100.33117248334945"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.31014672617542,
+          5.438295775099758
+        ]
+      },
+      "properties": {
+        "Name": "Gurney Paragon Mall - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot 163D-2-12 & 163D-3-09A, Level 2 & 3, Gurney Paragon Mall, Persiaran Gurney\nGeorge Town, Penang, 10250",
+        "Postcode": 10250,
+        "State": "Pulau Pinang",
+        "District": "Pulau Pinang",
+        "Coordinates": "5.438295775099758, 100.31014672617542"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.31001797997033,
+          5.438477333413185
+        ]
+      },
+      "properties": {
+        "Name": "Gurney Paragon Mall - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "163D-3-09 & 10, Gurney Paragon Mall, Persiaran Gurney\nGeorge Town, Penang, 10250",
+        "Postcode": 10250,
+        "State": "Pulau Pinang",
+        "District": "Pulau Pinang",
+        "Coordinates": "5.438477333413185, 100.31001797997033"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.30998028149362,
+          5.43831010816984
+        ]
+      },
+      "properties": {
+        "Name": "Gurney Plaza - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot 170-1-33/42, Plaza Persiaran Gurney\nGeorge Town, Penang, 10250",
+        "Postcode": 10250,
+        "State": "Pulau Pinang",
+        "District": "Pulau Pinang",
+        "Coordinates": "5.43831010816984, 100.30998028149362"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.30999568149366,
+          5.4383795248608156
+        ]
+      },
+      "properties": {
+        "Name": "Gurney Plaza - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot 170-03-53A/55/56, 3rd Floor, Plaza Gurney, Persiaran Gurney,\nGeorgetown, Penang, 10250",
+        "Postcode": 10250,
+        "State": "Pulau Pinang",
+        "District": "Pulau Pinang",
+        "Coordinates": "5.4383795248608156, 100.30999568149366"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.36638209498494,
+          6.1250550345618935
+        ]
+      },
+      "properties": {
+        "Name": "Aman Central - Vincci",
+        "Type": "Vincci",
+        "Address": "Lot No.G30 &G31, Ground Floor, Aman Central, Lebuhraya Darul Aman\nAlor Setar, Kedah, 05100",
+        "Postcode": 5100,
+        "State": "Kedah",
+        "District": "Alor Setar",
+        "Coordinates": "6.1250550345618935, 100.36638209498494"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.36638209498494,
+          6.125119040092114
+        ]
+      },
+      "properties": {
+        "Name": "Aman Central - Padini Concept Store",
+        "Type": "Padini Concept Store",
+        "Address": "Lot G-32,Ground Floor, Aman Central, Lebuhraya Darul Aman\nAlor Setar, Kedah, 05100",
+        "Postcode": 5100,
+        "State": "Kedah",
+        "District": "Alor Setar",
+        "Coordinates": "6.125119040092114, 100.36638209498494"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3662625526582,
+          6.126596650427085
+        ]
+      },
+      "properties": {
+        "Name": "Aman Central - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot 1-23A, No. 1 Aman Central, Lebuhraya Darul Aman\nAlor Setar, Kedah, 05100",
+        "Postcode": 5100,
+        "State": "Kedah",
+        "District": "Alor Setar",
+        "Coordinates": "6.126596650427085, 100.3662625526582"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.85693226986068,
+          6.31063434468357
+        ]
+      },
+      "properties": {
+        "Name": "Langkawi Fair - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot GF M6 & GF 7-7B (WS), Langkawi Fair Shopping Mall, Jalan Persiaran Putra\nLangkawi, Kedah, 07000",
+        "Postcode": 7000,
+        "State": "Kedah",
+        "District": "Langkawi",
+        "Coordinates": "6.31063434468357, 99.85693226986068"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.83816021404351,
+          6.3276496805749165
+        ]
+      },
+      "properties": {
+        "Name": "Langkawi Parade Megamall - Vincci",
+        "Type": "Vincci",
+        "Address": "15 B-17, Level 1, Ground Floor, Langkawi Parade, A-12-15, Pokok Asam\nKuah, Kedah, 07000",
+        "Postcode": 7000,
+        "State": "Kedah",
+        "District": "Langkawi",
+        "Coordinates": "6.3276496805749165, 99.83816021404351"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24158959235004,
+          6.117775068037236
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Kota Bharu - Vincci",
+        "Type": "Vincci",
+        "Address": "Lot No G16 & G17, Ground Floor, Lembah Sireh\nKota Bharu, Kelantan, 15050",
+        "Postcode": 15050,
+        "State": "Kelantan",
+        "District": "Kota Bharu",
+        "Coordinates": "6.117775068037236, 102.24158959235004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.23033360511052,
+          6.109944431278033
+        ]
+      },
+      "properties": {
+        "Name": "EON Mall Kota Bharu - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "F23, 1st Floor, AEON Mall Kota Bharu, Kampung Sireh, Jalan Jambatan Sultan Yahya Petra\nKota Bharu, Kelantan, 15050",
+        "Postcode": 15050,
+        "State": "Kelantan",
+        "District": "Kota Bharu",
+        "Coordinates": "6.109944431278033, 102.23033360511052"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2316145563699,
+          6.111016797903639
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Kota Bharu - Padini Concept Stor",
+        "Type": "Padini Concept Store",
+        "Address": "Lot No. G23, AEON Mall Kota Bharu, Kampung Sireh, Jalan Jambatan Sultan Yahya Petra\nKota Bharu, Kelantan, 15050",
+        "Postcode": 15050,
+        "State": "Kelantan",
+        "District": "Kota Bharu",
+        "Coordinates": "6.111016797903639, 102.2316145563699"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.23987571156358,
+          6.117652066998338
+        ]
+      },
+      "properties": {
+        "Name": "Kota Bharu Mall - Brands Outlet",
+        "Type": "Brands Outlet",
+        "Address": "Lot 1-60-1-61, First Floor, Kota Bharu Mall, Jalan Hamzah\nKota Bharu, Kelantan, 15050",
+        "Postcode": 15050,
+        "State": "Kelantan",
+        "District": "Kota Bharu",
+        "Coordinates": "6.117652066998338, 102.23987571156358"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24165636775489,
+          6.117819464653012
+        ]
+      },
+      "properties": {
+        "Name": "Kota Bharu Mall - Vincci",
+        "Type": "Vincci",
+        "Address": "Lot 1.05 & 1.06, First Floor, Kota Bharu Mall, PT 101-102, Jalan Hamzah Sec. 16\nKota Bharu, Kelantan, 15050",
+        "Postcode": 15050,
+        "State": "Kelantan",
+        "District": "Kota Bharu",
+        "Coordinates": "6.117819464653012, 102.24165636775489"
+      }
+    }
+  ]
+}

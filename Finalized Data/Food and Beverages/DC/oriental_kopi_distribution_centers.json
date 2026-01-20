@@ -1,0 +1,17 @@
+[
+  {
+    "state": "Selangor",
+    "count": 1,
+    "locations": [
+      {
+        "code": "OK01",
+        "name": "Oriental Kopi Distribution Hub and Warehouse",
+        "address": "39, Jalan TPP 3, Taman Perindustrian Putra, 47130 Puchong, Selangor, Malaysia",
+        "postcode": "47130",
+        "district": "Puchong",
+        "gps": "2.9652318588180733, 101.5798816226634",
+        "google_maps_url": "https://www.google.com/maps/place/2.9652318588180733,101.5798816226634"
+      }
+    ]
+  }
+]

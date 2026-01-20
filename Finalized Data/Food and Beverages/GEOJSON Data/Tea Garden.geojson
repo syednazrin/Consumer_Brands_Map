@@ -1,0 +1,784 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73417019638994,
+          3.202419735106415
+        ]
+      },
+      "properties": {
+        "Name": "AEON ALPHA ANGLE",
+        "Region": "Klang Valley",
+        "Address": "Jalan R1, Seksyen 1, Bandar Baru, Wangsa Maju, 53300 Kuala Lumpur",
+        "Postcode": 53300,
+        "Coordinates": "3.202419735106415, 101.73417019638994",
+        "State": "Wp Kuala Lumpur",
+        "District": "Setapak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.8233989,
+          2.5058756015928685
+        ]
+      },
+      "properties": {
+        "Name": "SEGAMAT",
+        "Region": "Johor",
+        "Address": "182A, Jalan Bunga Raya, Kampung Abdullah, 85000 Segamat, Johor Darul Ta'zim",
+        "Postcode": 85000,
+        "Coordinates": "2.5058756015928685, 102.8233989",
+        "State": "Johor",
+        "District": "Segamat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76280468289424,
+          1.4642820305126856
+        ]
+      },
+      "properties": {
+        "Name": "KOMTAR JBCC",
+        "Region": "Johor",
+        "Address": "Lot No 233 Second Floor, Ibrahim International Business District, KOMTAR JBCC, Bandar Johor Bahru, 80888 Johor Bahru, Johor Darul Ta'zim",
+        "Postcode": 80888,
+        "Coordinates": "1.4642820305126856, 103.76280468289424",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.80062878104053,
+          1.5695087202065885
+        ]
+      },
+      "properties": {
+        "Name": "TAMAN GAYA",
+        "Region": "Johor",
+        "Address": "2, Jalan Gaya 28, Taman Gaya, 81800 Ulu Tiram, Johor Darul Ta'zim",
+        "Postcode": 81800,
+        "Coordinates": "1.5695087202065885, 103.80062878104053",
+        "State": "Johor",
+        "District": "Ulu Tiram"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6675903252217,
+          1.5158319502723987
+        ]
+      },
+      "properties": {
+        "Name": "SUTERA UTAMA",
+        "Region": "Johor",
+        "Address": "53, Jalan Sutera Tanjung 8/2, Taman Sutera Utama, 81300 Johor Bahru, Johor Darul Ta'zim",
+        "Postcode": 81300,
+        "Coordinates": "1.5158319502723987, 103.6675903252217",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6198279270758,
+          1.6416221648356317
+        ]
+      },
+      "properties": {
+        "Name": "BANDAR INDAHPURA",
+        "Region": "Johor",
+        "Address": "No 52, Jalan Kenanga 29/3, Bandar Indahpura, 81000 Kulai, Johor Darul Ta'zim",
+        "Postcode": 81000,
+        "Coordinates": "1.6416221648356317, 103.6198279270758",
+        "State": "Johor",
+        "District": "Kulai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.66062993871289,
+          1.4816828539860758
+        ]
+      },
+      "properties": {
+        "Name": "BUKIT INDAH ROUNDABOUT",
+        "Region": "Johor",
+        "Address": "No. 11 & 15, No 11 & 15, Jalan Indah 15/1, Bukit Indah, 81200 Johor Bahru, Johor",
+        "Postcode": 81200,
+        "Coordinates": "1.4816828539860758, 103.66062993871289",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8151087522041,
+          1.496391876862463
+        ]
+      },
+      "properties": {
+        "Name": "PERMAS JAYA",
+        "Region": "Johor",
+        "Address": "2, Jalan Permas 10/7, Bandar Baru Permas Jaya, 81750 Masai, Johor Darul Ta'zim",
+        "Postcode": 81750,
+        "Coordinates": "1.496391876862463, 103.8151087522041",
+        "State": "Johor",
+        "District": "Masai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.65575399999999,
+          1.4817216807268623
+        ]
+      },
+      "properties": {
+        "Name": "AEON BUKIT INDAH﻿",
+        "Region": "Johor",
+        "Address": "LOT F18, AEON BUKIT INDAH SHOPPING CENTRE, Johor Bahru, 81200 Johor Bahru, Johor Darul Ta'zim",
+        "Postcode": 81200,
+        "Coordinates": "1.4817216807268623, 103.65575399999999",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.29274023871392,
+          1.999242987954819
+        ]
+      },
+      "properties": {
+        "Name": "KLUANG",
+        "Region": "Johor",
+        "Address": "27, Jalan Tasik Indah 1/1, Taman Tasik Indah, 86000 Kluang, Johor Darul Ta'zim",
+        "Postcode": 86000,
+        "Coordinates": "1.999242987954819, 103.29274023871392",
+        "State": "Johor",
+        "District": "Kluang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24346536756897,
+          6.132085375414329
+        ]
+      },
+      "properties": {
+        "Name": "KOTA BHARU",
+        "Region": "Kelantan",
+        "Address": "Ground Floor, PT226 & PT227, Jln Kebun Sultan, Bandar Kota Bharu, 15350 Kota Bharu, Kelantan",
+        "Postcode": 15350,
+        "Coordinates": "6.132085375414329, 102.24346536756897",
+        "State": "Kelantan",
+        "District": "Kota Bharu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.66426168465492,
+          1.6358313382086875
+        ]
+      },
+      "properties": {
+        "Name": "SENAI",
+        "Region": "Johor",
+        "Address": "No. 1 & 2, Jalan Terminal 2, 81400 Senai, Johor",
+        "Postcode": 81400,
+        "Coordinates": "1.6358313382086875, 103.66426168465492",
+        "State": "Johor",
+        "District": "Senai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.58437471173045,
+          1.4598026056118
+        ]
+      },
+      "properties": {
+        "Name": "GELANG PATAH",
+        "Region": "Johor",
+        "Address": "6, Jln Nusaria 11, Taman Nusantara, 81550 Gelang Patah, Johor Darul Ta'zim",
+        "Postcode": 81550,
+        "Coordinates": "1.4598026056118, 103.58437471173045",
+        "State": "Johor",
+        "District": "Gelang Patah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.68524198289437,
+          1.5439040972725426
+        ]
+      },
+      "properties": {
+        "Name": "IMPIAN EMAS",
+        "Region": "Johor",
+        "Address": "43, Jalan Impian Emas 5/2, Taman Impian Emas, 81300 Skudai, Johor Darul Ta'zim",
+        "Postcode": 81300,
+        "Coordinates": "1.5439040972725426, 103.68524198289437",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.61789045405827,
+          1.641003109254785
+        ]
+      },
+      "properties": {
+        "Name": "AEON KULAIJAYA﻿",
+        "Region": "Johor",
+        "Address": "LOT G55, AEON MALL, Bandar Indahpura, 81000, Johor Darul Ta'zim",
+        "Postcode": 81000,
+        "Coordinates": "1.641003109254785, 103.61789045405827",
+        "State": "Johor",
+        "District": "Kulai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.87138911173054,
+          1.4961712775999911
+        ]
+      },
+      "properties": {
+        "Name": "SERI ALAM﻿",
+        "Region": "Johor",
+        "Address": "Bandar Baru Seri Alam, 81750 Masai, Johor",
+        "Postcode": 81750,
+        "Coordinates": "1.4961712775999911, 103.87138911173054",
+        "State": "Johor",
+        "District": "Masai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.61682035220402,
+          1.4396476566412546
+        ]
+      },
+      "properties": {
+        "Name": "ECO BOTANIC﻿",
+        "Region": "Johor",
+        "Address": "No 2, Jalan Eko Botani 3/6, Taman Eko Botani, 79100 Iskandar Puteri, Johor Darul Ta'zim",
+        "Postcode": 79100,
+        "Coordinates": "1.4396476566412546, 103.61682035220402",
+        "State": "Johor",
+        "District": "Iskandar Puteri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6856606963855,
+          1.5154855001421514
+        ]
+      },
+      "properties": {
+        "Name": "KUU by Tea Garden PARADIGM MALL",
+        "Region": "Johor",
+        "Address": "PARADIGM MALL, LOT 4F-26 & 4FK-37, FOURTH FLOOR, Lbh Skudai, 81200 Johor Bahru, Johor Darul Ta'zim",
+        "Postcode": 81200,
+        "Coordinates": "1.5154855001421514, 103.6856606963855",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.79604166754928,
+          1.5493474216314842
+        ]
+      },
+      "properties": {
+        "Name": "KUU by Tea Garden AEON TEBRAU CITY",
+        "Region": "Johor",
+        "Address": "S19, Second Floor, Aeon Tebrau City Shopping Centre, 1, Persiaran Desa Tebrau, Taman Desa Tebrau, 81100 Johor Bahru, Johor",
+        "Postcode": 81100,
+        "Coordinates": "1.5493474216314842, 103.79604166754928",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.93977648465493,
+          1.4839526057170471
+        ]
+      },
+      "properties": {
+        "Name": "KOTA MASAI",
+        "Region": "Johor",
+        "Address": "42, Jalan Ekoperniagaan 1, Taman Kota Masai, 81700 Pasir Gudang, Johor Darul Ta'zim",
+        "Postcode": 81700,
+        "Coordinates": "1.4839526057170471, 103.93977648465493",
+        "State": "Johor",
+        "District": "Pasir Gudang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78400625220411,
+          1.525494549484154
+        ]
+      },
+      "properties": {
+        "Name": "TAMAN MOLEK",
+        "Region": "Johor",
+        "Address": "Molek Pine 4, 01-01-A, Blok 3, No 5, Pangsapuri, Jalan Molek 1/27, Taman Molek, 81100 Johor Bahru, Johor",
+        "Postcode": 81100,
+        "Coordinates": "1.525494549484154, 103.78400625220411",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.67986409638536,
+          1.4942635274391387
+        ]
+      },
+      "properties": {
+        "Name": "TAMAN PERLING",
+        "Region": "Johor",
+        "Address": "No. 3 & 5, Jalan Camar 1/2, Taman Perling, 81200 Johor Bahru, Johor",
+        "Postcode": 81200,
+        "Coordinates": "1.4942635274391387, 103.67986409638536",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.56877273871318,
+          1.66899328973194
+        ]
+      },
+      "properties": {
+        "Name": "TAMAN TROPIKA, KULAI",
+        "Region": "Johor",
+        "Address": "17, Jalan Tropika 1, Taman Tropika, 81000 Kulai, Johor Darul Ta'zim",
+        "Postcode": 81000,
+        "Coordinates": "1.66899328973194, 103.56877273871318",
+        "State": "Johor",
+        "District": "Kulai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76474615405809,
+          1.5473210969239537
+        ]
+      },
+      "properties": {
+        "Name": "TAMAN DAYA",
+        "Region": "Johor",
+        "Address": "GF08, Jalan Daya 1, Taman Daya, 81100 Johor Bahru, Johor Darul Ta'zim",
+        "Postcode": 81100,
+        "Coordinates": "1.5473210969239537, 103.76474615405809",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7168538694031,
+          1.549049146915315
+        ]
+      },
+      "properties": {
+        "Name": "SETIA TROPIKA",
+        "Region": "Johor",
+        "Address": "01-05, Tropika Welcome Centre, Jalan Setia Tropika 1/21, Taman Setia Tropika, 81200 Johor Bahru, Johor Darul Ta'zim",
+        "Postcode": 81200,
+        "Coordinates": "1.549049146915315, 103.7168538694031",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71539758289869,
+          3.1989593633983056
+        ]
+      },
+      "properties": {
+        "Name": "SETAPAK",
+        "Region": "KV",
+        "Address": "126-G-1,2&3, Metro Genting Klang, 53300 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+        "Postcode": 53300,
+        "Coordinates": "3.1989593633983056, 101.71539758289869",
+        "State": "Wp Kuala Lumpur",
+        "District": "Setapak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71148408289818,
+          3.0602430811962984
+        ]
+      },
+      "properties": {
+        "Name": "SUNGAI BESI",
+        "Region": "KV",
+        "Address": "63, Jalan Tasik Utama 4, Medan Niaga Tasik Damai, 57000 Wilayah Persekutuan, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 57000,
+        "Coordinates": "3.0602430811962984, 101.71148408289818",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.60786839638945,
+          3.0724712456924164
+        ]
+      },
+      "properties": {
+        "Name": "SUNWAY PYRAMID",
+        "Region": "KV",
+        "Address": "LG1.40 & 1.41, Lower Ground 1, 3, Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor",
+        "Postcode": 47500,
+        "Coordinates": "3.0724712456924164, 101.60786839638945",
+        "State": "Selangor",
+        "District": "Subang Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.68496815406091,
+          2.743951911409261
+        ]
+      },
+      "properties": {
+        "Name": "GATEWAY @ KLIA2",
+        "Region": "KV",
+        "Address": "L2-133 & 134, Level 2, gateway@KLIA2, Terminal KLIA2, KLIA2 Arrival Ln, Kuala Lumpur International Airport, 64000 Sepang, Selangor",
+        "Postcode": 64000,
+        "Coordinates": "2.743951911409261, 101.68496815406091",
+        "State": "Selangor",
+        "District": "KLIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71360025220831,
+          3.1533291864525785
+        ]
+      },
+      "properties": {
+        "Name": "PERMATA SAPURA (KLCC)",
+        "Region": "KV",
+        "Address": "Lot C-01 & C-02, Concourse Floor, Permata Sapura, Kuala Lumpur City Centre, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 50088,
+        "Coordinates": "3.1533291864525785, 101.71360025220831",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.54870206940706,
+          3.0764651911413656
+        ]
+      },
+      "properties": {
+        "Name": "AEON SHAH ALAM",
+        "Region": "KV",
+        "Address": "Lot S10, Second Floor, Aeon Mall, 1, Jln Akuatik 13/64, Seksyen 13, 40100 Shah Alam, Selangor",
+        "Postcode": 40100,
+        "Coordinates": "3.0764651911413656, 101.54870206940706",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.47938326940684,
+          3.024140788766568
+        ]
+      },
+      "properties": {
+        "Name": "ST ROSYAM MALL",
+        "Region": "KV",
+        "Address": "No. G08, ST Rosyam Mall, Lot 15749 & 15750 Batu 3 1/2, Jalan Kebun, Bandar Diraja, 41200 Klang, Selangor",
+        "Postcode": 41200,
+        "Coordinates": "3.024140788766568, 101.47938326940684",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73390668104497,
+          3.202671474622426
+        ]
+      },
+      "properties": {
+        "Name": "AEON ALPHA ANGLE",
+        "Region": "KV",
+        "Address": "Lot G25A, Ground Floor, AEON Alpha, Angle Shopping Centre, Wangsa Maju Kuala Lumpur MY, Jalan R1, Seksyen 1, 53300 Bandar Baru",
+        "Postcode": 53300,
+        "Coordinates": "3.202671474622426, 101.73390668104497",
+        "State": "Wp Kuala Lumpur",
+        "District": "Setapak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74851578104482,
+          3.2107519966620335
+        ]
+      },
+      "properties": {
+        "Name": "MELAWATI MALL",
+        "Region": "KV",
+        "Address": "L3-06 & L3-K6, Level 3, Melawati Mall, 355, Jln Bandar Melawati, Pusat Bandar Melawati, 53100 Kuala Lumpur, Selangor",
+        "Postcode": 53100,
+        "Coordinates": "3.2107519966620335, 101.74851578104482",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.55239059824358,
+          3.128427318052565
+        ]
+      },
+      "properties": {
+        "Name": "SUBANG SKYPARK",
+        "Region": "KV",
+        "Address": "G15, Lpg Trbg Sultan Abdul Aziz Shah, Lapangan Terbang Sultan Abdul Aziz Shah, 47200 Subang, Selangor",
+        "Postcode": 47200,
+        "Coordinates": "3.128427318052565, 101.55239059824358",
+        "State": "Selangor",
+        "District": "Subang Airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.85655913871648,
+          2.9248556091250952
+        ]
+      },
+      "properties": {
+        "Name": "SETIA ECOHILL",
+        "Region": "KV",
+        "Address": "E-11-L1, Pusat Komersial Dataran Ecohill, Block E, Jln Ecohill 1/2, Setia Ecohill, 43500 Semenyih, Selangor",
+        "Postcode": 43500,
+        "Coordinates": "2.9248556091250952, 101.85655913871648",
+        "State": "Selangor",
+        "District": "Semenyih"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.68703469638973,
+          3.1333175911984457
+        ]
+      },
+      "properties": {
+        "Name": "NU SENTRAL",
+        "Region": "KV",
+        "Address": "L4.01, LEVEL 4, Nu Sentral, Shopping Mall, 201, Jalan Tun Sambanthan, Kuala Lumpur Sentral, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 50470,
+        "Coordinates": "3.1333175911984457, 101.68703469638973",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.58359098104434,
+          3.048917969929418
+        ]
+      },
+      "properties": {
+        "Name": "USJ TAIPAN",
+        "Region": "KV",
+        "Address": "24-G, Jalan USJ 10/1e, Taipan Business Centre, 47620 Subang Jaya, Selangor",
+        "Postcode": 47620,
+        "Coordinates": "3.048917969929418, 101.58359098104434",
+        "State": "Selangor",
+        "District": "Subang Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.69528719453588,
+          3.1562840354963466
+        ]
+      },
+      "properties": {
+        "Name": "SOGO KL",
+        "Region": "KV",
+        "Address": "L6-R10 &L6-R10A 6TH FLOOR, 190, Jalan Tuanku Abdul Rahman, 50100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 50100,
+        "Coordinates": "3.1562840354963466, 101.69528719453588",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.25449432522312,
+          2.1864947444594787
+        ]
+      },
+      "properties": {
+        "Name": "Melaka raya",
+        "Region": "Melaka",
+        "Address": "390 & 391, Jalan Melaka Raya 6, Taman Melaka Raya, 75000 Melaka",
+        "Postcode": 75000,
+        "Coordinates": "2.1864947444594787, 102.25449432522312",
+        "State": "Melaka",
+        "District": "Melaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.91965069638825,
+          2.7168813824686002
+        ]
+      },
+      "properties": {
+        "Name": "SEREMBAN GATEWAY",
+        "Region": "Negeri Sembilan",
+        "Address": "No.4A-L1 & 4B-L1, Gerbang Seremban, Off, Jalan Sungai Ujong, Kemayan Square, 70200 Seremban, Negeri Sembilan",
+        "Postcode": 70200,
+        "Coordinates": "2.7168813824686002, 101.91965069638825",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    }
+  ]
+}

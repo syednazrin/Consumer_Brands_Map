@@ -1,0 +1,491 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.79585365220416,
+          1.5493047465509409
+        ]
+      },
+      "properties": {
+        "Name": "Aeon Mall Tebrau City",
+        "Address": "Lot G65&G66,Ground floor Aeon Mall Tebrau City,Taman Desa Tebrau,81100 Johor Bahru, Johor ,Malaysia",
+        "Postcode": 81100,
+        "Coordinates": "1.5493047465509409, 103.79585365220416",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.68575442883625,
+          1.5158999270415272
+        ]
+      },
+      "properties": {
+        "Name": "Paradigm Mall Johor Bahru",
+        "Address": "Lot GF-72,Ground Floor, Paradigm Mall Johor Bahru,Jalan Skudai,81200 Johor Bahru, Johor ,Malaysia",
+        "Postcode": 81200,
+        "Coordinates": "1.5158999270415272, 103.68575442883625",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7779657629339,
+          1.5008129165379875
+        ]
+      },
+      "properties": {
+        "Name": "Malaysia Johor Bahru Southkey",
+        "Address": "Lot G-040, Ground Floor, Southkey Megamall, Jalan Bakar Batu, Southkey, 81100 Johor Bahru, Johor, Malaysia",
+        "Postcode": 81100,
+        "Coordinates": "1.5008129165379875, 103.7779657629339",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6219045656954,
+          1.603779664956642
+        ]
+      },
+      "properties": {
+        "Name": "Malaysia Kulai Johor Premium Outlets HLA Shop",
+        "Address": "Suite NO 1004, Johor Premium Outlets, Jalan Premium Outlets Indahpura, 81000 Kulai, Johor, Malaysia",
+        "Postcode": 81000,
+        "Coordinates": "1.603779664956642, 103.6219045656954",
+        "State": "Johor",
+        "District": "Kulai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7682801233678,
+          1.4589867564078691
+        ]
+      },
+      "properties": {
+        "Name": "Malaysia Johor Bahru R&F Mall HLA Shop",
+        "Address": "1-015-019, R&F Mall, Jalan Tanjung Puteri, Tanjung Puteri, 80300 Johor Bahru, Johor, Malaysia",
+        "Postcode": 80300,
+        "Coordinates": "1.4589867564078691, 103.7682801233678",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72282783069015,
+          3.1350748428176876
+        ]
+      },
+      "properties": {
+        "Name": "Mytown Shopping Centre",
+        "Address": "Lot No: L1-06 & L1-07, Level No: 1, Mytown Shopping Centre, Lot PT479, Jalan Cochrane, Seksyen 90, 55100 Kuala Lumpur, Malaysia",
+        "Postcode": 55100,
+        "Coordinates": "3.1350748428176876, 101.72282783069015",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.69247701173487,
+          3.166755933431147
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Putra Mall",
+        "Address": "1-17B, First Floor, Sunway Putra Mall, 100, Jalan Putra, Chow Kit 50350 Kuala Lumpur, Malaysia",
+        "Postcode": 50350,
+        "Coordinates": "3.166755933431147, 101.69247701173487",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72483456755337,
+          3.1280642281752824
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Velocity Mall",
+        "Address": "G-40, Ground Floor Sunway Velocity Mall, Lingkaran SV, Sunway Velocity, 55100 Kuala Lumpur, Malaysia.",
+        "Postcode": 55100,
+        "Coordinates": "3.1280642281752824, 101.72483456755337",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73861192359719,
+          3.094602819604822
+        ]
+      },
+      "properties": {
+        "Name": "Malaysia Kuala Lumpur Ekocheras Mall HLA Shop",
+        "Address": "G49&G50, Ground Floor, Ekocheras Mall, Taman Mutiara Barat, 56000 Batu 9 Cheras, Kuala Lumpur, Malaysia",
+        "Postcode": 56000,
+        "Coordinates": "3.094602819604822, 101.73861192359719",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.25041836755052,
+          2.19017979677093
+        ]
+      },
+      "properties": {
+        "Name": "Dataran Pahlawan Melaka Megamall",
+        "Address": "G040，G042&G043，Ground Floor Dataran Pahlawan Melaka, 01, Hatten Square, Jalan Merdeka, Bandar Hilir, 75000 Melaka, Malaysia",
+        "Postcode": 75000,
+        "Coordinates": "2.19017979677093, 102.25041836755052",
+        "State": "Melaka",
+        "District": "Melaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.79378033871818,
+          3.4240934708593573
+        ]
+      },
+      "properties": {
+        "Name": "SkyAvenue",
+        "Address": "T2B-05 Sky Avenue Genting Highlands，69000，Pahang Darul Makmur，Malaysia",
+        "Postcode": 69000,
+        "Coordinates": "3.4240934708593573, 101.79378033871818",
+        "State": "Pahang",
+        "District": "Genting Highlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.326286667556,
+          3.818534376658113
+        ]
+      },
+      "properties": {
+        "Name": "Malaysia Kuantan East Coast Mall HLA Shop",
+        "Address": "GF-18, East Coast Mall, Jalan Putra Square 6, Putra Square, 25200 Kuantan, Pahang, Malaysia",
+        "Postcode": 25200,
+        "Coordinates": "3.818534376658113, 103.326286667556",
+        "State": "Pahang",
+        "District": "Kuantan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.08987346755974,
+          4.595917270859326
+        ]
+      },
+      "properties": {
+        "Name": "Ipoh Parade",
+        "Address": "G33 Ground Floor,Ipoh Parade,105,Jalan Sultan Abdul Jalil , Greentown 30450 Ipoh,Perak,Malaysia",
+        "Postcode": 30450,
+        "Coordinates": "4.595917270859326, 101.08987346755974",
+        "State": "Perak",
+        "District": "Ipoh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61643135220844,
+          3.148217535917554
+        ]
+      },
+      "properties": {
+        "Name": "1 UTAMA Shopping Centre",
+        "Address": "Lot F316，1, Lebuh Bandar Utama,Bandar Utama City Centre,Bandar Utama,47800 Petaling Jaya,Selangor,Malaysia",
+        "Postcode": 47800,
+        "Coordinates": "3.148217535917554, 101.61643135220844",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.46016415220828,
+          3.1097041837197263
+        ]
+      },
+      "properties": {
+        "Name": "Setia City Mall",
+        "Address": "Lot No. UG-06&07 Upper Ground Floor Setia City Mall, 359, Perslaran Setia Dagang, Setia Alam, 40170 Shah Alam Selangor, Malaysia",
+        "Postcode": 40170,
+        "Coordinates": "3.1097041837197263, 101.46016415220828",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44414530988037,
+          2.99571402301783
+        ]
+      },
+      "properties": {
+        "Name": "Aeon Mall Bukit Tinggi",
+        "Address": "G42 Ground Floor Aeon Mall Bukit Tinggi, Persiaran Batu Nilam 1, Bandar Bukit Tinggi 2, 41200 Klang, Selangor, Malaysia",
+        "Postcode": 41200,
+        "Coordinates": "2.99571402301783, 101.44414530988037",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.58279306755328,
+          3.0819925632724563
+        ]
+      },
+      "properties": {
+        "Name": "Empire Shopping Gallery",
+        "Address": "G23, Empire Shopping Gallery, Jalan SS16/1, SS16, 47500 Subang Jaya, Selangor, Malaysia",
+        "Postcode": 47500,
+        "Coordinates": "3.0819925632724563, 101.58279306755328",
+        "State": "Selangor",
+        "District": "Subang Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.48154684057081,
+          3.0625749266451665
+        ]
+      },
+      "properties": {
+        "Name": "Malaysia Central i-City HLA Shop",
+        "Address": "HLA,G-19, Ground level, Central i-City Shopping Centre, Jalan plumbum 7/102, 40000 Shah Alam, Selangor, Malaysia",
+        "Postcode": 40000,
+        "Coordinates": "3.0625749266451665, 101.48154684057081",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3582411211571,
+          1.5422027657183977
+        ]
+      },
+      "properties": {
+        "Name": "Malaysia The Spring Mall HLA Shop",
+        "Address": "Lot No G54c, ground floor, 304, The Spring shopping mall, Persiaran Spring, 93300 Kuching, Sarawak, Malaysia",
+        "Postcode": 93300,
+        "Coordinates": "1.5422027657183977, 110.3582411211571",
+        "State": "Sarawak",
+        "District": "Kuching"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36782839409541,
+          1.5306012923241104
+        ]
+      },
+      "properties": {
+        "Name": "Malaysia Kuching Vivacity Megamall HLA Shop",
+        "Address": "G026, G027&G028, Vivacity Megamall, Jalan Wan Alwi, 93350 Kuching, Sarawak, Malaysia",
+        "Postcode": 93350,
+        "Coordinates": "1.5306012923241104, 110.36782839409541",
+        "State": "Sarawak",
+        "District": "Kuching"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61834135406193,
+          3.0444182297421287
+        ]
+      },
+      "properties": {
+        "Name": "Malaysia Puchong IOI Mall HLA Shop",
+        "Address": "G-13A-G16,Ground Floor,IOI Mall, Batu 9,Bandar Puchong Jaya, 47170 Puchong,Selangor",
+        "Postcode": 47170,
+        "Coordinates": "3.0444182297421287, 101.61834135406193",
+        "State": "Selangor",
+        "District": "Puchong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.30924636756446,
+          5.4370847087305325
+        ]
+      },
+      "properties": {
+        "Name": "Malaysia Penang Gurney Plaza HLA Shop",
+        "Address": "170-G-50, Ground Floor, Plaza Gurney, Persiaran Gurney, 10250 Penang, Malaysia.",
+        "Postcode": 10250,
+        "Coordinates": "5.4370847087305325, 100.30924636756446",
+        "State": "Pulau Pinang",
+        "District": "Pulau Pinang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.30739284058146,
+          5.332404425184846
+        ]
+      },
+      "properties": {
+        "Name": "Malaysia Penang Queensbay Mall HLA Shop",
+        "Address": "GF82-83, Queensbay Mall, 100, Persiaran Bayan Indah, Queens Bay, 11900 Bayan Lepas, Pulau Pinang, Malaysia",
+        "Postcode": 11900,
+        "Coordinates": "5.332404425184846, 100.30739284058146",
+        "State": "Pulau Pinang",
+        "District": "Bayan Lepas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.39852115775318,
+          5.398384200000012
+        ]
+      },
+      "properties": {
+        "Name": "Malaysia Penang Sunway Carnival Mall HLA Shop",
+        "Address": "UG-23&UG-23A, Sunway Carnival Mall, 3068, Jalan Todak Pusat Bandar Seberang Jaya, Seberang Jaya, 13700 Perai, Pulau Pinang, Malaysia",
+        "Postcode": 13700,
+        "Coordinates": "5.398384200000012, 100.39852115775318",
+        "State": "Pulau Pinang",
+        "District": "Perai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.59595936755339,
+          3.105299219285604
+        ]
+      },
+      "properties": {
+        "Name": "Malaysia Petaling Jaya Paradigm Mall HLA Shop",
+        "Address": "UG-03&05, Paradigm Mall, No.1, Jalan SS7/26A, Kelana Jaya, 47301 Petaling Jaya, Selangor, Malaysia",
+        "Postcode": 47301,
+        "Coordinates": "3.105299219285604, 101.59595936755339",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.03690787287364,
+          3.200720657400439
+        ]
+      },
+      "properties": {
+        "Name": "Malaysia Sarawak tHe Spring Bintulu HLA Shop",
+        "Address": "G02&G04, Ground Floor, tHe Spring Bintulu, 97000 Bintulu, Sarawak, Malaysia",
+        "Postcode": 97000,
+        "Coordinates": "3.200720657400439, 113.03690787287364",
+        "State": "Sarawak",
+        "District": "Bintulu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.36683641175021,
+          6.125034375319913
+        ]
+      },
+      "properties": {
+        "Name": "Malaysia Kedah Aman Central HLA Shop",
+        "Address": "G40&G41, No 1 Aman Central, Lebuhraya Darulaman, 05100 Alor Setar, Kedah Darul Aman, Malaysia",
+        "Postcode": 5100,
+        "Coordinates": "6.125034375319913, 100.36683641175021",
+        "State": "Kedah",
+        "District": "Alor Setar"
+      }
+    }
+  ]
+}

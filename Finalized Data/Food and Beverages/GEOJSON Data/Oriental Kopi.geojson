@@ -1,0 +1,455 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.76489646266812,
+          3.033413169366136
+        ]
+      },
+      "properties": {
+        "Name": "Mid Valley Megamall",
+        "Address": "LG-043, Lower Ground Floor.",
+        "Postcode": 59200,
+        "City": "Kuala Lumpur",
+        "State": "Kuala Lumpur",
+        "position": "3.033413169366136, 101.76489646266812"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67182320401274,
+          3.049785880602366
+        ]
+      },
+      "properties": {
+        "Name": "Pavilion Kuala Lumpur",
+        "Address": "Lot 1.30, 1.31, Level 1.",
+        "Postcode": 55100,
+        "City": "Kuala Lumpur",
+        "State": "Kuala Lumpur",
+        "position": "3.049785880602366, 101.67182320401274"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7167416524251,
+          3.143278296231129
+        ]
+      },
+      "properties": {
+        "Name": "TRX",
+        "Address": "C.45.0 & C.46.0, Level Concourse",
+        "Postcode": 55188,
+        "City": "Kuala Lumpur",
+        "State": "Kuala Lumpur",
+        "position": "3.143278296231129, 101.7167416524251"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71146932257041,
+          3.1574338695615136
+        ]
+      },
+      "properties": {
+        "Name": "KLCC",
+        "Address": "Lot 414-415 & OS404, Level 4",
+        "Postcode": 50088,
+        "City": "Kuala Lumpur",
+        "State": "Kuala Lumpur",
+        "position": "3.1574338695615136, 101.71146932257041"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.60594295491269,
+          3.071804823890553
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Pyramid",
+        "Address": "Blue Atrium, Lot G1.108 & 109,Ground Floor",
+        "Postcode": 47500,
+        "City": "Petaling Jaya",
+        "State": "Selangor",
+        "position": "3.071804823890553, 101.60594295491269"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67173153808426,
+          3.0497684532934044
+        ]
+      },
+      "properties": {
+        "Name": "Pavilion Bukit Jalil",
+        "Address": "Level 1 (No. 22 & 23)",
+        "Postcode": 57000,
+        "City": "Kuala Lumpur",
+        "State": "Kuala Lumpur",
+        "position": "3.0497684532934044, 101.67173153808426"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.68517358015838,
+          2.745721057859594
+        ]
+      },
+      "properties": {
+        "Name": "KLIA 2 (Arrival Hall)",
+        "Address": "L2-58 & 59, Level 2 (CP4)",
+        "Postcode": 64000,
+        "City": "Sepang ",
+        "State": "Selangor",
+        "position": "2.745721057859594, 101.68517358015838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.68538697274145,
+          2.7439331829391853
+        ]
+      },
+      "properties": {
+        "Name": "KLIA 2 (Departure Hall)",
+        "Address": "Lot L3-41-46, Level 3",
+        "Postcode": 64000,
+        "City": "Sepang ",
+        "State": "Selangor",
+        "position": "2.7439331829391853, 101.68538697274145"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61807129223777,
+          3.0219669446139936
+        ]
+      },
+      "properties": {
+        "Name": "Puchong",
+        "Address": "69 & 71, Jalan Puteri 2/3, Bandar Puteri",
+        "Postcode": 47100,
+        "City": "Puchong",
+        "State": "Selangor",
+        "position": "3.0219669446139936, 101.61807129223777"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.69235571322287,
+          3.1665220308964046
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Putra Mall",
+        "Address": "Lot G-1-6 & G-1-7",
+        "Postcode": 50350,
+        "City": "Kuala Lumpur",
+        "State": "Kuala Lumpur",
+        "position": "3.1665220308964046, 101.69235571322287"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.66298782118908,
+          3.145957703055415
+        ]
+      },
+      "properties": {
+        "Name": "Pavilion Damansara Heights",
+        "Address": "Lot L5.14.00 Level 5",
+        "Postcode": 50490,
+        "City": "Kuala Lumpur",
+        "State": "Kuala Lumpur",
+        "position": "3.145957703055415, 101.66298782118908"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.76489646266812,
+          3.033413169366136
+        ]
+      },
+      "properties": {
+        "Name": "AEON Cheras Selatan",
+        "Address": "Lot G32, Ground Floor",
+        "Postcode": 43200,
+        "City": "Cheras",
+        "State": "Selangor",
+        "position": "3.033413169366136, 101.76489646266812"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71474264116223,
+          2.970106058953554
+        ]
+      },
+      "properties": {
+        "Name": "IOI City Mall",
+        "Address": "Lot LG-29A, Lower Ground Floor",
+        "Postcode": 62502,
+        "City": "Putrajaya",
+        "State": "Selangor",
+        "position": "2.970106058953554, 101.71474264116223"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71126583238429,
+          2.940179152455635
+        ]
+      },
+      "properties": {
+        "Name": "Alamanda",
+        "Address": "Lot LG07, LG Floor",
+        "Postcode": 62000,
+        "City": "Putrajaya",
+        "State": "Selangor",
+        "position": "2.940179152455635, 101.71126583238429"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24576918671235,
+          2.2156180988631826
+        ]
+      },
+      "properties": {
+        "Name": "AEON Bandaraya",
+        "Address": "Lot G39 & G40, Ground Floor, ÆON Mall, Jalan Lagenda, Taman 1 Lagenda, ",
+        "Postcode": 75400,
+        "City": "Melaka",
+        "State": "Melaka",
+        "position": "2.2156180988631826, 102.24576918671235"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.77737267798312,
+          1.5014628719015584
+        ]
+      },
+      "properties": {
+        "Name": "Mid Valley Southkey",
+        "Address": "LG-061, Mid Valley The Mall, Persiaran Southkey 1, Southkey",
+        "Postcode": 80150,
+        "City": "Johor Bahru",
+        "State": "Johor",
+        "position": "1.5014628719015584, 103.77737267798312"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76395047539616,
+          1.4618097695808079
+        ]
+      },
+      "properties": {
+        "Name": "City Square",
+        "Address": "Lot MB-07, Level B1, Johor Bahru City Square, Jalan Wong Ah Fook, Bandar Johor Bahru",
+        "Postcode": 80000,
+        "City": "Johor Bahru",
+        "State": "Johor",
+        "position": "1.4618097695808079, 103.76395047539616"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.79607330637442,
+          1.5498538568961737
+        ]
+      },
+      "properties": {
+        "Name": "AEON Tebrau City",
+        "Address": "LOT G117, Aeon Tebrau City Shopping Centre, 3, Persiaran Desa Tebrau, Taman Desa Tebrau ",
+        "Postcode": 81100,
+        "City": "Johor Bahru",
+        "State": "Johor",
+        "position": "1.5498538568961737, 103.79607330637442"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.80271402923918,
+          1.5399096671176546
+        ]
+      },
+      "properties": {
+        "Name": "Johor Jaya",
+        "Address": "30, Jalan Dedap 22, Taman Johor Jaya, 81100 Johor Bahru, Johor Darul Ta'zim",
+        "Postcode": 81100,
+        "City": "Johor Bahru",
+        "State": "Johor",
+        "position": "1.5399096671176546, 103.80271402923918"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.65591689764803,
+          1.4809481300606373
+        ]
+      },
+      "properties": {
+        "Name": "AEON Bukit Indah",
+        "Address": "Lot G13A, Aeon Bukit Indah Shopping Centre, 8, Jalan Indah 15/2, Taman Bukit Indah",
+        "Postcode": 81200,
+        "City": "Johor Bahru",
+        "State": "Johor",
+        "position": "1.4809481300606373, 103.65591689764803"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.68596327802592,
+          1.5157622030811706
+        ]
+      },
+      "properties": {
+        "Name": "Paradigm Mall",
+        "Address": "Lot GF-28&29, Paradigm Mall, Lbh Skudai, Taman Bukit Mewah, ",
+        "Postcode": 81200,
+        "City": "Johor Bahru",
+        "State": "Johor",
+        "position": "1.5157622030811706, 103.68596327802592"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.66672018469681,
+          1.6363863327473291
+        ]
+      },
+      "properties": {
+        "Name": "Senai Airport",
+        "Address": "Lot E6, E7, E8, Aeromall, Johor Bahru Senai International Airport",
+        "Postcode": 81250,
+        "City": "Johor Bahru",
+        "State": "Johor",
+        "position": "1.6363863327473291, 103.66672018469681"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.31003079891236,
+          5.438063412179268
+        ]
+      },
+      "properties": {
+        "Name": "Gurney Plaza",
+        "Address": "Lot 170-B1-45, Plaza Gurney, 46, Persiaran Gurney, 10250 George Town, Pulau Pinang",
+        "Postcode": 10250,
+        "City": "George Town",
+        "State": "Pulau Pinang",
+        "position": "5.438063412179268, 100.31003079891236"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.39804043897799,
+          5.398791408114776
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Carnival",
+        "Address": "Lot 1F-62 & 1F-63, Sunway Carnival MallJalan, Todak13700, 13700 Seberang Jaya, Penang",
+        "Postcode": 13700,
+        "City": "Seberang Jaya",
+        "State": "Pulau Pinang",
+        "position": "5.398791408114776, 100.39804043897799"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36961756947869,
+          1.5268392466902438
+        ]
+      },
+      "properties": {
+        "Name": "Vivacity Mall",
+        "Address": "Lot L3-012, L3-013 & L3-014, Level 3, Vivacity Megamall, Q112B, 93350 Kuching, Sarawak",
+        "Postcode": 93350,
+        "City": "Kuching",
+        "State": " Sarawak",
+        "position": "1.5268392466902438, 110.36961756947869"
+      }
+    }
+  ]
+}

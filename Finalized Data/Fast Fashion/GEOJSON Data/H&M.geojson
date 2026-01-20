@@ -1,0 +1,815 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7117439804532,
+          3.1467475500314577
+        ]
+      },
+      "properties": {
+        "Name": "Lot 10 ",
+        "Address": "C-17, UC-10, G-1, Lot 10 Shopping Mall 50 Jalan Sultan Ismail",
+        "Postcode": 55100,
+        "Coordinates": "3.1467475500314577, 101.7117439804532",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.46138793812369,
+          3.109209396875096
+        ]
+      },
+      "properties": {
+        "Name": "Setia City Mall ",
+        "Address": "UG-MM03, 04, Setia City Mall No. 7, Persiaran Setia Dagang, Shah Alam Seksyen U13",
+        "Postcode": 40170,
+        "Coordinates": "3.109209396875096, 101.46138793812369",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.59598432093536,
+          3.104572784869878
+        ]
+      },
+      "properties": {
+        "Name": "Paradigm Mall ",
+        "Address": "Unit UG-01, Paradigm Mall, Kelana Jaya No. 1 Jalan SS 7/26A",
+        "Postcode": 47301,
+        "Coordinates": "3.104572784869878, 101.59598432093536",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61563320928848,
+          3.149935649372518
+        ]
+      },
+      "properties": {
+        "Name": "One Utama ",
+        "Address": "G303, 1 Utama Shopping C., City Centre No. 1, Bandar Utama 1, Lebuh Bandar Utama",
+        "Postcode": 47800,
+        "Coordinates": "3.149935649372518, 101.61563320928848",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3109805209434,
+          5.435894089840329
+        ]
+      },
+      "properties": {
+        "Name": "Gurney Paragon ",
+        "Address": "L1-11 & 12 & 13, Gurney Paragon Mall 163-D, Persiaran Gurney",
+        "Postcode": 10250,
+        "Coordinates": "5.435894089840329, 100.3109805209434",
+        "State": "Pulau Pinang",
+        "District": "Pulau Pinang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71315008045318,
+          3.1595180601603285
+        ]
+      },
+      "properties": {
+        "Name": "Avenue K ",
+        "Address": "Lot C-17, UC-10, G-1 Avenue K Shopping Mall 156 Jalan Ampang",
+        "Postcode": 50450,
+        "Coordinates": "3.1595180601603285, 101.71315008045318",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.33119759395507,
+          5.414014056998162
+        ]
+      },
+      "properties": {
+        "Name": "First Avenue ",
+        "Address": "LG-32 to LG 56,LG-58,LG-59,LG-70,G-18 to G 23, 1st Avenue 182 Jalan Magazine, Penang.",
+        "Postcode": 10300,
+        "Coordinates": "5.414014056998162, 100.33119759395507",
+        "State": "Pulau Pinang",
+        "District": "Pulau Pinang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.60574086695901,
+          3.073248578446646
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Pyramid ",
+        "Address": "OB5.G.1, Oasis Boulevard, G. Floor, Sunway Pyramid S. M. No 3, Jalan PJS 11/15, Bandar Sunway",
+        "Postcode": 46150,
+        "Coordinates": "3.073248578446646, 101.60574086695901",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71375348045292,
+          2.9705339854205337
+        ]
+      },
+      "properties": {
+        "Name": "IOI City Mall ",
+        "Address": "G10 IOI City Mall",
+        "Postcode": 62502,
+        "Coordinates": "2.9705339854205337, 101.71375348045292",
+        "State": "Wp Putrajaya",
+        "District": "Putrajaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.65263070744135,
+          3.1656135211891123
+        ]
+      },
+      "properties": {
+        "Name": "1 Mont Kiara ",
+        "Address": "Unit G22, G23, G23B, 1 Mont Kiara No. 1, Jalan Kiara",
+        "Postcode": 50480,
+        "Coordinates": "3.1656135211891123, 101.65263070744135",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.25171726695861,
+          2.1895235018868475
+        ]
+      },
+      "properties": {
+        "Name": "Hatten Square ",
+        "Address": "No. G-008, Hatten Square Jalan Merdeka, Bandar Hilir",
+        "Postcode": 75000,
+        "Coordinates": "2.1895235018868475, 102.25171726695861",
+        "State": "Melaka",
+        "District": "Melaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.76299499394742,
+          1.4626635053418646
+        ]
+      },
+      "properties": {
+        "Name": "Johor Bahru City Square ",
+        "Address": "Lot M1-14 & M1-25 Johor Bahru City Square 106-108, Jalan Wong Ah Fook",
+        "Postcode": 80000,
+        "Coordinates": "1.4626635053418646, 103.76299499394742",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.35858163627665,
+          1.5356267981196268
+        ]
+      },
+      "properties": {
+        "Name": "The Spring ",
+        "Address": "G27 - R5A, The Spring Kuching Persiaran Spring",
+        "Postcode": 93300,
+        "Coordinates": "1.5356267981196268, 110.35858163627665",
+        "State": "Sarawak",
+        "District": "Kuching"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.68740659579434,
+          3.133876865478245
+        ]
+      },
+      "properties": {
+        "Name": "Nu Sentral ",
+        "Address": "Lot No. 23, Nu Sentral, No. 201, Brickfields Jalan Tun Sambathan",
+        "Postcode": 50470,
+        "Coordinates": "3.133876865478245, 101.68740659579434",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.06612129395837,
+          5.970218077564601
+        ]
+      },
+      "properties": {
+        "Name": "Imago Shopping Mall ",
+        "Address": "G66-68 Imago Shopping Mall KK Times Square , Phase II",
+        "Postcode": 88100,
+        "Coordinates": "5.970218077564601, 116.06612129395837",
+        "State": "Sabah",
+        "District": "Kota Kinabalu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.70015760744134,
+          3.159874572159528
+        ]
+      },
+      "properties": {
+        "Name": "Quill City Mall ",
+        "Address": "Lots G-13A & 1-13A,Quill City Mall No. 1018 Jalan Sultan Ismail",
+        "Postcode": 50250,
+        "Coordinates": "3.159874572159528, 101.70015760744134",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.36653914978291,
+          6.126246880333215
+        ]
+      },
+      "properties": {
+        "Name": "Aman Central ",
+        "Address": "Unit G -23 & 1-25 Lot PT 6480, Lebuhraya Darul Aman,",
+        "Postcode": 5100,
+        "Coordinates": "6.126246880333215, 100.36653914978291",
+        "State": "Kedah",
+        "District": "Alor Setar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72271349579441,
+          3.135038188540209
+        ]
+      },
+      "properties": {
+        "Name": "MyTOWN Shopping Centre ",
+        "Address": "Lot No,G-046 & L1-042, Ground Floor & Level 1,Mytown No. 6 Jalan Cochranne,Section 90",
+        "Postcode": 55100,
+        "Coordinates": "3.135038188540209, 101.72271349579441",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.12308592093963,
+          4.677650178031201
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Ipoh Klebang ",
+        "Address": "Lot G01, Aeon Mall Ipoh Klebang Jalan Kuala Kangsar",
+        "Postcode": 31200,
+        "Coordinates": "4.677650178031201, 101.12308592093963",
+        "State": "Perak",
+        "District": "Chemor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.34416134977067,
+          1.5585320460448535
+        ]
+      },
+      "properties": {
+        "Name": "Plaza Merdeka ",
+        "Address": "G-24 TO G-30, L1-37 TO L1-46, Plaza Merdeka S. C. 88, Pearl Street",
+        "Postcode": 93000,
+        "Coordinates": "1.5585320460448535, 110.34416134977067",
+        "State": "Sarawak",
+        "District": "Kuching"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.32080205161736,
+          2.039939738690352
+        ]
+      },
+      "properties": {
+        "Name": "Kluang Mall ",
+        "Address": "Lot G-18 & G-20A Kluang Mall Jalan Rambutan, Bandar Kluang",
+        "Postcode": 86000,
+        "Coordinates": "2.039939738690352, 103.32080205161736",
+        "State": "Johor",
+        "District": "Kluang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.54878730928834,
+          3.0771698711985835
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Shah Alam ",
+        "Address": "G29 & F25, AEON Shah Alam Jln Akuatik 13/64, Seksyen 13",
+        "Postcode": 40100,
+        "Coordinates": "3.0771698711985835, 101.54878730928834",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2306630669711,
+          6.110201183724672
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Kota Bharu ",
+        "Address": "G22, AEON Kota Bahru Kampung Sireh, Jalan Jambatan Sultan Yahya Petra",
+        "Postcode": 15050,
+        "Coordinates": "6.110201183724672, 102.2306630669711",
+        "State": "Kelantan",
+        "District": "Kota Bharu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72064416326488,
+          3.204802374106203
+        ]
+      },
+      "properties": {
+        "Name": "Setapak Central ",
+        "Address": "G51, G52, G55, G56 & F40, F40A, F41, F42, Setapak Central 67, Jalan Taman Ibu Kota, Taman Danau Kota",
+        "Postcode": 53300,
+        "Coordinates": "3.204802374106203, 101.72064416326488",
+        "State": "Wp Kuala Lumpur",
+        "District": "Setapak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.69249390928847,
+          3.1666565832742157
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Putra Mall ",
+        "Address": "Unit No 1-1, 1-42 & 1-43 100 Jalan Putra, Chow Kit",
+        "Postcode": 50350,
+        "Coordinates": "3.1666565832742157, 101.69249390928847",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.68517202278215,
+          2.7449197773561815
+        ]
+      },
+      "properties": {
+        "Name": "Gateway@KLIA2 ",
+        "Address": "L2-69 TO 71,77 TO 84, Gateway@KLIA2, Terminal KLIA2 Jalan KLIA 2/1",
+        "Postcode": 64000,
+        "Coordinates": "2.7449197773561815, 101.68517202278215",
+        "State": "Selangor",
+        "District": "KLIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.79590729394725,
+          1.5493369212975607
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Tebrau City ",
+        "Address": "Lot G105 AEON Mall Tebrau City1 1 Jalan Desa Tebrau",
+        "Postcode": 81100,
+        "Coordinates": "1.5493369212975607, 103.79590729394725",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.66287570928843,
+          3.1144459255701804
+        ]
+      },
+      "properties": {
+        "Name": "KL Gateway Mall ",
+        "Address": "Ground & Upper Ground,KL Gateway 2 Jalan Kerinchi, Kampung Kerinchi",
+        "Postcode": 59200,
+        "Coordinates": "3.1144459255701804, 101.66287570928843",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72450638045311,
+          3.1274934668555248
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Velocity ",
+        "Address": "V02-G-02 & 03, Lingkaran SV, Sunway Velocity",
+        "Postcode": 55100,
+        "Coordinates": "3.1274934668555248, 101.72450638045311",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.68565928230038,
+          1.5164593257664436
+        ]
+      },
+      "properties": {
+        "Name": "Paradigm Mall Johor Bahru ",
+        "Address": "GF-12, Paradigm Mall Johor Bahru Jalan Skudai",
+        "Postcode": 81200,
+        "Coordinates": "1.5164593257664436, 103.68565928230038",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.79210070559463,
+          3.424851222323278
+        ]
+      },
+      "properties": {
+        "Name": "Sky Avenue ",
+        "Address": "Lot 60, Level T2A / Lot 58 Level T2B, Sky Avenue Complex Genting Highlands Resort",
+        "Postcode": 69000,
+        "Coordinates": "3.424851222323278, 101.79210070559463",
+        "State": "Pahang",
+        "District": "Genting Highlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7344829209354,
+          1.563863018800322
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Bandar Dato' Onn ",
+        "Address": "Lot G43 , AEON Mall Kempas (Bandar Dato’ Onn) No.3, Jalan Dato’ Onn 3, Bandar Dato’ Onn",
+        "Postcode": 81100,
+        "Coordinates": "1.563863018800322, 103.7344829209354",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.99351938045628,
+          4.397468637889599
+        ]
+      },
+      "properties": {
+        "Name": "Bintang Megamall ",
+        "Address": "Lot G.16-18, Bintang Megamall Jalan Miri Pujut, Bintang Jaya",
+        "Postcode": 98000,
+        "Coordinates": "4.397468637889599, 113.99351938045628",
+        "State": "Sarawak",
+        "District": "Miri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0344844669592,
+          3.181339105935569
+        ]
+      },
+      "properties": {
+        "Name": "The Spring Bintulu ",
+        "Address": "G01, The Spring Bintulu Jalan Tun Abdul Razak",
+        "Postcode": 98000,
+        "Coordinates": "3.181339105935569, 113.0344844669592",
+        "State": "Sarawak",
+        "District": "Miri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61211603627663,
+          3.1562817365184865
+        ]
+      },
+      "properties": {
+        "Name": "IPC Damansara ",
+        "Address": "Lot G-01, IPC Shopping Centre No 2 No. 1 Jalan PJU 7/2",
+        "Postcode": 47800,
+        "Coordinates": "3.1562817365184865, 101.61211603627663",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73896203627652,
+          3.0933345873839238
+        ]
+      },
+      "properties": {
+        "Name": "EkoCheras Mall ",
+        "Address": "Lot  G59 and G60, Ekocheras Mall 5, Jln Cheras",
+        "Postcode": 56000,
+        "Coordinates": "3.0933345873839238, 101.73896203627652",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.92226966695867,
+          2.71988254901852
+        ]
+      },
+      "properties": {
+        "Name": "Palm Mall ",
+        "Address": "Lot UG-2, 3B, 9, 10A & 10B, Palm Mall Lebuhraya Seremban - Bukit Nenas",
+        "Postcode": 70200,
+        "Coordinates": "2.71988254901852, 101.92226966695867",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.79029429394687,
+          2.8179345716531294
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Nilai ",
+        "Address": "Lot No. G12, Ground Floor, AEON Mall Nilai Lot No. G12, Ground Floor, AEON Mall Nilai",
+        "Postcode": 71800,
+        "Coordinates": "2.8179345716531294, 101.79029429394687",
+        "State": "Negeri Sembilan",
+        "District": "Nilai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.46580876511169,
+          2.9578487315242654
+        ]
+      },
+      "properties": {
+        "Name": "KSL Klang",
+        "Address": "Bandar Bestari, Klang, Selangor 2, Jalan Langat KS9,",
+        "Postcode": 41200,
+        "Coordinates": "2.9578487315242654, 101.46580876511169",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5956377092885,
+          3.148925148473795
+        ]
+      },
+      "properties": {
+        "Name": "Tropicana Gardens Mall ",
+        "Address": "Lot G-16, Tropicana Gardens Mall No. 2A, Persiaran Surian",
+        "Postcode": 47810,
+        "Coordinates": "3.148925148473795, 101.5956377092885",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71846718045322,
+          3.1431589142645158
+        ]
+      },
+      "properties": {
+        "Name": "Tun Razak exchange ",
+        "Address": "50450 #C 18 & C 19, Lot 2005",
+        "Postcode": 50450,
+        "Coordinates": "3.1431589142645158, 101.71846718045322",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67197468745191,
+          3.050605279454197
+        ]
+      },
+      "properties": {
+        "Name": "Pavillion Bukit Jalil",
+        "Address": "Level 2 Lot 2.30.01C Bukit Jalil",
+        "Postcode": 57000,
+        "Coordinates": "3.050605279454197, 101.67197468745191",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73019155346509,
+          3.2250840981105617
+        ]
+      },
+      "properties": {
+        "Name": "KL East Mall ",
+        "Address": "G1-01, KL East Mall Jln Lingkaran Tengah 2, KL Timur",
+        "Postcode": 53100,
+        "Coordinates": "3.2250840981105617, 101.73019155346509",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67637802093542,
+          3.1162769784600073
+        ]
+      },
+      "properties": {
+        "Name": "Mid Valley MegaMall ",
+        "Address": "Mid Valley City, 59200 Kuala Lumpur G-071&072, Lingkaran Syed Putra,",
+        "Postcode": 59200,
+        "Coordinates": "3.1162769784600073, 101.67637802093542",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.30662982278994,
+          5.333561995198367
+        ]
+      },
+      "properties": {
+        "Name": "Queensbay Mall ",
+        "Address": "11900 GF95/93/93A/93B/92(B), 100, Persiaran Bayan Indah",
+        "Postcode": 11900,
+        "Coordinates": "5.333561995198367, 100.30662982278994",
+        "State": "Pulau Pinang",
+        "District": "Bayan Lepas"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1765 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Johor",
+        "District": "Batu Pahat",
+        "Population (k)": 510.4,
+        "Income per capita": 9006,
+        "Income": 4.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Johor",
+        "District": "Johor Bahru",
+        "Population (k)": 1800.0,
+        "Income per capita": 10975,
+        "Income": 19.76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Johor",
+        "District": "Kluang",
+        "Population (k)": 333.8,
+        "Income per capita": 6616,
+        "Income": 2.21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Johor",
+        "District": "Kota Tinggi",
+        "Population (k)": 233.8,
+        "Income per capita": 8106,
+        "Income": 1.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Johor",
+        "District": "Mersing",
+        "Population (k)": 81.1,
+        "Income per capita": 6014,
+        "Income": 0.49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Johor",
+        "District": "Muar",
+        "Population (k)": 323.3,
+        "Income per capita": 8401,
+        "Income": 2.72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Johor",
+        "District": "Pontian",
+        "Population (k)": 177.9,
+        "Income per capita": 7011,
+        "Income": 1.25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Johor",
+        "District": "Segamat",
+        "Population (k)": 205.1,
+        "Income per capita": 7348,
+        "Income": 1.51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Johor",
+        "District": "Kulai",
+        "Population (k)": 351.4,
+        "Income per capita": 10296,
+        "Income": 3.62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Johor",
+        "District": "Tangkak",
+        "Population (k)": 169.5,
+        "Income per capita": 7524,
+        "Income": 1.28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kedah",
+        "District": "Baling",
+        "Population (k)": 148.1,
+        "Income per capita": 4345,
+        "Income": 0.64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kedah",
+        "District": "Bandar Baharu",
+        "Population (k)": 45.6,
+        "Income per capita": 4835,
+        "Income": 0.22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kedah",
+        "District": "Kota Setar",
+        "Population (k)": 381.8,
+        "Income per capita": 6034,
+        "Income": 2.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kedah",
+        "District": "Kuala Muda",
+        "Population (k)": 571.4,
+        "Income per capita": 5729,
+        "Income": 3.27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kedah",
+        "District": "Kubang Pasu",
+        "Population (k)": 253.4,
+        "Income per capita": 6313,
+        "Income": 1.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kedah",
+        "District": "Kulim",
+        "Population (k)": 352.2,
+        "Income per capita": 6395,
+        "Income": 2.25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kedah",
+        "District": "Langkawi",
+        "Population (k)": 99.9,
+        "Income per capita": 6278,
+        "Income": 0.63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kedah",
+        "District": "Padang Terap",
+        "Population (k)": 67.7,
+        "Income per capita": 5062,
+        "Income": 0.34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kedah",
+        "District": "Sik",
+        "Population (k)": 70.2,
+        "Income per capita": 5107,
+        "Income": 0.36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kedah",
+        "District": "Yan",
+        "Population (k)": 74.7,
+        "Income per capita": 5272,
+        "Income": 0.39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kedah",
+        "District": "Pendang",
+        "Population (k)": 101.6,
+        "Income per capita": 5464,
+        "Income": 0.56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kelantan",
+        "District": "Bachok",
+        "Population (k)": 165.5,
+        "Income per capita": 5149,
+        "Income": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kelantan",
+        "District": "Kota Bharu",
+        "Population (k)": 583.8,
+        "Income per capita": 6180,
+        "Income": 3.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kelantan",
+        "District": "Machang",
+        "Population (k)": 116.7,
+        "Income per capita": 5237,
+        "Income": 0.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kelantan",
+        "District": "Pasir Mas",
+        "Population (k)": 240.6,
+        "Income per capita": 4975,
+        "Income": 1.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kelantan",
+        "District": "Pasir Puteh",
+        "Population (k)": 143.0,
+        "Income per capita": 5070,
+        "Income": 0.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kelantan",
+        "District": "Tanah Merah",
+        "Population (k)": 158.4,
+        "Income per capita": 4922,
+        "Income": 0.78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kelantan",
+        "District": "Tumpat",
+        "Population (k)": 189.1,
+        "Income per capita": 4991,
+        "Income": 0.94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kelantan",
+        "District": "Gua Musang",
+        "Population (k)": 110.5,
+        "Income per capita": 4684,
+        "Income": 0.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kelantan",
+        "District": "Kuala Krai",
+        "Population (k)": 111.8,
+        "Income per capita": 3872,
+        "Income": 0.43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kelantan",
+        "District": "Jeli",
+        "Population (k)": 57.8,
+        "Income per capita": 3829,
+        "Income": 0.22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Kelantan",
+        "District": "Kecil Lojing",
+        "Population (k)": 11.3,
+        "Income per capita": 3511,
+        "Income": 0.04
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Melaka",
+        "District": "Alor Gajah",
+        "Population (k)": 260.5,
+        "Income per capita": 7855,
+        "Income": 2.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Melaka",
+        "District": "Jasin",
+        "Population (k)": 156.4,
+        "Income per capita": 7755,
+        "Income": 1.21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Melaka",
+        "District": "Melaka Tengah",
+        "Population (k)": 630.1,
+        "Income per capita": 9232,
+        "Income": 5.82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Negeri Sembilan",
+        "District": "Jelebu",
+        "Population (k)": 48.7,
+        "Income per capita": 4664,
+        "Income": 0.23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Negeri Sembilan",
+        "District": "Kuala Pilah",
+        "Population (k)": 72.3,
+        "Income per capita": 4888,
+        "Income": 0.35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Negeri Sembilan",
+        "District": "Port Dickson",
+        "Population (k)": 135.2,
+        "Income per capita": 6280,
+        "Income": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Negeri Sembilan",
+        "District": "Rembau",
+        "Population (k)": 49.2,
+        "Income per capita": 5723,
+        "Income": 0.28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Negeri Sembilan",
+        "District": "Seremban",
+        "Population (k)": 712.7,
+        "Income per capita": 8395,
+        "Income": 5.98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Negeri Sembilan",
+        "District": "Tampin",
+        "Population (k)": 90.6,
+        "Income per capita": 5715,
+        "Income": 0.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Negeri Sembilan",
+        "District": "Jempol",
+        "Population (k)": 131.3,
+        "Income per capita": 5777,
+        "Income": 0.76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pahang",
+        "District": "Bentong",
+        "Population (k)": 121.2,
+        "Income per capita": 6278,
+        "Income": 0.76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pahang",
+        "District": "Cameron Highlands",
+        "Population (k)": 44.5,
+        "Income per capita": 6895,
+        "Income": 0.31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pahang",
+        "District": "Jerantut",
+        "Population (k)": 100.0,
+        "Income per capita": 5220,
+        "Income": 0.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pahang",
+        "District": "Kuantan",
+        "Population (k)": 571.3,
+        "Income per capita": 7008,
+        "Income": 4.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pahang",
+        "District": "Lipis",
+        "Population (k)": 102.2,
+        "Income per capita": 5276,
+        "Income": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pahang",
+        "District": "Pekan",
+        "Population (k)": 128.0,
+        "Income per capita": 5098,
+        "Income": 0.65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pahang",
+        "District": "Raub",
+        "Population (k)": 100.1,
+        "Income per capita": 5940,
+        "Income": 0.59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pahang",
+        "District": "Temerloh",
+        "Population (k)": 177.9,
+        "Income per capita": 5521,
+        "Income": 0.98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pahang",
+        "District": "Rompin",
+        "Population (k)": 102.9,
+        "Income per capita": 5429,
+        "Income": 0.56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pahang",
+        "District": "Maran",
+        "Population (k)": 119.1,
+        "Income per capita": 5088,
+        "Income": 0.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pahang",
+        "District": "Bera",
+        "Population (k)": 101.0,
+        "Income per capita": 4997,
+        "Income": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pulau Pinang",
+        "District": "Seberang Perai Tengah",
+        "Population (k)": 443.2,
+        "Income per capita": 8413,
+        "Income": 3.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pulau Pinang",
+        "District": "Seberang Perai Utama",
+        "Population (k)": 351.0,
+        "Income per capita": 8101,
+        "Income": 2.843451
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pulau Pinang",
+        "District": "Seberang Perai Selatan",
+        "Population (k)": 188.1,
+        "Income per capita": 8234,
+        "Income": 1.55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pulau Pinang",
+        "District": "Timur Laut",
+        "Population (k)": 569.9,
+        "Income per capita": 9993,
+        "Income": 5.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Pulau Pinang",
+        "District": "Barat Daya",
+        "Population (k)": 248.3,
+        "Income per capita": 10231,
+        "Income": 2.54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Perak",
+        "District": "Batang Padang",
+        "Population (k)": 126.7,
+        "Income per capita": 5433,
+        "Income": 0.69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Perak",
+        "District": "Manjung",
+        "Population (k)": 255.0,
+        "Income per capita": 6612,
+        "Income": 1.69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Perak",
+        "District": "Kinta",
+        "Population (k)": 923.3,
+        "Income per capita": 6758,
+        "Income": 6.24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Perak",
+        "District": "Kerian",
+        "Population (k)": 169.6,
+        "Income per capita": 5590,
+        "Income": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Perak",
+        "District": "Kuala Kangsar",
+        "Population (k)": 180.0,
+        "Income per capita": 5489,
+        "Income": 0.99
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Perak",
+        "District": "Larut Dan Matang",
+        "Population (k)": 278.2,
+        "Income per capita": 6024,
+        "Income": 1.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Perak",
+        "District": "Hilir Perak",
+        "Population (k)": 141.9,
+        "Income per capita": 5599,
+        "Income": 0.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Perak",
+        "District": "Hulu Perak",
+        "Population (k)": 98.3,
+        "Income per capita": 4980,
+        "Income": 0.49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Perak",
+        "District": "Perak Tengah",
+        "Population (k)": 98.7,
+        "Income per capita": 6027,
+        "Income": 0.59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Perak",
+        "District": "Kampar",
+        "Population (k)": 99.9,
+        "Income per capita": 5608,
+        "Income": 0.56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Perak",
+        "District": "Muallim",
+        "Population (k)": 79.3,
+        "Income per capita": 6229,
+        "Income": 0.49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Perak",
+        "District": "Bagan Datuk",
+        "Population (k)": 83.4,
+        "Income per capita": 5326,
+        "Income": 0.44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Perak",
+        "District": "Selama",
+        "Population (k)": 35.2,
+        "Income per capita": 5019,
+        "Income": 0.18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Selangor",
+        "District": "Gombak",
+        "Population (k)": 980.3,
+        "Income per capita": 14168,
+        "Income": 13.8888904
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Selangor",
+        "District": "Klang",
+        "Population (k)": 1174.9,
+        "Income per capita": 10912,
+        "Income": 12.8205088
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Selangor",
+        "District": "Kuala Langat",
+        "Population (k)": 326.3,
+        "Income per capita": 11714,
+        "Income": 3.8222782000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Selangor",
+        "District": "Kuala Selangor",
+        "Population (k)": 298.4,
+        "Income per capita": 10584,
+        "Income": 3.1582655999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Selangor",
+        "District": "Petaling",
+        "Population (k)": 2360.0,
+        "Income per capita": 14422,
+        "Income": 34.03592
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Selangor",
+        "District": "Sabak Bernam",
+        "Population (k)": 110.3,
+        "Income per capita": 8033,
+        "Income": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Selangor",
+        "District": "Sepang",
+        "Population (k)": 346.9,
+        "Income per capita": 15906,
+        "Income": 5.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Selangor",
+        "District": "Ulu Langat",
+        "Population (k)": 1508.1,
+        "Income per capita": 13822,
+        "Income": 20.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Selangor",
+        "District": "Ulu Selangor",
+        "Population (k)": 258.1,
+        "Income per capita": 9499,
+        "Income": 2.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Terengganu",
+        "District": "Besut",
+        "Population (k)": 165.4,
+        "Income per capita": 6747,
+        "Income": 1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Terengganu",
+        "District": "Dungun",
+        "Population (k)": 168.1,
+        "Income per capita": 8055,
+        "Income": 1.35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Terengganu",
+        "District": "Kemaman",
+        "Population (k)": 231.8,
+        "Income per capita": 8973,
+        "Income": 2.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Terengganu",
+        "District": "Kuala Terengganu",
+        "Population (k)": 245.4,
+        "Income per capita": 7279,
+        "Income": 2.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Terengganu",
+        "District": "Marang",
+        "Population (k)": 126.7,
+        "Income per capita": 6807,
+        "Income": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Terengganu",
+        "District": "Hulu Terengganu",
+        "Population (k)": 74.6,
+        "Income per capita": 6360,
+        "Income": 0.47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Terengganu",
+        "District": "Setiu",
+        "Population (k)": 64.3,
+        "Income per capita": 6359,
+        "Income": 0.41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Terengganu",
+        "District": "Kuala Nerus",
+        "Population (k)": 155.9,
+        "Income per capita": 8385,
+        "Income": 1.31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Beaufort",
+        "Population (k)": 77.6,
+        "Income per capita": 5048,
+        "Income": 0.39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Beluran",
+        "Population (k)": 90.0,
+        "Income per capita": 4993,
+        "Income": 0.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Kalabakan",
+        "Population (k)": 58.7,
+        "Income per capita": 4997,
+        "Income": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Keningau",
+        "Population (k)": 158.1,
+        "Income per capita": 6033,
+        "Income": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Kinabatangan",
+        "Population (k)": 164.2,
+        "Income per capita": 5632,
+        "Income": 0.92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Kota Belud",
+        "Population (k)": 110.9,
+        "Income per capita": 5007,
+        "Income": 0.56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Kota Kinabalu",
+        "Population (k)": 547.0,
+        "Income per capita": 8715,
+        "Income": 4.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Kota Marudu",
+        "Population (k)": 73.7,
+        "Income per capita": 4685,
+        "Income": 0.35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Kuala Penyu",
+        "Population (k)": 24.5,
+        "Income per capita": 4750,
+        "Income": 0.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Kudat",
+        "Population (k)": 93.2,
+        "Income per capita": 4571,
+        "Income": 0.43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Kunak",
+        "Population (k)": 79.6,
+        "Income per capita": 6608,
+        "Income": 0.53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Lahad Datu",
+        "Population (k)": 253.7,
+        "Income per capita": 6557,
+        "Income": 1.66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Nabawan",
+        "Population (k)": 30.7,
+        "Income per capita": 5146,
+        "Income": 0.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Papar",
+        "Population (k)": 156.3,
+        "Income per capita": 6038,
+        "Income": 0.94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Penampang",
+        "Population (k)": 167.6,
+        "Income per capita": 7550,
+        "Income": 1.27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Pitas",
+        "Population (k)": 38.5,
+        "Income per capita": 4121,
+        "Income": 0.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Putatan",
+        "Population (k)": 71.0,
+        "Income per capita": 7377,
+        "Income": 0.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Ranau",
+        "Population (k)": 88.7,
+        "Income per capita": 5330,
+        "Income": 0.47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Sandakan",
+        "Population (k)": 499.4,
+        "Income per capita": 6648,
+        "Income": 3.32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Semporna",
+        "Population (k)": 199.3,
+        "Income per capita": 5604,
+        "Income": 1.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Sipitang",
+        "Population (k)": 40.5,
+        "Income per capita": 5548,
+        "Income": 0.22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Tambunan",
+        "Population (k)": 33.3,
+        "Income per capita": 5361,
+        "Income": 0.18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Tawau",
+        "Population (k)": 413.6,
+        "Income per capita": 6751,
+        "Income": 2.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Telupid",
+        "Population (k)": 31.2,
+        "Income per capita": 4877,
+        "Income": 0.15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Tenom",
+        "Population (k)": 53.8,
+        "Income per capita": 5410,
+        "Income": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Tongod",
+        "Population (k)": 45.0,
+        "Income per capita": 4090,
+        "Income": 0.18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sabah",
+        "District": "Tuaran",
+        "Population (k)": 142.1,
+        "Income per capita": 5388,
+        "Income": 0.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Asajaya",
+        "Population (k)": 34.9,
+        "Income per capita": 5165,
+        "Income": 0.18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Bau",
+        "Population (k)": 53.9,
+        "Income per capita": 5843,
+        "Income": 0.31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Belaga",
+        "Population (k)": 22.5,
+        "Income per capita": 4903,
+        "Income": 0.11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Beluru",
+        "Population (k)": 26.8,
+        "Income per capita": 4927,
+        "Income": 0.13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Betong",
+        "Population (k)": 37.0,
+        "Income per capita": 4572,
+        "Income": 0.17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Bintulu",
+        "Population (k)": 188.9,
+        "Income per capita": 10480,
+        "Income": 1.98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Bukit Mabong",
+        "Population (k)": 10.6,
+        "Income per capita": 3783,
+        "Income": 0.04
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Dalat",
+        "Population (k)": 21.7,
+        "Income per capita": 5416,
+        "Income": 0.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Daro",
+        "Population (k)": 20.1,
+        "Income per capita": 4913,
+        "Income": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Julau",
+        "Population (k)": 15.6,
+        "Income per capita": 4363,
+        "Income": 0.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Kabong",
+        "Population (k)": 19.0,
+        "Income per capita": 4136,
+        "Income": 0.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Kanowit",
+        "Population (k)": 25.0,
+        "Income per capita": 4549,
+        "Income": 0.11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Kapit",
+        "Population (k)": 37.0,
+        "Income per capita": 4326,
+        "Income": 0.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Kuching",
+        "Population (k)": 625.3,
+        "Income per capita": 8237,
+        "Income": 5.15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Lawas",
+        "Population (k)": 38.1,
+        "Income per capita": 5050,
+        "Income": 0.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Limbang",
+        "Population (k)": 46.5,
+        "Income per capita": 5202,
+        "Income": 0.24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Lubok Antu",
+        "Population (k)": 24.6,
+        "Income per capita": 4820,
+        "Income": 0.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Lundu",
+        "Population (k)": 34.4,
+        "Income per capita": 5170,
+        "Income": 0.18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Maradong",
+        "Population (k)": 20.8,
+        "Income per capita": 4208,
+        "Income": 0.09
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Marudi",
+        "Population (k)": 18.4,
+        "Income per capita": 5430,
+        "Income": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Matu",
+        "Population (k)": 16.4,
+        "Income per capita": 4417,
+        "Income": 0.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Miri",
+        "Population (k)": 256.2,
+        "Income per capita": 8166,
+        "Income": 2.09
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Mukah",
+        "Population (k)": 42.5,
+        "Income per capita": 6373,
+        "Income": 0.27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Pakan",
+        "Population (k)": 15.7,
+        "Income per capita": 4473,
+        "Income": 0.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Pusa",
+        "Population (k)": 20.2,
+        "Income per capita": 4155,
+        "Income": 0.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Samarahan",
+        "Population (k)": 135.5,
+        "Income per capita": 7965,
+        "Income": 1.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Saratok",
+        "Population (k)": 23.5,
+        "Income per capita": 4796,
+        "Income": 0.11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Sarikei",
+        "Population (k)": 45.0,
+        "Income per capita": 5792,
+        "Income": 0.26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Sebauh",
+        "Population (k)": 31.4,
+        "Income per capita": 5726,
+        "Income": 0.18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Selangau",
+        "Population (k)": 20.5,
+        "Income per capita": 4688,
+        "Income": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Serian",
+        "Population (k)": 87.6,
+        "Income per capita": 5113,
+        "Income": 0.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Sibu",
+        "Population (k)": 255.3,
+        "Income per capita": 6842,
+        "Income": 1.75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Simunjan",
+        "Population (k)": 37.0,
+        "Income per capita": 4246,
+        "Income": 0.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Song",
+        "Population (k)": 10.3,
+        "Income per capita": 4077,
+        "Income": 0.04
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Sri Aman",
+        "Population (k)": 61.3,
+        "Income per capita": 5349,
+        "Income": 0.33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Subis",
+        "Population (k)": 55.4,
+        "Income per capita": 6475,
+        "Income": 0.36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Tanjung Manis",
+        "Population (k)": 7.9,
+        "Income per capita": 4457,
+        "Income": 0.04
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Tatau",
+        "Population (k)": 32.0,
+        "Income per capita": 5807,
+        "Income": 0.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Tebedu",
+        "Population (k)": 25.7,
+        "Income per capita": 3375,
+        "Income": 0.09
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Sarawak",
+        "District": "Telang Usan",
+        "Population (k)": 17.5,
+        "Income per capita": 4795,
+        "Income": 0.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "Perlis",
+        "District": "Perlis",
+        "Population (k)": 296.8,
+        "Income per capita": 5996,
+        "Income": 1.78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "W.P. Kuala Lumpur",
+        "District": "Wp Kuala Lumpur",
+        "Population (k)": 2067.5,
+        "Income per capita": 13985,
+        "Income": 28.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "W.P. Labuan",
+        "District": "Wp Labuan",
+        "Population (k)": 100.8,
+        "Income per capita": 8555,
+        "Income": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "State": "W.P. Putrajaya",
+        "District": "Wp Putrajaya",
+        "Population (k)": 120.3,
+        "Income per capita": 13846,
+        "Income": 1.67
+      }
+    }
+  ],
+  "metadata": {
+    "description": "District-level statistics for Malaysia",
+    "note": "This file contains no geometry data. Use with malaysia.district.geojson for spatial visualization.",
+    "columns": [
+      "State",
+      "District",
+      "Population (k)",
+      "Income per capita",
+      "Income"
+    ]
+  }
+}
