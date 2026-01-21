@@ -7,6 +7,9 @@ import os
 
 app = Flask(__name__)
 
+# Get the base directory - works for both local and Vercel
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -14,20 +17,20 @@ def index():
 @app.route('/data/<path:filename>')
 def serve_finalized_data(filename):
     """Serve files from Finalized Data directory"""
-    data_root = os.path.join('..', 'Finalized Data')
+    data_root = os.path.join(BASE_DIR, 'Finalized Data')
     return send_from_directory(data_root, filename)
 
 @app.route('/district-data/<path:filename>')
 def serve_district_data(filename):
     """Serve files from District Data directory"""
-    district_root = os.path.join('..', 'District Data')
+    district_root = os.path.join(BASE_DIR, 'District Data')
     return send_from_directory(district_root, filename)
 
 @app.route('/api/categories')
 def get_categories():
     """Return list of available categories"""
     try:
-        data_root = os.path.join('..', 'Finalized Data')
+        data_root = os.path.join(BASE_DIR, 'Finalized Data')
         categories = []
         
         if os.path.exists(data_root):
@@ -48,7 +51,7 @@ def get_categories():
 def get_category_files(category_name):
     """Return list of GeoJSON files for a category"""
     try:
-        geojson_path = os.path.join('..', 'Finalized Data', category_name, 'GEOJSON Data')
+        geojson_path = os.path.join(BASE_DIR, 'Finalized Data', category_name, 'GEOJSON Data')
         files = []
         
         if os.path.exists(geojson_path):

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "Visualization/app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/data/(.*)",
+      "dest": "Visualization/app.py"
+    },
+    {
+      "src": "/district-data/(.*)",
+      "dest": "Visualization/app.py"
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "Visualization/app.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "Visualization/app.py"
+    }
+  ]
+}
