@@ -58,9 +58,13 @@
                             <span class="stat-value" id="store-count">0</span>
                             <span class="stat-label">Total Stores</span>
                         </div>
+                        <div class="stat-card">
+                            <span class="stat-value" id="district-count">0</span>
+                            <span class="stat-label">Districts Covered</span>
+                        </div>
                         <div class="stat-card" id="dc-stat-card">
                             <span class="stat-value" id="dc-count">0</span>
-                            <span class="stat-label">DCs</span>
+                            <span class="stat-label">Number of DC's</span>
                         </div>
                     </div>
                 </div>
@@ -111,6 +115,7 @@
 
     <!-- Custom Scripts (load in order) -->
     <script src="{{ url_for('static', filename='js/config.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/analyticsUtils.js') }}"></script>
     <script src="{{ url_for('static', filename='js/dataLoader.js') }}"></script>
     <script src="{{ url_for('static', filename='js/mapLayers.js') }}"></script>
     <script src="{{ url_for('static', filename='js/tabPanels.js') }}"></script>

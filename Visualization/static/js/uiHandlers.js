@@ -5,9 +5,10 @@
 /**
  * Update summary statistics display
  */
-function updateSummaryStats(storeCount, dcCount) {
+function updateSummaryStats(storeCount, dcCount, districtCount) {
     document.getElementById('store-count').textContent = storeCount || 0;
     document.getElementById('dc-count').textContent = dcCount || 0;
+    document.getElementById('district-count').textContent = districtCount || 0;
 }
 
 /**
@@ -75,6 +76,13 @@ async function handleCategoryChange(e) {
 
     window.currentCategory = category;
     console.log('Category changed to:', category);
+    
+    // Reset filters when category changes
+    window.selectedBrand = 'All';
+    window.selectedState = 'All';
+    
+    // Clear district assignments cache
+    window.districtAssignmentsCache = null;
 
     // Update DC card visibility based on category
     updateDCVisibility(category);
@@ -90,10 +98,14 @@ async function handleCategoryChange(e) {
     updateStoreSource(stores);
     updateDCSource(dcs);
 
+    // Calculate populated districts
+    const populatedDistricts = countPopulatedDistricts(stores.features, window.districtData);
+
     // Update stats
     updateSummaryStats(
         stores.features.length,
-        dcs ? dcs.features.length : 0
+        dcs ? dcs.features.length : 0,
+        populatedDistricts
     );
     
     // Update brand legend
@@ -247,6 +259,32 @@ function initializeSidebarResize() {
 }
 
 /**
+ * Handle brand filter change in Stores tab
+ */
+function handleBrandFilterChange(e) {
+    window.selectedBrand = e.target.value;
+    console.log('Brand filter changed to:', window.selectedBrand);
+    
+    // Refresh Stores tab if active
+    if (document.getElementById('stores').classList.contains('active')) {
+        populateStoresPanel();
+    }
+}
+
+/**
+ * Handle state filter change in Stores tab
+ */
+function handleStateFilterChange(e) {
+    window.selectedState = e.target.value;
+    console.log('State filter changed to:', window.selectedState);
+    
+    // Refresh Stores tab if active
+    if (document.getElementById('stores').classList.contains('active')) {
+        populateStoresPanel();
+    }
+}
+
+/**
  * Initialize all UI event handlers
  */
 function initializeUIHandlers() {
@@ -271,6 +309,23 @@ function initializeUIHandlers() {
 
     // Initialize sidebar resize
     initializeSidebarResize();
+    
+    // Set up dynamic filter handlers (will be added when Stores tab is populated)
+    setupDynamicFilterHandlers();
 
     console.log('UI handlers initialized');
+}
+
+/**
+ * Setup dynamic filter handlers (brand and state filters in Stores tab)
+ */
+function setupDynamicFilterHandlers() {
+    // Use event delegation since filters are dynamically created
+    document.addEventListener('change', function(e) {
+        if (e.target && e.target.id === 'brand-filter') {
+            handleBrandFilterChange(e);
+        } else if (e.target && e.target.id === 'state-filter') {
+            handleStateFilterChange(e);
+        }
+    });
 }

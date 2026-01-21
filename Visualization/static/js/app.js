@@ -23,6 +23,9 @@ window.currentViewMode = 'cluster';
 window.districtData = null;
 window.storeData = null;
 window.dcData = null;
+window.selectedBrand = 'All';
+window.selectedState = 'All';
+window.districtAssignmentsCache = null; // Cache for spatial district assignments
 
 /**
  * Hide unnecessary base map layers (roads, water, parks, etc.)

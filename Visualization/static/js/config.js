@@ -91,17 +91,16 @@ const BRAND_COLORS = {
     'HLA': '#002F6C',
     
     // Department Stores
-    'Parkson': '#9C27B0',
-    'Parkson Aeon': '#9C27B0',
-    'Aeon': '#A0008E',
+    'Parkson': '#8E44AD', // Deep Purple (distinct from Aeon's magenta)
+    'Aeon': '#A0008E', // Magenta
     'AEON': '#A0008E',
     
-    // Gold Shops
-    'Tomei': '#D4AF37',
-    'Poh Kong': '#C49B3C',
-    'Habib Jewels': '#B8860B',
-    'Habib': '#B8860B',
-    'Wah Chan': '#A67C00',
+    // Gold Shops - Distinct colors from different families
+    'Tomei': '#FF6B6B', // Coral Red
+    'Poh Kong': '#4ECDC4', // Turquoise
+    'Habib Jewels': '#9B59B6', // Purple
+    'Habib': '#9B59B6',
+    'Wah Chan': '#F39C12', // Orange
     
     // Special Markers
     'Distribution Center': '#2196F3',

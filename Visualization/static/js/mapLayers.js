@@ -175,18 +175,21 @@ function initializeStoreLayers() {
         source: 'stores',
         filter: ['has', 'point_count'],
         layout: {
-            'text-field': ['get', 'point_count_abbreviated'],
+            'text-field': ['to-string', ['get', 'point_count']], // Use full count, not abbreviated
             'text-font': ['DIN Offc Pro Bold', 'Arial Unicode MS Bold'],
-            'text-size': 16,
+            'text-size': 18, // Increased from 16
             'text-anchor': 'center',
+            'text-offset': [0, 0], // Explicitly center
             'text-allow-overlap': true,
             'text-ignore-placement': true,
-            'symbol-sort-key': 999
+            'symbol-sort-key': 999,
+            'text-optional': false // Ensure text always renders
         },
         paint: {
             'text-color': '#ffffff',
-            'text-halo-color': 'rgba(0, 0, 0, 0.5)',
-            'text-halo-width': 1
+            'text-halo-color': 'rgba(0, 0, 0, 0.8)', // Stronger halo from 0.5
+            'text-halo-width': 2, // Increased from 1
+            'text-halo-blur': 1 // Add blur for better readability
         }
     });
 
