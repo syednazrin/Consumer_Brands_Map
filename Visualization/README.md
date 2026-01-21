@@ -1,249 +1,228 @@
-# Mapbox Store & District Visualization System
+# Store & District Analytics - Mapbox Visualization
 
-An interactive web-based visualization system for exploring retail store locations, distribution centers, and district-level statistics across Malaysia.
+A modular, interactive Mapbox-based visualization system for exploring store locations, distribution centers, and district-level metrics across Malaysia.
 
-## Features
+## 🚀 Quick Start
 
-- **Dynamic Category Selection**: Choose from 8 retail categories (99 SpeedMart, Convenience Stores, Department Stores, Eco Shop, Fast Fashion, Food and Beverages, Gold Shops, MR DIY + MR TOY)
-- **Distribution Centers**: Automatically displays distribution centers (3× larger markers) for applicable categories
-- **Multiple View Modes**:
-  - **Cluster Mode**: Stores grouped by proximity for better performance
-  - **Individual Mode**: Each store shown as separate marker
-  - **None Mode**: Only district choropleth visible with hover interactions
-- **Choropleth Overlay**: District-level metrics with dynamic color gradient (Green → Yellow → Orange → Red)
-- **Interactive Map**: Click markers for details, hover districts in None mode
-- **Collapsible Side Panel**: Clean, modern UI with resizable sidebar
+1. **Start the server:**
+   ```bash
+   cd "D:\Ambank Project\Consumer_Brands_Map\Visualization"
+   python app.py
+   ```
 
-## Technology Stack
+2. **Open your browser:**
+   ```
+   http://localhost:5001
+   ```
 
-- **Mapbox GL JS v2.15.0**: Interactive mapping
-- **Turf.js**: Geospatial analysis
-- **D3.js**: Color scales and data visualization
-- **Flask**: Backend server for data serving
-- **GeoJSON**: Standardized spatial data format
+3. **Use the visualization:**
+   - Select a category from the dropdown (e.g., "99 SpeedMart")
+   - View stores on the map (clusters or individual markers)
+   - Change choropleth metrics (Population, Income per capita, Total Income)
+   - Switch between Overview, Stores, and Analytics tabs
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 Visualization/
-├── index.html          # Main application (single-page)
-├── app.py             # Flask server
-└── README.md          # This file
-
-Data Sources:
-├── Finalized Data/    # Store GeoJSON files by category
-│   ├── [Category]/
-│   │   ├── GEOJSON Data/
-│   │   │   └── *.geojson
-│   │   └── DC/         # Distribution centers (99 SpeedMart, Food & Beverages, MR DIY + MR TOY only)
-│   │       └── *.json
-│
-└── District Data/     # District boundaries and statistics
-    ├── malaysia.district.geojson
-    └── District Statistics.geojson
+├── templates/
+│   ├── index.html              # Main HTML template
+│   └── index_backup.html       # Original monolithic file (backup)
+├── static/
+│   ├── css/
+│   │   └── styles.css          # All styling
+│   └── js/
+│       ├── config.js           # Configuration and constants
+│       ├── dataLoader.js       # Data loading functions
+│       ├── mapLayers.js        # Map layer management
+│       ├── uiHandlers.js       # UI event handlers
+│       ├── tabPanels.js        # Tab panel population
+│       ├── mapInteractions.js  # Map click/hover handlers
+│       └── app.js              # Main application initialization
+├── app.py                      # Flask web server
+└── README.md                   # This file
 ```
 
-## Installation & Setup
+## ✨ Features
 
-### Prerequisites
+### Map Visualization
+- **Choropleth Layer**: District-level metrics with gradient coloring (green → yellow → orange → red)
+- **Store Markers**: Clustered or individual display with counts
+- **Distribution Centers**: Special markers for DC locations (category-specific)
+- **Clean Base Map**: Roads, water, and parks hidden for clarity
 
-- Python 3.7+
-- Flask
+### Interactive Controls
+- **Category Selector**: Choose from 8 retail categories
+- **Metric Selector**: Switch between Population, Income per capita, Total Income
+- **Display Modes**:
+  - **Cluster**: Group nearby stores with counts
+  - **Individual**: Show each store separately
+  - **None**: Hide stores, show only choropleth
 
-### Install Dependencies
+### Information Panels
+- **Overview Tab**: Summary statistics and key metrics
+- **Stores Tab**: Searchable list of all stores (click to fly to location)
+- **Analytics Tab**: Chart.js visualizations (bar chart + doughnut chart)
 
+### Map Interactions
+- **District Click** (in None mode): View all metrics for a district
+- **Store Click**: View store details
+- **DC Click**: View distribution center information
+- **Cluster Click**: Zoom in to expand cluster
+
+## 🎨 Available Categories
+
+1. 99 SpeedMart (with DCs)
+2. Convenience Stores (711, Family Mart, KK Mart, MyNews)
+3. Department Stores (Aeon, Parkson)
+4. Eco Shop
+5. Fast Fashion (H&M, HLA, Padini, Uniqlo)
+6. Food and Beverages (with DCs)
+7. Gold Shops (Habib, Poh Kong, Tomei, Wah Chan)
+8. MR DIY + MR TOY (with DCs)
+
+## 📊 District Metrics
+
+- **Population (k)**: Population in thousands
+- **Income per capita**: Average income per person (RM)
+- **Income**: Total income in billions (RM)
+
+## 🔧 Technical Details
+
+### Technologies
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Mapping**: Mapbox GL JS v2.15.0
+- **Charts**: Chart.js
+- **Backend**: Flask (Python)
+- **Data Format**: GeoJSON
+
+### Module Responsibilities
+
+| Module | Purpose |
+|--------|---------|
+| `config.js` | Configuration, constants, file mappings |
+| `dataLoader.js` | Load store, DC, and district data |
+| `mapLayers.js` | Manage map layers and hierarchy |
+| `uiHandlers.js` | Handle UI events (selectors, buttons) |
+| `tabPanels.js` | Populate Overview/Stores/Analytics tabs |
+| `mapInteractions.js` | Handle map clicks and hovers |
+| `app.js` | Initialize and orchestrate all modules |
+| `styles.css` | All visual styling |
+
+### Global State Variables
+
+```javascript
+window.map                 // Mapbox instance
+window.currentCategory     // Selected category
+window.currentMetric       // Selected choropleth metric
+window.currentViewMode     // Display mode (cluster/individual/none)
+window.districtData        // District GeoJSON data
+window.storeData           // Store GeoJSON data
+window.dcData              // DC GeoJSON data
+```
+
+### Layer Hierarchy (Bottom to Top)
+
+1. District fills (choropleth - BOTTOM)
+2. District borders
+3. DC markers
+4. Store clusters
+5. Store cluster counts
+6. Store points
+7. Store individual markers (TOP)
+
+## 🐛 Troubleshooting
+
+### Server won't start
 ```bash
+# Check if Python is installed
+python --version
+
+# Check if port 5001 is available
+netstat -ano | findstr :5001
+
+# Install Flask if missing
 pip install flask
 ```
 
-### Run the Application
+### Categories not loading
+- Hard refresh browser (Ctrl+Shift+R)
+- Check browser console for errors (F12)
+- Verify data files exist in `../Finalized Data/`
+
+### Map not displaying
+- Check Mapbox access token in `config.js`
+- Verify internet connection (Mapbox requires online access)
+- Check browser console for errors
+
+### Stores not appearing
+- Verify GeoJSON files exist for the category
+- Check browser console for fetch errors
+- Ensure layer hierarchy is correct
+
+## 📝 Development Guide
+
+### Adding a New Category
+
+1. Add Excel files to `../Finalized Data/[Category Name]/`
+2. Run conversion script:
+   ```bash
+   python "../Finalized Data/Additional Scripts/excel_to_geojson.py"
+   ```
+3. Add category to `CATEGORIES` array in `config.js`
+4. Add file mapping to `CATEGORY_FILE_MAP` in `config.js`
+5. If category has DCs, add to `DC_CATEGORIES` and `DC_FILE_PATHS`
+
+### Modifying Styles
+
+Edit `static/css/styles.css`:
+- Sidebar styling starts at line ~35
+- Map controls at line ~175
+- Legend styling at line ~263
+
+### Adding New Map Interactions
+
+Edit `static/js/mapInteractions.js`:
+1. Create handler function (e.g., `handleNewClick`)
+2. Add event listener in `initializeMapInteractions()`
+
+### Debugging
+
+Enable verbose console logging:
+```javascript
+// All modules already have console.log() statements
+// Check browser console (F12) for detailed logs
+```
+
+## 📚 Documentation Files
+
+- **REFACTORING_GUIDE.md** - Overview of refactoring process
+- **REFACTORING_COMPLETE.md** - Detailed module documentation
+- **REFACTORING_SUCCESS.md** - Test results and success summary
+- **TROUBLESHOOTING.md** - Common issues and solutions
+
+## 🔄 Rollback to Original
+
+If you need to revert to the monolithic version:
 
 ```bash
-cd "D:\Ambank Project\Consumer_Brands_Map\Visualization"
-python app.py
+cd templates
+copy index_backup.html index.html
 ```
 
-The server will start on http://localhost:5001
+## 📄 License
 
-Open your browser and navigate to the URL to access the visualization.
+Internal project for Ambank.
 
-## Usage Guide
+## 🙋 Support
 
-### 1. Select a Category
+For issues or questions, check:
+1. Browser console (F12) for errors
+2. Flask server logs in terminal
+3. Documentation files (MD files in this directory)
 
-Use the **"Select Category"** dropdown to choose a retail category. The map will automatically:
-- Load all store locations for that category
-- Display distribution centers if available
-- Update the store count statistics
-- Zoom to fit all locations
+---
 
-### 2. Choose Display Mode
-
-**Cluster Mode** (Default):
-- Stores grouped by proximity
-- Numbers indicate cluster size
-- Click clusters to zoom in
-- Best for overview of dense areas
-
-**Individual Mode**:
-- Every store shown separately
-- Click markers for store details
-- Better for detailed exploration
-- Distribution centers remain visible
-
-**None Mode**:
-- All markers hidden
-- Only district choropleth visible
-- Hover over districts to see statistics
-- Best for district-level analysis
-
-### 3. Change District Metric
-
-Use the **"District Metric"** dropdown to visualize different statistics:
-- **Population (thousands)**: District population
-- **Income per Capita**: Average income per person
-- **Total Income**: Total district income in billions RM
-
-The choropleth colors update immediately using the gradient:
-- 🟢 Green: Low values
-- 🟡 Yellow: Medium-low values
-- 🟠 Orange: Medium-high values
-- 🔴 Red: High values
-
-### 4. Interactive Features
-
-**Store Markers**:
-- Click any store marker to view details (Name, Address, District, State)
-- In Cluster mode, click clusters to zoom and expand
-
-**Distribution Centers** (Blue markers, 3× larger):
-- Automatically shown for 99 SpeedMart, Food and Beverages, MR DIY + MR TOY
-- Click for DC details (Code, Name, Address, State)
-- Never clustered, always visible in Cluster and Individual modes
-
-**Districts** (None mode only):
-- Hover over districts to see popup with statistics
-- Choropleth colors represent selected metric intensity
-
-## Technical Implementation
-
-### Layer Hierarchy (Critical Order)
-
-The system maintains strict layer ordering to ensure correct visual stacking:
-
-```
-TOP (drawn last, appears on top)
-  ↓ Store Markers/Clusters
-  ↓ DC Markers (3× size, blue)
-  ↓ District Borders (lines)
-  ↓ Choropleth Fill (colored polygons)
-BOTTOM (drawn first, appears below)
-```
-
-This order is enforced after every layer operation using `enforceLayerHierarchy()`.
-
-### Data Loading
-
-**Store Data**:
-- Loaded from `Finalized Data/{category}/GEOJSON Data/*.geojson`
-- Merged into single FeatureCollection
-- Coordinates in [longitude, latitude] format
-
-**Distribution Centers**:
-- Loaded from `Finalized Data/{category}/DC/*.json`
-- Converted from custom JSON format to GeoJSON
-- GPS coordinates parsed from "lat, lon" strings
-- Tagged with `type: "distribution_center"` property
-
-**District Data**:
-- Geometry from `malaysia.district.geojson`
-- Statistics from `District Statistics.geojson`
-- Joined by State + District name matching
-
-### Choropleth Color Calculation
-
-Uses Mapbox GL expressions with linear interpolation:
-
-```javascript
-[
-    'interpolate',
-    ['linear'],
-    ['get', metric],
-    min, '#4ade80',              // Green
-    min + (max - min) * 0.33, '#facc15',   // Yellow
-    min + (max - min) * 0.66, '#fb923c',   // Orange
-    max, '#ef4444'               // Red
-]
-```
-
-## API Endpoints
-
-The Flask server provides:
-
-- `GET /`: Main application page
-- `GET /api/categories`: List of available categories
-- `GET /api/category/<name>/files`: GeoJSON files for category
-- `GET /data/<path>`: Static file serving from Finalized Data
-- `GET /district-data/<path>`: Static file serving from District Data
-
-## Mapbox Configuration
-
-**Access Token**: Embedded in index.html (reused from Template)
-- Token: `pk.eyJ1IjoibXNoYW1pIiwiYSI6ImNtMGljY28zMzBqZGsycXF4MGppdmE0bWUifQ.nWArfpCw78mToZi2cN-e8w`
-- Map Style: `mapbox://styles/mapbox/light-v11`
-- Center: `[101.6869, 3.1390]` (Malaysia)
-- Default Zoom: 6
-
-## Browser Compatibility
-
-- Chrome/Edge (Recommended)
-- Firefox
-- Safari
-
-Requires modern browser with ES6+ support and WebGL for Mapbox rendering.
-
-## Troubleshooting
-
-**Map not loading?**
-- Check console for errors
-- Verify Mapbox token is valid
-- Ensure internet connection (Mapbox requires online access)
-
-**Data not appearing?**
-- Check file paths in browser Network tab
-- Verify GeoJSON files exist in correct directories
-- Check Flask server console for errors
-
-**Layer ordering issues?**
-- The system automatically enforces hierarchy
-- Check console for `enforceLayerHierarchy()` calls
-- Refresh page to reset layer order
-
-## Performance Notes
-
-- Cluster mode provides best performance for categories with many stores (1000+)
-- Individual mode recommended for categories with < 500 stores
-- District choropleth updates instantly when changing metrics
-- GeoJSON files cached by browser for faster subsequent loads
-
-## Future Enhancements
-
-Potential improvements:
-- Search functionality for specific stores
-- Export data to CSV/Excel
-- Print/screenshot capabilities
-- Custom color schemes
-- Advanced filtering (by district, state, etc.)
-- Heatmap visualization option
-- Route planning between stores
-
-## Credits
-
-- **Mapbox GL JS**: Interactive mapping library
-- **Turf.js**: Geospatial analysis
-- **D3.js**: Data visualization
-- **Flask**: Python web framework
-
-## License
-
-Internal use only for Ambank Consumer Brands Map project.
+**Version**: 2.0 (Refactored)  
+**Last Updated**: January 20, 2026  
+**Status**: ✅ Production Ready
