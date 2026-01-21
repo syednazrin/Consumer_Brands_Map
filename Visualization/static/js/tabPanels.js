@@ -48,11 +48,16 @@ function populateOverviewPanel() {
         const maxStores = Math.max(...dcCatchment.map(dc => dc.storesServed));
         const minStores = Math.min(...dcCatchment.map(dc => dc.storesServed));
         
+        // Calculate DC reach (average of longest distances from each DC)
+        const dcReachData = calculateDCReach(stores, window.dcData.features);
+        
         dcAnalytics = {
             count: window.dcData.features.length,
             avgStoresPerDC: avgStoresPerDC.toFixed(1),
             maxStores,
             minStores,
+            reach: dcReachData.reach,
+            dcReaches: dcReachData.dcReaches,
             catchment: dcCatchment
         };
     }
@@ -113,10 +118,16 @@ function populateOverviewPanel() {
                     <span style="color: #666; font-size: 0.85em;">Geographic coverage:</span>
                     <span style="font-weight: 600; font-size: 0.85em;">${coveragePercent}%</span>
                 </div>
-                <div style="display: flex; justify-content: space-between; padding: 8px 0;">
+                <div style="display: flex; justify-content: space-between; padding: 8px 0; ${dcAnalytics ? 'border-bottom: 1px solid #f0f0f0;' : ''}">
                     <span style="color: #666; font-size: 0.85em;">Top 3 states concentration:</span>
                     <span style="font-weight: 600; font-size: 0.85em;">${concentrationPercent}%</span>
                 </div>
+                ${dcAnalytics && dcAnalytics.reach > 0 ? `
+                <div style="display: flex; justify-content: space-between; padding: 8px 0;">
+                    <span style="color: #666; font-size: 0.85em;">DC Reach:</span>
+                    <span style="font-weight: 600; font-size: 0.85em; color: #2196F3;">${dcAnalytics.reach.toFixed(1)} km</span>
+                </div>
+                ` : ''}
             </div>
             
             <!-- Store Distribution by State Chart -->
@@ -151,6 +162,13 @@ function populateOverviewPanel() {
                         <div style="font-size: 0.75em; color: #666; margin-top: 4px;">Min Served</div>
                     </div>
                 </div>
+                ${dcAnalytics.reach > 0 ? `
+                <div style="background: #e3f2fd; padding: 12px; border-radius: 6px; margin-bottom: 16px; border-left: 4px solid #2196F3;">
+                    <div style="font-size: 0.85em; color: #666; margin-bottom: 4px;">Average DC Reach</div>
+                    <div style="font-size: 1.8em; font-weight: 700; color: #2196F3;">${dcAnalytics.reach.toFixed(1)} km</div>
+                    <div style="font-size: 0.75em; color: #666; margin-top: 4px;">This is the average reach of this brand's DCs</div>
+                </div>
+                ` : ''}
                 <canvas id="overview-dc-chart" style="max-height: 200px;"></canvas>
             </div>
             ` : ''}

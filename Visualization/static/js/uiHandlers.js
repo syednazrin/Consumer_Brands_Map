@@ -65,6 +65,27 @@ function updateDCVisibility(category) {
     if (dcCard) {
         dcCard.style.display = hasDC ? 'block' : 'none';
     }
+    
+    // Show/hide sonar mode button and adjust grid layout
+    const sonarButton = document.querySelector('.mode-btn[data-mode="sonar"]');
+    const modeButtons = document.querySelector('.mode-buttons');
+    if (sonarButton && modeButtons) {
+        if (hasDC) {
+            sonarButton.style.display = 'block';
+            modeButtons.style.gridTemplateColumns = 'repeat(4, 1fr)';
+        } else {
+            sonarButton.style.display = 'none';
+            modeButtons.style.gridTemplateColumns = 'repeat(3, 1fr)';
+        }
+    }
+    
+    // If category doesn't have DCs and sonar mode is active, switch to cluster mode
+    if (!hasDC && window.currentViewMode === 'sonar') {
+        const clusterButton = document.querySelector('.mode-btn[data-mode="cluster"]');
+        if (clusterButton) {
+            clusterButton.click();
+        }
+    }
 }
 
 /**
@@ -94,9 +115,19 @@ async function handleCategoryChange(e) {
     const hasDC = DC_CATEGORIES.includes(category);
     const dcs = hasDC ? await loadDistributionCenters(category) : null;
 
+    // Initialize sonar layers if category has DCs
+    if (hasDC && window.map && !window.map.getSource('dc-sonar-circles')) {
+        initializeSonarLayers();
+    }
+
     // Update map sources
     updateStoreSource(stores);
     updateDCSource(dcs);
+    
+    // Update sonar circles if in sonar mode
+    if (window.currentViewMode === 'sonar' && hasDC) {
+        updateSonarCircles();
+    }
 
     // Calculate populated districts
     const populatedDistricts = countPopulatedDistricts(stores.features, window.districtData);
@@ -145,6 +176,11 @@ function handleModeChange(e) {
     document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
     e.target.classList.add('active');
 
+    // Initialize sonar layers if needed
+    if (mode === 'sonar' && window.map && !window.map.getSource('dc-sonar-circles')) {
+        initializeSonarLayers();
+    }
+
     // Update layer visibility based on mode
     if (mode === 'cluster') {
         if (window.storeData) {
@@ -157,6 +193,7 @@ function handleModeChange(e) {
         setLayerVisibility('store-points', true);
         setLayerVisibility('store-markers-individual', false);
         if (window.dcData) setLayerVisibility('dc-markers', true);
+        setSonarVisibility(false);
     } else if (mode === 'individual') {
         if (window.storeData) {
             if (window.map.getSource('stores-individual')) {
@@ -168,12 +205,29 @@ function handleModeChange(e) {
         setLayerVisibility('store-points', false);
         setLayerVisibility('store-markers-individual', true);
         if (window.dcData) setLayerVisibility('dc-markers', true);
+        setSonarVisibility(false);
+    } else if (mode === 'sonar') {
+        // Sonar mode: show stores in cluster mode and animated DC reach circles
+        if (window.storeData) {
+            if (window.map.getSource('stores')) {
+                window.map.getSource('stores').setData(window.storeData);
+            }
+        }
+        setLayerVisibility('store-clusters', true);
+        setLayerVisibility('store-cluster-count', true);
+        setLayerVisibility('store-points', true);
+        setLayerVisibility('store-markers-individual', false);
+        if (window.dcData) setLayerVisibility('dc-markers', true);
+        // Update sonar circles before showing them
+        updateSonarCircles();
+        setSonarVisibility(true);
     } else { // none
         setLayerVisibility('store-clusters', false);
         setLayerVisibility('store-cluster-count', false);
         setLayerVisibility('store-points', false);
         setLayerVisibility('store-markers-individual', false);
         setLayerVisibility('dc-markers', false);
+        setSonarVisibility(false);
     }
 
     enforceLayerHierarchy();

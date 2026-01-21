@@ -99,6 +99,7 @@ async function initializeApp() {
     initializeDistrictLayers();
     initializeStoreLayers();
     initializeDCLayers();
+    initializeSonarLayers();
 
     // Enforce layer hierarchy
     console.log('Initial hierarchy enforcement');

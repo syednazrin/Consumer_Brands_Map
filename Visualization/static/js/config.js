@@ -141,6 +141,7 @@ function getBrandColor(brandName) {
 const LAYER_ORDER = [
     'district-fills',
     'district-borders',
+    'dc-sonar-circles',
     'dc-markers',
     'store-clusters',
     'store-cluster-count',

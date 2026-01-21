@@ -47,6 +47,20 @@ function enforceLayerHierarchy() {
         }
     }
 
+    // Ensure sonar circles are above districts but below markers
+    if (window.map.getLayer('dc-sonar-circles')) {
+        try {
+            // Place sonar circles after district layers but before store layers
+            if (window.map.getLayer('district-borders')) {
+                window.map.moveLayer('dc-sonar-circles', 'district-borders');
+            } else if (window.map.getLayer('district-fills')) {
+                window.map.moveLayer('dc-sonar-circles', 'district-fills');
+            }
+        } catch (err) {
+            console.warn('Could not position sonar circles:', err);
+        }
+    }
+
     // DOUBLE CHECK: Ensure store layers are absolutely on top
     const storeLayers = ['store-markers-individual', 'store-points', 'store-cluster-count', 'store-clusters', 'dc-markers'];
     storeLayers.forEach(layerId => {
@@ -168,30 +182,40 @@ function initializeStoreLayers() {
         console.log('Added store-clusters layer');
     }
 
-    // Add cluster count layer
+    // Add cluster count layer (always centered, always visible, no collision)
     window.map.addLayer({
         id: 'store-cluster-count',
         type: 'symbol',
         source: 'stores',
         filter: ['has', 'point_count'],
         layout: {
-            'text-field': ['to-string', ['get', 'point_count']], // Use full count, not abbreviated
-            'text-font': ['DIN Offc Pro Bold', 'Arial Unicode MS Bold'],
-            'text-size': 18, // Increased from 16
+            'text-field': ['get', 'point_count_abbreviated'], // show count inside circle
+            'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+            'text-size': 16,
             'text-anchor': 'center',
-            'text-offset': [0, 0], // Explicitly center
+            'text-offset': [0, 0],
+            'text-justify': 'center',
             'text-allow-overlap': true,
             'text-ignore-placement': true,
-            'symbol-sort-key': 999,
-            'text-optional': false // Ensure text always renders
+            'text-optional': false,
+            'symbol-sort-key': 999 // render above clusters
         },
         paint: {
             'text-color': '#ffffff',
-            'text-halo-color': 'rgba(0, 0, 0, 0.8)', // Stronger halo from 0.5
-            'text-halo-width': 2, // Increased from 1
-            'text-halo-blur': 1 // Add blur for better readability
+            'text-halo-color': 'rgba(0, 0, 0, 0.8)',
+            'text-halo-width': 2,
+            'text-halo-blur': 1
         }
     });
+
+    // Ensure cluster counts render above cluster circles
+    try {
+        if (window.map.getLayer('store-clusters') && window.map.getLayer('store-cluster-count')) {
+            window.map.moveLayer('store-cluster-count');
+        }
+    } catch (err) {
+        console.warn('Could not move store-cluster-count above store-clusters:', err);
+    }
 
     // Add unclustered point layer with brand colors
     if (!window.map.getLayer('store-points')) {
@@ -395,4 +419,194 @@ function updateDCSource(geojson) {
 
     console.log('Enforcing hierarchy after DC update');
     enforceLayerHierarchy();
+}
+
+/**
+ * Initialize sonar circle layers for DC reach visualization
+ */
+function initializeSonarLayers() {
+    // Create source for sonar circles
+    if (!window.map.getSource('dc-sonar-circles')) {
+        window.map.addSource('dc-sonar-circles', {
+            type: 'geojson',
+            data: { type: 'FeatureCollection', features: [] }
+        });
+    }
+
+    // Create sonar circle layer (animated pulsing circles)
+    if (!window.map.getLayer('dc-sonar-circles')) {
+        window.map.addLayer({
+            id: 'dc-sonar-circles',
+            type: 'circle',
+            source: 'dc-sonar-circles',
+            paint: {
+                'circle-color': '#2196F3',
+                'circle-opacity': 0.3,
+                'circle-radius': 0,
+                'circle-stroke-width': 2,
+                'circle-stroke-color': '#2196F3',
+                'circle-stroke-opacity': 0.6
+            }
+        });
+    }
+
+    // Initialize animation state
+    if (!window.sonarAnimationState) {
+        window.sonarAnimationState = {
+            active: false,
+            animationFrame: null,
+            startTime: null,
+            pulsePhase: 0
+        };
+    }
+}
+
+/**
+ * Update sonar circles based on DC reach data
+ */
+function updateSonarCircles() {
+    if (!window.dcData || !window.storeData || !window.map.getSource('dc-sonar-circles')) {
+        return;
+    }
+
+    // Calculate DC reach for each DC
+    const dcReachData = calculateDCReach(window.storeData.features, window.dcData.features);
+    
+    // Create circle features for each DC with its reach radius
+    const sonarFeatures = window.dcData.features.map((dc, idx) => {
+        const dcReach = dcReachData.dcReaches.find(r => r.dcIndex === idx);
+        const maxDistance = dcReach ? dcReach.maxDistance : 0;
+        
+        return {
+            type: 'Feature',
+            geometry: dc.geometry,
+            properties: {
+                dcIndex: idx,
+                maxDistance: maxDistance,
+                currentRadiusKm: maxDistance * 0.5, // Start at 50% for animation
+                currentOpacity: 0.4
+            }
+        };
+    }).filter(f => f.properties.maxDistance > 0); // Only show circles for DCs with assigned stores
+
+    // Update source data
+    window.map.getSource('dc-sonar-circles').setData({
+        type: 'FeatureCollection',
+        features: sonarFeatures
+    });
+
+    console.log(`Updated ${sonarFeatures.length} sonar circles`);
+}
+
+/**
+ * Start sonar animation
+ */
+function startSonarAnimation() {
+    if (!window.map || !window.map.getLayer('dc-sonar-circles')) {
+        return;
+    }
+
+    // Stop any existing animation
+    stopSonarAnimation();
+
+    window.sonarAnimationState.active = true;
+    window.sonarAnimationState.startTime = Date.now();
+
+    function animate() {
+        if (!window.sonarAnimationState.active) {
+            return;
+        }
+
+        const now = Date.now();
+        const elapsed = (now - window.sonarAnimationState.startTime) / 1000; // seconds
+        const pulseDuration = 3; // 3 seconds per pulse cycle
+        const phase = (elapsed % pulseDuration) / pulseDuration; // 0 to 1
+
+        // Get current sonar source
+        const source = window.map.getSource('dc-sonar-circles');
+        if (!source || !source._data || !source._data.features) {
+            window.sonarAnimationState.animationFrame = requestAnimationFrame(animate);
+            return;
+        }
+
+        const zoom = window.map.getZoom();
+        const centerLat = window.map.getCenter().lat;
+        
+        // Convert km to approximate pixels at current zoom
+        // Formula: meters per pixel = (40075017 * cos(lat)) / (256 * 2^zoom)
+        const metersPerPixel = (40075017 * Math.cos(centerLat * Math.PI / 180)) / (256 * Math.pow(2, zoom));
+
+        // Update each circle's radius and opacity based on pulse phase
+        const updatedFeatures = source._data.features.map(feature => {
+            const maxRadiusKm = feature.properties.maxDistance;
+            
+            // Pulse from 0.5x to 1.5x the max radius
+            const radiusMultiplier = 0.5 + (phase * 1.0); // 0.5 to 1.5
+            const currentRadiusKm = maxRadiusKm * radiusMultiplier;
+            const radiusMeters = currentRadiusKm * 1000;
+            const radiusPixels = radiusMeters / metersPerPixel;
+            
+            // Create a new feature with updated radius
+            return {
+                ...feature,
+                properties: {
+                    ...feature.properties,
+                    currentRadiusKm: currentRadiusKm,
+                    radiusPixels: radiusPixels,
+                    currentOpacity: 0.4 * (1 - phase * 0.75) // Fade from 0.4 to 0.1
+                }
+            };
+        });
+
+        // Update source with new features
+        source.setData({
+            type: 'FeatureCollection',
+            features: updatedFeatures
+        });
+
+        // Update paint properties for radius and opacity
+        try {
+            // Use data-driven radius
+            const radiusExpression = ['get', 'radiusPixels'];
+            const opacity = 0.4 - (phase * 0.3);
+            
+            window.map.setPaintProperty('dc-sonar-circles', 'circle-radius', radiusExpression);
+            window.map.setPaintProperty('dc-sonar-circles', 'circle-opacity', opacity);
+            window.map.setPaintProperty('dc-sonar-circles', 'circle-stroke-opacity', Math.min(opacity * 1.5, 0.8));
+        } catch (err) {
+            console.warn('Error updating sonar animation:', err);
+        }
+
+        window.sonarAnimationState.animationFrame = requestAnimationFrame(animate);
+    }
+
+    animate();
+}
+
+/**
+ * Stop sonar animation
+ */
+function stopSonarAnimation() {
+    if (window.sonarAnimationState) {
+        window.sonarAnimationState.active = false;
+        if (window.sonarAnimationState.animationFrame) {
+            cancelAnimationFrame(window.sonarAnimationState.animationFrame);
+            window.sonarAnimationState.animationFrame = null;
+        }
+    }
+}
+
+/**
+ * Show/hide sonar circles
+ */
+function setSonarVisibility(visible) {
+    if (window.map.getLayer('dc-sonar-circles')) {
+        setLayerVisibility('dc-sonar-circles', visible);
+        if (visible) {
+            updateSonarCircles();
+            startSonarAnimation();
+        } else {
+            stopSonarAnimation();
+        }
+    }
 }

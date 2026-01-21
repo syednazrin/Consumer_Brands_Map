@@ -249,6 +249,16 @@ select:focus, input:focus {
     gap: 8px;
 }
 
+/* When sonar button is visible, adjust grid to 4 columns */
+.mode-buttons:has(.mode-btn[data-mode="sonar"][style*="display: block"]) {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* Fallback for browsers that don't support :has() */
+.mode-buttons .mode-btn[data-mode="sonar"][style*="display: block"] ~ .mode-btn {
+    /* This will be handled by JavaScript if needed */
+}
+
 .mode-btn {
     padding: 10px;
     border: 2px solid #ddd;

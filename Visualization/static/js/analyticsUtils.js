@@ -324,6 +324,53 @@ function analyzeDCCatchment(stores, dcs) {
 }
 
 /**
+ * Calculate DC reach - average of longest distances from each DC to its assigned stores
+ * @param {Array} stores - Array of store features
+ * @param {Array} dcs - Array of DC features
+ * @returns {Object} Object with reach value and per-DC max distances
+ */
+function calculateDCReach(stores, dcs) {
+    if (!stores || !dcs || dcs.length === 0) {
+        return { reach: 0, dcReaches: [] };
+    }
+
+    const { assignments, storeDistances } = assignStoresToDCs(stores, dcs);
+    
+    // For each DC, find the maximum distance to its assigned stores
+    const dcReaches = dcs.map((dc, dcIdx) => {
+        const assignedStores = assignments[dcIdx] || [];
+        
+        if (assignedStores.length === 0) {
+            return {
+                dcIndex: dcIdx,
+                dcName: dc.properties.name || `DC ${dcIdx + 1}`,
+                maxDistance: 0
+            };
+        }
+        
+        const distances = assignedStores.map(storeIdx => storeDistances[storeIdx].distance);
+        const maxDistance = Math.max(...distances);
+        
+        return {
+            dcIndex: dcIdx,
+            dcName: dc.properties.name || `DC ${dcIdx + 1}`,
+            maxDistance: maxDistance
+        };
+    });
+    
+    // Filter out DCs with no assigned stores, then average the max distances
+    const validReaches = dcReaches.filter(dc => dc.maxDistance > 0);
+    const reach = validReaches.length > 0
+        ? validReaches.reduce((sum, dc) => sum + dc.maxDistance, 0) / validReaches.length
+        : 0;
+    
+    return {
+        reach: reach,
+        dcReaches: dcReaches
+    };
+}
+
+/**
  * Get distribution of stores by distance to nearest DC
  * @param {Array} stores - Array of store features
  * @param {Array} dcs - Array of DC features
@@ -517,6 +564,7 @@ window.groupByStateAndBrand = groupByStateAndBrand;
 window.calculateDensity = calculateDensity;
 window.identifyWhiteSpace = identifyWhiteSpace;
 window.analyzeDCCatchment = analyzeDCCatchment;
+window.calculateDCReach = calculateDCReach;
 window.getDistanceDistribution = getDistanceDistribution;
 window.generateInsights = generateInsights;
 window.calculateConcentration = calculateConcentration;
