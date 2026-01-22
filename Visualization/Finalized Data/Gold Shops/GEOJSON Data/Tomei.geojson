@@ -1,0 +1,1049 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.59644555406229,
+          3.1492652000546015
+        ]
+      },
+      "properties": {
+        "Name": "IOI Mall Damansara",
+        "Address": "CC-13A, Concourse Floor, IOI Mall Damansara. 2A, Persiaran Surian, Tropicana Indah, Kota Damansara, 47810 Petaling Jaya, Selangor",
+        "Postcode": 47810,
+        "Coordinate": "3.1492652000546015, 101.59644555406229",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71065435220765,
+          2.939827035535267
+        ]
+      },
+      "properties": {
+        "Name": "Alamanda Shopping Centre",
+        "Address": "Lot LG 64, Lower Ground Floor, Alamanda Putrajaya Shopping Centre, Jalan Alamanda, Presint 1, 62000 Putrajaya, Wilayah Persekutuan Putrajaya",
+        "Postcode": 62000,
+        "Coordinate": "2.939827035535267, 101.71065435220765",
+        "State": "Wp Putrajaya",
+        "District": "Putrajaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.07664772524036,
+          5.987393111152263
+        ]
+      },
+      "properties": {
+        "Name": "Suria Sabah",
+        "Address": "Lot G-23 & G-24, Ground Floor, Suria Sabah Shopping Mall, 1, Jln Tun Fuad Stephens, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah",
+        "Postcode": 88000,
+        "Coordinate": "5.987393111152263, 116.07664772524036",
+        "State": "Sabah",
+        "District": "Kota Kinabalu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.67157015405802,
+          1.5178652999038775
+        ]
+      },
+      "properties": {
+        "Name": "Sutera Mall",
+        "Address": "Lot G-227 & 228, Ground Floor, Sutera Mall, Taman Sutera Utama, 81300 Skudai, Johor Darul Ta'zim",
+        "Postcode": 81300,
+        "Coordinate": "1.5178652999038775, 103.67157015405802",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.14412378280102,
+          5.337429157987118
+        ]
+      },
+      "properties": {
+        "Name": "Mayang Mall",
+        "Address": "Lot GF-31, Ground Floor, Mayang Mall, Jalan Sultan Zainal Abidin, Kampung Surau Besar, 20000 Kuala Terengganu, Terengganu",
+        "Postcode": 20000,
+        "Coordinate": "5.337429157987118, 103.14412378280102",
+        "State": "Terengganu",
+        "District": "Kuala Terengganu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7134109154257,
+          2.9702336317477993
+        ]
+      },
+      "properties": {
+        "Name": "IOI City Mall Boutique Kiosk",
+        "Address": "LG-106, Lower Ground, City, IOI City Mall, Lbh IRC, Ioi Resort, 62502 Putrajaya, Selangor",
+        "Postcode": 62502,
+        "Coordinate": "2.9702336317477993, 101.7134109154257",
+        "State": "Wp Putrajaya",
+        "District": "Putrajaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71818502522602,
+          3.142477700094161
+        ]
+      },
+      "properties": {
+        "Name": "The Exchange TRX",
+        "Address": "C.81.0, The Exchange TRX, Persiaran TRX, Tun Razak Exchange, 55188 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 55188,
+        "Coordinate": "3.142477700094161, 101.71818502522602",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.48344449999999,
+          3.0647886293551982
+        ]
+      },
+      "properties": {
+        "Name": "Central I-City, Shah Alam",
+        "Address": "G36 & 36A, Ground Floor, Central i-City 1, Persiaran Multimedia, i-City, Seksyen 7, 40000 Shah Alam, Selangor",
+        "Postcode": 40000,
+        "Coordinate": "3.0647886293551982, 101.48344449999999",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7124453164699,
+          2.9700729124029333
+        ]
+      },
+      "properties": {
+        "Name": "IOI City Mall 2",
+        "Address": "LG-106, Lower Ground, City, IOI City Mall, Lbh IRC, Ioi Resort, 62502 Putrajaya, Selangor",
+        "Postcode": 62502,
+        "Coordinate": "2.9700729124029333, 101.7124453164699",
+        "State": "Wp Putrajaya",
+        "District": "Putrajaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.09022752276063,
+          4.595692694341709
+        ]
+      },
+      "properties": {
+        "Name": "Ipoh Parade",
+        "Address": "105, Jalan Sultan Abdul Jalil, Pusat Perdagangan Greentown, 30450 Ipoh, Perak",
+        "Postcode": 30450,
+        "Coordinate": "4.595692694341709, 101.09022752276063",
+        "State": "Perak",
+        "District": "Ipoh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7937696098819,
+          3.4240934708593573
+        ]
+      },
+      "properties": {
+        "Name": "SkyAvenue, Genting Highlands",
+        "Address": "Resorts World Genting, Genting Highlands, 69000 Genting Highlands, Pahang",
+        "Postcode": 69000,
+        "Coordinate": "3.4240934708593573, 101.7937696098819",
+        "State": "Pahang",
+        "District": "Genting Highlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7961140313026,
+          3.4250193255672405
+        ]
+      },
+      "properties": {
+        "Name": "Genting Highlands Premium Outlets",
+        "Address": "Lot T2B-28, Level T2B, Sky Avenue, Genting Highlands Resorts, 69000 Genting Highlands, Pahang",
+        "Postcode": 69000,
+        "Coordinate": "3.4250193255672405, 101.7961140313026",
+        "State": "Pahang",
+        "District": "Genting Highlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.32703232708259,
+          3.8182085765193947
+        ]
+      },
+      "properties": {
+        "Name": "East Coast Mall",
+        "Address": "GF-21/22, Ground Floor, East Coast Mall, Jalan Putra Square 6, Putra Square, 25200 Kuantan, Pahang",
+        "Postcode": 25200,
+        "Coordinate": "3.8182085765193947, 103.32703232708259",
+        "State": "Pahang",
+        "District": "Kuantan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9931845196695,
+          4.397169873629616
+        ]
+      },
+      "properties": {
+        "Name": "Bintang Megamall",
+        "Address": "Bintang Megamall, Lot 1.53A, First Floor, Jalan Miri- Pujut, Sarawak, 98000 Miri",
+        "Postcode": 98000,
+        "Coordinate": "4.397169873629616, 113.9931845196695",
+        "State": "Sarawak",
+        "District": "Miri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3583863390646,
+          1.535312660537055
+        ]
+      },
+      "properties": {
+        "Name": "The Spring, Kuching",
+        "Address": "Lot G57, Ground Floor, The Spring Shopping Mall, Jalan Simpang Tiga, Kampung Kenyalang Park, 93300 Kuching, Sarawak",
+        "Postcode": 93300,
+        "Coordinate": "1.535312660537055, 110.3583863390646",
+        "State": "Sarawak",
+        "District": "Kuching"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36972002883627,
+          1.5268356247103252
+        ]
+      },
+      "properties": {
+        "Name": "Vivacity Mall",
+        "Address": "Lot G-044B, Ground Floor, Vivacity Megamall, 93350 Kuching, Sarawak",
+        "Postcode": 93350,
+        "Coordinate": "1.5268356247103252, 110.36972002883627",
+        "State": "Sarawak",
+        "District": "Kuching"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.034467877337,
+          3.1812275829158767
+        ]
+      },
+      "properties": {
+        "Name": "The Spring, Bintulu",
+        "Address": "52JM+5W, Parkcity Commerce Square, 97000 Bintulu, Sarawak",
+        "Postcode": 97000,
+        "Coordinate": "3.1812275829158767, 113.034467877337",
+        "State": "Sarawak",
+        "District": "Bintulu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0668692675678,
+          5.971134089093294
+        ]
+      },
+      "properties": {
+        "Name": "Imago Shopping Mall",
+        "Address": "Phase 2, Off, Imago Shopping Mall KK Times Square, Lot G-33A, Ground Floor, Jalan Coastal, 88100 Kota Kinabalu, Sabah",
+        "Postcode": 88100,
+        "Coordinate": "5.971134089093294, 116.0668692675678",
+        "State": "Sabah",
+        "District": "Kota Kinabalu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.09711281534507,
+          5.961698037293715
+        ]
+      },
+      "properties": {
+        "Name": "City Mall",
+        "Address": "88300, Jln Lintas, 88300 Kota Kinabalu, Sabah",
+        "Postcode": 88300,
+        "Coordinate": "5.961698037293715, 116.09711281534507",
+        "State": "Sabah",
+        "District": "Kota Kinabalu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.12261928105127,
+          4.677302305694008
+        ]
+      },
+      "properties": {
+        "Name": "AEON MALL Klebang",
+        "Address": "F38 First Floor Aeon Mall Ipoh Klebang, Lot 12080 Klebang Perdana, 31200 Chemor, Perak",
+        "Postcode": 31200,
+        "Coordinate": "4.677302305694008, 101.12261928105127",
+        "State": "Perak",
+        "District": "Chemor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.73068043872493,
+          4.873307306100691
+        ]
+      },
+      "properties": {
+        "Name": "AEON MALL Taiping",
+        "Address": "Lot G28, GF, Pusat Membeli-Belah Aeon, Lot 8576 & 8577, Jalan Kamunting, Lama, 34000 Taiping, Perak",
+        "Postcode": 34000,
+        "Coordinate": "4.873307306100691, 100.73068043872493",
+        "State": "Perak",
+        "District": "Taiping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.67168696755785,
+          4.22043459369739
+        ]
+      },
+      "properties": {
+        "Name": "AEON MALL Seri Manjung",
+        "Address": "Lot G11, Ground Floor Aeon Seri Manjung Shopping Centre Pusat Perniagaan Manjung Point, 3, Jalan Sitiawan, 32200 Lumut, Perak",
+        "Postcode": 32200,
+        "Coordinate": "4.22043459369739, 100.67168696755785",
+        "State": "Perak",
+        "District": "Lumut"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.07037316570558,
+          4.545618402145477
+        ]
+      },
+      "properties": {
+        "Name": "AEON MALL Ipoh Station 18",
+        "Address": "G41, AEON Ipoh, Shopping Centre, 2, Susunan Stesen 18, Station 18, 31650 Ipoh, Perak",
+        "Postcode": 31650,
+        "Coordinate": "4.545618402145477, 101.07037316570558",
+        "State": "Perak",
+        "District": "Ipoh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.47801197734712,
+          5.320700581633615
+        ]
+      },
+      "properties": {
+        "Name": "AEON MALL Bukit Mertajam",
+        "Address": "Lot G39, Ground Floor, AEON Mall, Jalan Rozhan, Alma, 14000 Bukit Mertajam, Pulau Pinang",
+        "Postcode": 14000,
+        "Coordinate": "5.320700581633615, 100.47801197734712",
+        "State": "Pulau Pinang",
+        "District": "Bukit Mertajam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.30981847364006,
+          5.438226858360032
+        ]
+      },
+      "properties": {
+        "Name": "Gurney Plaza",
+        "Address": "Gurney Plaza, 170-02-21, Persiaran Gurney, 10250 George Town, Pulau Pinang",
+        "Postcode": 10250,
+        "Coordinate": "5.438226858360032, 100.30981847364006",
+        "State": "Pulau Pinang",
+        "District": "Pulau Pinang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.30657620989125,
+          5.333241488989192
+        ]
+      },
+      "properties": {
+        "Name": "Queensbay Mall",
+        "Address": "LG 50,LG 53 & LG 53A, 100, Persiaran Bayan Indah, 11900 Bayan Lepas, Penang",
+        "Postcode": 11900,
+        "Coordinate": "5.333241488989192, 100.30657620989125",
+        "State": "Pulau Pinang",
+        "District": "Bayan Lepas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.39744418105533,
+          5.398503457062048
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Carnival Mall",
+        "Address": "Lot No. GF-43, Ground Floor, Sunway Carnival Mall, 3068, Jalan Todak, Pusat, 13700 Seberang Jaya, Pulau Pinang",
+        "Postcode": 13700,
+        "Coordinate": "5.398503457062048, 100.39744418105533",
+        "State": "Pulau Pinang",
+        "District": "Perai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.28426069640007,
+          5.321190098877311
+        ]
+      },
+      "properties": {
+        "Name": "Giant Penang",
+        "Address": "78, Jalan Tengah, Bandar Bayan Baru, 11900 Bayan Lepas, Pulau Pinang",
+        "Postcode": 11900,
+        "Coordinate": "5.321190098877311, 100.28426069640007",
+        "State": "Pulau Pinang",
+        "District": "Bayan Lepas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.91377496569808,
+          2.697680565064402
+        ]
+      },
+      "properties": {
+        "Name": "AEON MALL Seremban 2",
+        "Address": "Lot G26, Ground Floor, EON Seremban 2 Shopping Centre, 112, Persiaran S2 B1, Seremban 2, 70300 Seremban, Negeri Sembilan",
+        "Postcode": 70300,
+        "Coordinate": "2.697680565064402, 101.91377496569808",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24570089267917,
+          2.2148643144837803
+        ]
+      },
+      "properties": {
+        "Name": "AEON MALL Bandaraya Melaka",
+        "Address": "G76, Ground Floor, Aeon Mall, 2, Jalan Lagenda, Taman 1 Lagenda, 75400 Melaka",
+        "Postcode": 75400,
+        "Coordinate": "2.2148643144837803, 102.24570089267917",
+        "State": "Melaka",
+        "District": "Melaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24923860987808,
+          2.188405228917199
+        ]
+      },
+      "properties": {
+        "Name": "Mahkota Parade",
+        "Address": "Lot G13, Ground Floor, Mahkota Parade Shopping Centre, 1, Jln Merdeka, Taman Costa Mahkota, 75000 Melaka",
+        "Postcode": 75000,
+        "Coordinate": "2.188405228917199, 102.24923860987808",
+        "State": "Melaka",
+        "District": "Melaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24097713131661,
+          6.07067673125712
+        ]
+      },
+      "properties": {
+        "Name": "Mydin Tunjong",
+        "Address": "Mydin Mall Tunjong, Lot No: FC-1B & FC-1D, First Floor, Concourse, Lot PT 666, Jalan Kuala Krai, Bandar Baru Tunjong, 16010 Kota Bharu, Kelantan",
+        "Postcode": 16010,
+        "Coordinate": "6.07067673125712, 102.24097713131661",
+        "State": "Kelantan",
+        "District": "Kota Bharu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.23081571534507,
+          6.109996056890681
+        ]
+      },
+      "properties": {
+        "Name": "AEON MALL Kota Bahru",
+        "Address": "Aeon Mall, Jalan Jambatan Sultan Yahya Petra, Kampung Sirih, 15050 Kota Bharu, Kelantan",
+        "Postcode": 15050,
+        "Coordinate": "6.109996056890681, 102.23081571534507",
+        "State": "Kelantan",
+        "District": "Kota Bharu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.36616364666213,
+          6.125419615884355
+        ]
+      },
+      "properties": {
+        "Name": "Aman Central Mall",
+        "Address": "Lot G-19, Ground Floor, 1, Lebuhraya Darul Aman, Kampung Lubok Peringgi, 05100 Alor Setar, Kedah",
+        "Postcode": 5100,
+        "Coordinate": "6.125419615884355, 100.36616364666213",
+        "State": "Kedah",
+        "District": "Alor Setar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.84756952153508,
+          6.321681102456233
+        ]
+      },
+      "properties": {
+        "Name": "Tomei Langkawi City",
+        "Address": "3-G 3, Jalan Mahawangsa 1, Kuah, 07000 Langkawi, Kedah",
+        "Postcode": 7000,
+        "Coordinate": "6.321681102456233, 99.84756952153508",
+        "State": "Kedah",
+        "District": "Langkawi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.61718192707582,
+          1.6407246160326925
+        ]
+      },
+      "properties": {
+        "Name": "AEON MALL Kulaijaya",
+        "Address": "F49, Indahpura, 81000 Kulai, Johor",
+        "Postcode": 81000,
+        "Coordinate": "1.6407246160326925, 103.61718192707582",
+        "State": "Johor",
+        "District": "Kulai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.62144809267792,
+          1.602827924468354
+        ]
+      },
+      "properties": {
+        "Name": "Johor Premium Outlets",
+        "Address": "Jalan Premium Outlets, Bandar Indahpura, 81000 Kulai, Johor Darul Ta'zim",
+        "Postcode": 81000,
+        "Coordinate": "1.602827924468354, 103.62144809267792",
+        "State": "Johor",
+        "District": "Kulai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.65494710482895,
+          1.4816235955216157
+        ]
+      },
+      "properties": {
+        "Name": "AEON MALL Bukit Indah",
+        "Address": "Grand Mezzanine, 8, Jalan Indah 15/2, Taman Bukit Indah, 81200 Johor Bahru, Johor Darul Ta'zim",
+        "Postcode": 81200,
+        "Coordinate": "1.4816235955216157, 103.65494710482895",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.79571417733267,
+          1.5489615492848279
+        ]
+      },
+      "properties": {
+        "Name": "AEON MALL Tebrau City",
+        "Address": "1, Jalan Desa Tebrau, Taman Desa Tebrau, 81100 Johor Bahru, Johor Darul Ta'zim",
+        "Postcode": 81100,
+        "Coordinate": "1.5489615492848279, 103.79571417733267",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6857436963855,
+          1.5158355750247592
+        ]
+      },
+      "properties": {
+        "Name": "Paradigm Mall Johor Bahru",
+        "Address": "K013, Paradigm Mall, Skudai Hwy, Taman Bukit Mewah, 81200 Johor Bahru, Johor",
+        "Postcode": 81200,
+        "Coordinate": "1.5158355750247592, 103.6857436963855",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.77745088289423,
+          1.5015697518335902
+        ]
+      },
+      "properties": {
+        "Name": "The Mall, Mid Valley Southkey",
+        "Address": "1, Persiaran Southkey 1, Southkey, 80150 Johor Bahru, Johor Darul Ta'zim",
+        "Postcode": 80150,
+        "Coordinate": "1.5015697518335902, 103.77745088289423",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.70506048155434,
+          1.4959973524395995
+        ]
+      },
+      "properties": {
+        "Name": "Angsana Johor Bahru Mall",
+        "Address": "L1.33a, Level, 1, Skudai Hwy, Pusat Bandar Tampoi, 81200 Johor Bahru, Johor",
+        "Postcode": 81200,
+        "Coordinate": "1.4959973524395995, 103.70506048155434",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71186565189582,
+          2.969762985488462
+        ]
+      },
+      "properties": {
+        "Name": "IOI City Mall",
+        "Address": "Management Office, Unit T2-3A-3 & Unit T2-3A-3A Level 3A, IOI City Tower Two, Lbh IRC, Ioi Resort, 62502 Putrajaya, Selangor",
+        "Postcode": 62502,
+        "Coordinate": "2.969762985488462, 101.71186565189582",
+        "State": "Wp Putrajaya",
+        "District": "Putrajaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.46050747857927,
+          3.1092006739660274
+        ]
+      },
+      "properties": {
+        "Name": "Setia City Mall",
+        "Address": "7, Persiaran Setia Dagang Bandar Setia Alam, Seksyen, U13 Shah Alam, 40170 Shah Alam, Selangor",
+        "Postcode": 40170,
+        "Coordinate": "3.1092006739660274, 101.46050747857927",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4441667675529,
+          2.995403311918252
+        ]
+      },
+      "properties": {
+        "Name": "AEON MALL Bukit Tinggi",
+        "Address": "Lot 46 , Ground Floor, 1/KS06, Persiaran Batu Nilam, Bandar Bukit Tinggi 2, 41200 Klang, Selangor",
+        "Postcode": 41200,
+        "Coordinate": "2.995403311918252, 101.4441667675529",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71893569082764,
+          3.028572669245489
+        ]
+      },
+      "properties": {
+        "Name": "The Mines Shopping Mall",
+        "Address": "L1-07A, Jalan Dulang, Mines Wellness City, 43300 Seri Kembangan, Selangor",
+        "Postcode": 43300,
+        "Coordinate": "3.028572669245489, 101.71893569082764",
+        "State": "Selangor",
+        "District": "Seri Kembangan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61771476621314,
+          3.046207746499596
+        ]
+      },
+      "properties": {
+        "Name": "IOI Mall",
+        "Address": "2nd Floor, Lot S37, Batu 9, Jalan Puchong, Bandar Puchong Jaya, 47170 Puchong, Selangor",
+        "Postcode": 47170,
+        "Coordinate": "3.046207746499596, 101.61771476621314",
+        "State": "Selangor",
+        "District": "Puchong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.60731986199157,
+          3.073258104151252
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Pyramid",
+        "Address": "Darul Ehsan, Level CP6, Blue Atrium, 3, Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor",
+        "Postcode": 47500,
+        "Coordinate": "3.073258104151252, 101.60731986199157",
+        "State": "Selangor",
+        "District": "Subang Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.54817473686313,
+          3.0765906829577347
+        ]
+      },
+      "properties": {
+        "Name": "AEON MALL Shah Alam",
+        "Address": "Jln Akuatik 13/64, Seksyen 13, 40100 Shah Alam, Selangor",
+        "Postcode": 40100,
+        "Coordinate": "3.0765906829577347, 101.54817473686313",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61622729637284,
+          3.1474966711015075
+        ]
+      },
+      "properties": {
+        "Name": "1 Utama Shopping Centre",
+        "Address": "Lot No 140 No, 1 Utama Shopping Centre, Lot G126, Lebuh Bandar Utama, Bandar Utama, 47800 Petaling Jaya, Selangor",
+        "Postcode": 47800,
+        "Coordinate": "3.1474966711015075, 101.61622729637284",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61622729637284,
+          3.1474966711015075
+        ]
+      },
+      "properties": {
+        "Name": "1 Utama Shopping Centre (SIGNATURE by TOMEI)",
+        "Address": "Lot No 140 No, 1 Utama Shopping Centre, Lot G126, Lebuh Bandar Utama, Bandar Utama, 47800 Petaling Jaya, Selangor",
+        "Postcode": 47800,
+        "Coordinate": "3.1474966711015075, 101.61622729637284",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72082790431945,
+          3.2043281967708865
+        ]
+      },
+      "properties": {
+        "Name": "Setapak Central",
+        "Address": "67, Jln Taman Ibu Kota, Taman Danau Kota, 53300 Kuala Lumpur, Wilayah Persekutuan",
+        "Postcode": 53300,
+        "Coordinate": "3.2043281967708865, 101.72082790431945",
+        "State": "Wp Kuala Lumpur",
+        "District": "Setapak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71336958104463,
+          3.148821432545007
+        ]
+      },
+      "properties": {
+        "Name": "Pavilion Kuala Lumpur",
+        "Address": "168, Bukit Bintang Rd, Bukit Bintang, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+        "Postcode": 55100,
+        "Coordinate": "3.148821432545007, 101.71336958104463",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67733219453582,
+          3.117487806151579
+        ]
+      },
+      "properties": {
+        "Name": "Mid Valley Megamall",
+        "Address": "Lingkaran Syed Putra, Mid Valley City, 59200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 59200,
+        "Coordinate": "3.117487806151579, 101.67733219453582",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73030486384602,
+          3.22475667305601
+        ]
+      },
+      "properties": {
+        "Name": "KL East Mall",
+        "Address": "823, Jln Lingkaran Tengah 2, KL Timur, 53100 Kuala Lumpur, Selangor",
+        "Postcode": 53100,
+        "Coordinate": "3.22475667305601, 101.73030486384602",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71208011755344,
+          3.1571744328644877
+        ]
+      },
+      "properties": {
+        "Name": "Suria KLCC",
+        "Address": "Lot No. 241, Level 2Menara, Petronas Twin Tower, Kuala Lumpur City Centre, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 50088,
+        "Coordinate": "3.1571744328644877, 101.71208011755344",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67094390988053,
+          3.0502196832895434
+        ]
+      },
+      "properties": {
+        "Name": "Pavilion Bukit Jalil",
+        "Address": "2, Persiaran Jalil 8, Bukit Jalil, 57000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 57000,
+        "Coordinate": "3.0502196832895434, 101.67094390988053",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72486675406218,
+          3.1278285454366768
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Velocity Mall",
+        "Address": "Wilayah Persekutuan, Lingkaran SV2 Lingkaran SV2, 55100 Kuala Lumpur",
+        "Postcode": 55100,
+        "Coordinate": "3.1278285454366768, 101.72486675406218",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    }
+  ]
+}

@@ -1,0 +1,635 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4615304,
+          3.1082469
+        ]
+      },
+      "properties": {
+        "Name": "AEON Setia Alam",
+        "Address": "Lot 101 (LG, UG, L1), Setia City Mall 7, Persiaran Setia Dagang Bandar Setia Alam Seksyen U13, Setia Alam 40170 Shah Alam, Selangor",
+        "Postcode": 40170,
+        "Coordinates": "3.1082469, 101.4615304",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.471166,
+          3.0601408
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Bukit Raja",
+        "Address": "Persiaran Bukit Raja 2 Bandar Baru Klang, 41150 Klang, Selangor.",
+        "Postcode": 41150,
+        "Coordinates": "3.0601408, 101.471166",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5482713,
+          3.0767621
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Shah Alam",
+        "Address": "AEON Mall Shah Alam, No.1, Jalan Akuatik 13/64, Seksyen 13, 40100 Shah Alam, Selangor.",
+        "Postcode": 40100,
+        "Coordinates": "3.0767621, 101.5482713",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5365233,
+          3.3179195
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Rawang Anggun",
+        "Address": "No. 1, Kompleks Beli-belah AEON Rawang Anggun, Persiaran Anggun, Taman Anggun, 48000 Rawang, Selangor Darul Ehsan.",
+        "Postcode": 48000,
+        "Coordinates": "3.3179195, 101.5365233",
+        "State": "Selangor",
+        "District": "Rawang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7741628,
+          3.0526265
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Cheras Selatan",
+        "Address": "Aras Satu, Lebuh Tun Hussien Onn, 43200 Balakong, Selangor Darul Ehsan.",
+        "Postcode": 43200,
+        "Coordinates": "3.0526265, 101.7741628",
+        "State": "Selangor",
+        "District": "Cheras"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4443686,
+          2.9935685
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Bukit Tinggi",
+        "Address": "AEON Bukit Tinggi Store & Shopping Centre, No 1, Persiaran Batu Nilam 1/KS 6, Bandar Bukit Tinggi 2, 41200 Klang, Selangor Darul Ehsan.",
+        "Postcode": 41200,
+        "Coordinates": "2.9935685, 101.4443686",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6746319,
+          2.9952482
+        ]
+      },
+      "properties": {
+        "Name": "AEON Taman Equine Shopping Centre",
+        "Address": "No. 2, Jalan Equine Taman Equine, Bandar Putra Permai, 43300 Seri Kembangan, Selangor Darul Ehsan.",
+        "Postcode": 43300,
+        "Coordinates": "2.9952482, 101.6746319",
+        "State": "Selangor",
+        "District": "Seri Kembangan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7556507,
+          2.9625652
+        ]
+      },
+      "properties": {
+        "Name": "AEON MaxValu Prime Evo Bangi",
+        "Address": "No. G.09, Ground Floor, Kompleks Evo, Jalan Pusat Bandar 2, 43650 Bandar Baru Bangi.",
+        "Postcode": 43650,
+        "Coordinates": "2.9625652, 101.7556507",
+        "State": "Selangor",
+        "District": "Bandar Baru Bangi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6440748,
+          3.2374855
+        ]
+      },
+      "properties": {
+        "Name": "AEON MaxValu Prime Selayang",
+        "Address": "Lot LG.45, Lower Ground Floor, Selayang Mall, Jalan SU9, Taman Selayang Utama, 68100 Batu Cave.",
+        "Postcode": 68100,
+        "Coordinates": "3.2374855, 101.6440748",
+        "State": "Selangor",
+        "District": "Batu Caves"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3477305,
+          1.5057381
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Kuching Central",
+        "Address": "No 88, Lot 3458, Block 10 KCLD, Jalan Datuk Patinggi Ahmad Zaidi Adruce, 93150 Kuching, Sarawak.",
+        "Postcode": 93350,
+        "Coordinates": "1.5057381, 110.3477305",
+        "State": "Sarawak",
+        "District": "Kuching"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.1186528,
+          4.6139764
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Kinta City",
+        "Address": "No 2, Jalan Teh Lean Swee, Off Jalan Sultan Azlan Shah Utara, 31400 Ipoh, Perak.",
+        "Postcode": 31400,
+        "Coordinates": "4.6139764, 101.1186528",
+        "State": "Perak",
+        "District": "Ipoh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.0699666,
+          4.5460309
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Ipoh Station 18",
+        "Address": "No.2, Susuran Stesen 18, Station 18, 31650 Ipoh, Perak.",
+        "Postcode": 31650,
+        "Coordinates": "4.5460309, 101.0699666",
+        "State": "Perak",
+        "District": "Ipoh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.666247,
+          4.21575
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Seri Manjung",
+        "Address": "Pusat Perniagaan Manjung Point 3, 32040 Seri Manjung, Perak.",
+        "Postcode": 32040,
+        "Coordinates": "4.21575, 100.666247",
+        "State": "Perak",
+        "District": "Seri Manjung"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7298157,
+          4.8728328
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Taiping",
+        "Address": "Lot 8576 & 8577, Jalan Kamunting, 34000 Taiping, Perak.",
+        "Postcode": 34000,
+        "Coordinates": "4.8728328, 100.7298157",
+        "State": "Perak",
+        "District": "Taiping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9128149,
+          2.7021885
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Seremban 2",
+        "Address": "112 Persiaran S2 B1, Seremban 2, 70300 Seremban, Negeri Sembilan Darul Khusus.",
+        "Postcode": 70300,
+        "Coordinates": "2.7021885, 101.9128149",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7906505,
+          2.8181299
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Nilai",
+        "Address": "No 2, Persiaran Pusat Bandar, Putra Point, Putra Nilai, 71800 Nilai, Negeri Sembilan Darul Khusus.",
+        "Postcode": 71800,
+        "Coordinates": "2.8181299, 101.7906505",
+        "State": "Negeri Sembilan",
+        "District": "Nilai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9229003,
+          2.7198558
+        ]
+      },
+      "properties": {
+        "Name": "AEON Palm Mall",
+        "Address": "G-16, Ground Floor, Palm Mall Seremban, Kemayan Square, Jalan Sg Ujong, 70200 Seremban.",
+        "Postcode": 70200,
+        "Coordinates": "2.7198558, 101.9229003",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4779465,
+          5.3203009
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Bukit Mertajam",
+        "Address": "Management Office, Lot No. 30908, Jalan Rozhan Alma, Seberang Perai Tengah, 14000 Bukit Mertajam, Pulau Pinang.",
+        "Postcode": 14000,
+        "Coordinates": "5.3203009, 100.4779465",
+        "State": "Pulau Pinang",
+        "District": "Bukit Mertajam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7274695,
+          3.2046482
+        ]
+      },
+      "properties": {
+        "Name": "AEON Alpha Angle",
+        "Address": "Jalan R1, Seksyen 1, Bandar Baru Wangsa Maju, 53300 Kuala Lumpur.",
+        "Postcode": 53300,
+        "Coordinates": "3.2046482, 101.7274695",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7322692,
+          3.1275076
+        ]
+      },
+      "properties": {
+        "Name": "AEON Taman Maluri Shopping Centre",
+        "Address": "Jalan Jejaka, Taman Maluri Cheras, 55100 Kuala Lumpur.",
+        "Postcode": 55100,
+        "Coordinates": "3.1275076, 101.7322692",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6372065,
+          3.2138818
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Metro Prima",
+        "Address": "No 1, Jalan Metro Prima Kepong, 52100 Kuala Lumpur.",
+        "Postcode": 52100,
+        "Coordinates": "3.2138818, 101.6372065",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7507808,
+          3.1782116
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall AU2",
+        "Address": "Setiawangsa, Lower Ground Floor, No.6 Jalan Taman Setiawangsa (Jalan 37/56), AU2, Taman Keramat, 54200 Kuala Lumpur.",
+        "Postcode": 54200,
+        "Coordinates": "3.1782116, 101.7507808",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6277335,
+          3.1869487
+        ]
+      },
+      "properties": {
+        "Name": "AEON MaxValu Prime Desa ParkCity",
+        "Address": "No. GF 22, The Waterfront @ ParkCity, No. 5 Persiaran Residen, Desa ParkCity, 52200 Kuala Lumpur.",
+        "Postcode": 52200,
+        "Coordinates": "3.1869487, 101.6277335",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7248453,
+          3.1278714
+        ]
+      },
+      "properties": {
+        "Name": "AEON MaxValu Prime Sunway Velocity",
+        "Address": "B-01, Basement One, Sunway Velocity Mall, Lingkaran SV, Sunway Velocity, 55100 Kuala Lumpur.",
+        "Postcode": 55100,
+        "Coordinates": "3.1278714, 101.7248453",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6676501,
+          3.1107845
+        ]
+      },
+      "properties": {
+        "Name": "AEON MaxValu Prime The Sphere Bangsar South",
+        "Address": "Unit LG-1A, Level LG, The Sphere, No. 1, Avenue 1, Bangsar South, No. 8, Jalan Kerinchi, 59200 Kuala Lumpur.",
+        "Postcode": 59200,
+        "Coordinates": "3.1107845, 101.6676501",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6535374,
+          3.1909351
+        ]
+      },
+      "properties": {
+        "Name": "AEON United Point",
+        "Address": "Lot LG-3, Level LG, Pusat Perdagangan Berpadu (United Point), No. 10, Jalan Lang Emas, 51200 Kuala Lumpur.",
+        "Postcode": 51200,
+        "Coordinates": "3.1909351, 101.6535374",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.285267,
+          2.2724771
+        ]
+      },
+      "properties": {
+        "Name": "AEON Melaka Shopping Centre",
+        "Address": "Leboh Ayer Keroh, 75450 Melaka,",
+        "Postcode": 75450,
+        "Coordinates": "2.2724771, 102.285267",
+        "State": "Melaka",
+        "District": "Melaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2519308,
+          2.2187664
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Bandaraya Melaka",
+        "Address": "No.2 Jalan Legenda, Taman 1 – Legenda, 75400 Melaka.",
+        "Postcode": 75400,
+        "Coordinates": "2.2187664, 102.2519308",
+        "State": "Melaka",
+        "District": "Melaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6154572,
+          1.6353379
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Kulaijaya",
+        "Address": "PTD 106273, Persiaran Indahpura Utama, Bandar Indahpura, 81000 Kulaijaya, Johor.",
+        "Postcode": 81000,
+        "Coordinates": "1.6353379, 103.6154572",
+        "State": "Johor",
+        "District": "Kulai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.815467,
+          1.4956947
+        ]
+      },
+      "properties": {
+        "Name": "AEON Permas Jaya Shopping Centre",
+        "Address": "No 1, Jalan Permas Jaya Utara, Bandar Baru Permas Jaya, 81750 Johor Bahru, Johor.",
+        "Postcode": 81750,
+        "Coordinates": "1.4956947, 103.815467",
+        "State": "Johor",
+        "District": "Masai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.791601,
+          1.5626154
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Tebrau City",
+        "Address": "No 1, Jalan Desa Tebrau, Taman Desa Tebrau, 81100 Johor Bahru, Johor.",
+        "Postcode": 81100,
+        "Coordinates": "1.5626154, 103.791601",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7353653,
+          1.5638455
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Bandar Dato’ Onn",
+        "Address": "No.3, Jalan Dato’ Onn 3, Bandar Dato’ Onn, 81100 Johor Bahru, Johor.",
+        "Postcode": 81100,
+        "Coordinates": "1.5638455, 103.7353653",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7290203,
+          1.4642404
+        ]
+      },
+      "properties": {
+        "Name": "AEON Danga Bay",
+        "Address": "Lot No. G31, G32, G33, G34 & G38, Bele Time Mall, Country Garden @ Danga Bay, Jalan Skudai, 80200 Johor Bahru.",
+        "Postcode": 80200,
+        "Coordinates": "1.4642404, 103.7290203",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2310784,
+          6.1150863
+        ]
+      },
+      "properties": {
+        "Name": "AEON Mall Kota Bharu",
+        "Address": "Pusat Beli-Belah Kota Bharu, Lembah Sireh, 15050, Kota Bharu, Kelantan.",
+        "Postcode": 15050,
+        "Coordinates": "6.1150863, 102.2310784",
+        "State": "Kelantan",
+        "District": "Kota Bharu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7283988,
+          3.1259253
+        ]
+      },
+      "properties": {
+        "Name": "AEON STYLE Taman Maluri",
+        "Address": "Management Office, 1st Floor, AEON Mall Taman Maluri, Jalan Jejaka, Taman Maluri, Cheras, 55100 Kuala Lumpur.",
+        "Postcode": 55100,
+        "Coordinates": "3.1259253, 101.7283988",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    }
+  ]
+}

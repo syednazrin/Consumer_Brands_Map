@@ -1,0 +1,167 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.45578728368231,
+          5.323204558228323
+        ]
+      },
+      "properties": {
+        "Name": "Memang Meow @ Design VIllage Outlet Mall, Penang",
+        "Address": "Lot No. G-66, Design Village Outlet Mall, 733, Jalan Cassia Barat 2, Bandar Cassia, 14110 Simpang Ampat, Pulau Pinang",
+        "Postcode": 14110,
+        "Coordinates": "5.323204558228323, 100.45578728368231",
+        "State": "Pulau Pinang",
+        "District": "Simpang Ampat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.76958411552705,
+          3.4118116974905677
+        ]
+      },
+      "properties": {
+        "Name": "Memang Meow - Genting Permai",
+        "Address": "P19 (Ground & 1st floor, Jalan Permai 1/1, Genting Permai Avenue, 69000 Pahang",
+        "Postcode": 69000,
+        "Coordinates": "3.4118116974905677, 101.76958411552705",
+        "State": "Pahang",
+        "District": "Genting Highlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.75014229463642,
+          3.2293421913672797
+        ]
+      },
+      "properties": {
+        "Name": "Memang Meow - Melawati Mall",
+        "Address": "L3-30 & 31, Level 3, Melawati Mall, 355, Jln Bandar Melawati, Pusat Bandar Melawati, 53100 Wilayah Persekutuan, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 53100,
+        "Coordinates": "3.2293421913672797, 101.75014229463642",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.68960343176505,
+          3.1761888606682964
+        ]
+      },
+      "properties": {
+        "Name": "Memang Meow @ Sunway Putra Mall",
+        "Address": "Lot 3-28 & 3-32, Level 3, 100, Jalan Putra, Chow Kit, 50350 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 50350,
+        "Coordinates": "3.1761888606682964, 101.68960343176505",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71632095770273,
+          3.1440620093423335
+        ]
+      },
+      "properties": {
+        "Name": "Memang Meow@Berjaya Times Square",
+        "Address": "LG-50&LG-75, Berjaya Times Square, No 1, Jln Imbi, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 55100,
+        "Coordinates": "3.1440620093423335, 101.71632095770273",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.70825663899188,
+          3.14094896486657
+        ]
+      },
+      "properties": {
+        "Name": "Memang Meow @LaLaport Bukit Bintang City Centre KL",
+        "Address": "LG1-FH-26A & LG1-FH-26B, Mitsui Shopping Park Lalaport KL @ BBCC 2, Jalan Hang Tuah Bukit Bintang, City Centre, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 55100,
+        "Coordinates": "3.14094896486657, 101.70825663899188",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.70828346108014,
+          3.140750779553224
+        ]
+      },
+      "properties": {
+        "Name": "Nasi Lemak by Memang Meow @ Lalaport BBCC KL",
+        "Address": "Mitsui Shopping Park LALAPORT KL L4-FC-03 No, 2, Jln Hang Tuah, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 55100,
+        "Coordinates": "3.140750779553224, 101.70828346108014",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.68683763638997,
+          2.80597035511539
+        ]
+      },
+      "properties": {
+        "Name": "Memang Meow Kopitiam Mitsui Outlet",
+        "Address": "Lot F55, Mitsui Outlet Park KLIA Sepang, Persiaran Komersial, KLIA, 64000 Sepang, Selangor",
+        "Postcode": 64000,
+        "Coordinates": "2.80597035511539, 101.68683763638997",
+        "State": "Selangor",
+        "District": "KLIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.68632290110655,
+          2.7495494072168407
+        ]
+      },
+      "properties": {
+        "Name": "Memang Meow @ Gateway KLIA Terminal 2",
+        "Address": "Terminal KLIA 2 Ketibaan, Lot L2-98, 101, 102A&B, Level 2, KLIA2 Arrival Lane, Kuala Lumpur International Airport, 64000 Sepang, Selangor",
+        "Postcode": 64000,
+        "Coordinates": "2.7495494072168407, 101.68632290110655",
+        "State": "Selangor",
+        "District": "KLIA"
+      }
+    }
+  ]
+}

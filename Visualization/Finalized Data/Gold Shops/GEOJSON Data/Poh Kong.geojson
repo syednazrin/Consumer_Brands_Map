@@ -1,0 +1,1643 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.65589723812397,
+          1.482047854945184
+        ]
+      },
+      "properties": {
+        "Name": "Diamond Boutique Aeon Bukit Indah",
+        "Address": "Lot G 36, Ground Floor, Aeon Bukit Indah Shopping Center, 8, Jalan Indah 15/2, Bukit Indah, 81200 Johor Bahru, Johor",
+        "Postcode": 81200,
+        "Coordinate": "1.482047854945184, 103.65589723812397",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.65586358414754,
+          1.482079080189263
+        ]
+      },
+      "properties": {
+        "Name": "Oro Bianco Aeon Bukit Indah",
+        "Address": "Lot G35, Ground Floor, Aeon Bukit Indah Shopping Centre, 8, Jalan Indah 15/2, Bukit Indah, 81200 Johor Bahru, Johor",
+        "Postcode": 81200,
+        "Coordinate": "1.482079080189263, 103.65586358414754",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.65577922093563,
+          1.4820264044514377
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Bukit Indah",
+        "Address": "Lot G 37, Ground Floor, Aeon Bukit Indah Shopping Center, 8, Jalan Indah 15/2, Bukit Indah, 81200 Johor Bahru, Johor",
+        "Postcode": 81200,
+        "Coordinate": "1.4820264044514377, 103.65577922093563",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.93570042093506,
+          1.8542316250442716
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Batu Pahat Mall",
+        "Address": "Lot G33A, Ground Floor, Batu Pahat Mall, Jalan Kluang 83000, Johor",
+        "Postcode": 83000,
+        "Coordinate": "1.8542316250442716, 102.93570042093506",
+        "State": "Johor",
+        "District": "Batu Pahat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.62913227860605,
+          1.5428836720142396
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Taman University",
+        "Address": "Lg 23 , Lower Ground Floor, Aeon Taman University Shopping Centre, Jalan Pendidikan, Taman University 81300, Johor",
+        "Postcode": 81300,
+        "Coordinate": "1.5428836720142396, 103.62913227860605",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7633847227827,
+          1.4626031320553563
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong City Square",
+        "Address": "Lot J1-02 & J1-03 , Level 01 , 106-108 , Jalan Wong Ah Fook 80000, Johor",
+        "Postcode": 80000,
+        "Coordinate": "1.4626031320553563, 103.7633847227827",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.64961821372066,
+          1.9527855010469646
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Paradigm Mall Johor",
+        "Address": "Ug-06, Upper Ground Floor, Paradigm Mall, Johor Bahru, Jalan Skudai 81200, Johor",
+        "Postcode": 81200,
+        "Coordinate": "1.9527855010469646, 103.64961821372066",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.56644603627619,
+          2.0445053141387444
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Wetex Parade",
+        "Address": "G 1-08 & 1-09, First Floor , Wetex Parade, Jalan Ali 84000, Johor",
+        "Postcode": 84000,
+        "Coordinate": "2.0445053141387444, 102.56644603627619",
+        "State": "Johor",
+        "District": "Muar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.77738907860612,
+          1.5012561776461544
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong The Mall, Mid Valley Southkey",
+        "Address": "LG-026, Lower Ground Floor, The Mall, Mid Valley Southkey, No.1 Persiaran Southkey, 80150 Johor Bahru, Johor Darul Takzim 80150, Johor",
+        "Postcode": 80150,
+        "Coordinate": "1.5012561776461544, 103.77738907860612",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.81837777675902,
+          1.4959796272673527
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Permas Jaya",
+        "Address": "Aeon Permas Jaya Shopping Centre , Lot G49 , Ground Floor , No. 1 , Jalan Permas Utara 81750, Johor",
+        "Postcode": 81750,
+        "Coordinate": "1.4959796272673527, 103.81837777675902",
+        "State": "Johor",
+        "District": "Masai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2497382362761,
+          2.1894622598871316
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Mahkota G14",
+        "Address": "Lot G 14 , Ground Floor , Mahkota Parade, Jalan Taman 75000, Malacca",
+        "Postcode": 75000,
+        "Coordinate": "2.1894622598871316, 102.2497382362761",
+        "State": "Melaka",
+        "District": "Melaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24948408229973,
+          2.191425738585026
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Mahkota G29",
+        "Address": "Lot G 29 , Ground Floor , Mahkota Parade, Jalan Taman 75000, Malacca",
+        "Postcode": 75000,
+        "Coordinate": "2.191425738585026, 102.24948408229973",
+        "State": "Melaka",
+        "District": "Melaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.73446372093537,
+          1.5639734952199358
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Bandar Dato’ Onn",
+        "Address": "Lot G46, Ground Floor, Aeon Mall Bandar Dato’ Onn, No.3, Jalan Dato’ Onn 3, Bandar Dato, Onn. 81100, Johor",
+        "Postcode": 81100,
+        "Coordinate": "1.5639734952199358, 103.73446372093537",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.61722915161779,
+          1.6408088870961155
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Mall Kulaijaya",
+        "Address": "Lot G03, Ground Floor, Aeon Mall Kulaijaya, Ptd 106273, Persiaran Indahpura Utama, Bandar Indahpura 81000, Johor",
+        "Postcode": 81000,
+        "Coordinate": "1.6408088870961155, 103.61722915161779",
+        "State": "Johor",
+        "District": "Kulai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.79565829394733,
+          1.5501818713686106
+        ]
+      },
+      "properties": {
+        "Name": "Gold Boutique Aeon Tebrau",
+        "Address": "Lot G120, Ground Floor, Aeon Tebrau City Shopping Centre, No. 1 , Jalan Desa Tebrau , Taman Desa Tebrau 81100, Johor",
+        "Postcode": 81100,
+        "Coordinate": "1.5501818713686106, 103.79565829394733",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24641962462911,
+          2.2150571390939877
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Bandaraya Melaka",
+        "Address": "Lot G15 & G16, Ground Floor, Aeon Bandaraya Melaka Shopping Centre, No. 2, Jalan Lagenda, Taman I - Lagenda 75400, Malacca",
+        "Postcode": 75400,
+        "Coordinate": "2.2150571390939877, 102.24641962462911",
+        "State": "Melaka",
+        "District": "Melaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7956368362767,
+          1.55010679700248
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Tebrau",
+        "Address": "Lot F 22 , 1St Floor , Aeon Tebrau City Shopping Centre, No. 1 , Jalan Desa Tebrau , Taman Desa Tebrau 81100, Johor",
+        "Postcode": 81100,
+        "Coordinate": "1.55010679700248, 103.7956368362767",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.28224125144456,
+          2.2356403290609124
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Malacca",
+        "Address": "G15, Ground Floor, Aeon Melaka Shopping Centre, Ayer Keroh 75450, Malacca",
+        "Postcode": 75450,
+        "Coordinate": "2.2356403290609124, 102.28224125144456",
+        "State": "Melaka",
+        "District": "Ayer Keroh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.91180363812335,
+          2.70141931715383
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Seremban 2",
+        "Address": "Lot G12, Ground Floor, NO.112, Persiaran S2 B1, Seremban 2, 70300 Seremban",
+        "Postcode": 70300,
+        "Coordinate": "2.70141931715383, 101.91180363812335",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.93690216695859,
+          2.7228283484655864
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Terminal 1",
+        "Address": "Lot G06, Ground Floor, 20B, Jalan Lintang , 70000 Seremban",
+        "Postcode": 70000,
+        "Coordinate": "2.7228283484655864, 101.93690216695859",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.93629081038104,
+          2.7287632007260934
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong The Store Seremban",
+        "Address": "Ground Floor , 43A , Jalan Tuanku Munawir , 70000 Seremban",
+        "Postcode": 70000,
+        "Coordinate": "2.7287632007260934, 101.93629081038104",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.50282067675853,
+          2.8140123628573868
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong The Store Banting",
+        "Address": "Ground Floor, The Store @ Banting, Lot 1256, Jalan Besar, Banting, 42700 Banting, Selangor",
+        "Postcode": 42700,
+        "Coordinate": "2.8140123628573868, 101.50282067675853",
+        "State": "Selangor",
+        "District": "Banting"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7915112479232,
+          2.8111890678977534
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Giant Nilai",
+        "Address": "Lot G36-G37, 9 Avenue Complex, Taman Korporat, Putra Nilai, 71800 Nilai, Negeri Sembilan Darul Khusus.",
+        "Postcode": 71800,
+        "Coordinate": "2.8111890678977534, 101.7915112479232",
+        "State": "Negeri Sembilan",
+        "District": "Nilai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.79089923997054,
+          2.8178922461674523
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Mall Nilai",
+        "Address": "Lot G-06, Ground Floor, Persiaran Pusat Bandar, Putra Point, 71800 Bandar Baru Nilai",
+        "Postcode": 71800,
+        "Coordinate": "2.8178922461674523, 101.79089923997054",
+        "State": "Negeri Sembilan",
+        "District": "Nilai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44483039394707,
+          2.9942251665895983
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Bukit Tinggi",
+        "Address": "Lot No.G76, Ground Floor, Aeon Bukit Tinggi Shopping Centre, No.1, Persiaran Batu Nilam 1/KS6, Bandar Bukit Tinggi 2 41200 , Selangor",
+        "Postcode": 41200,
+        "Coordinate": "2.9942251665895983, 101.44483039394707",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.76241874977053,
+          2.936583854254911
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Bangi",
+        "Address": "G1, Bangi Utama Shopping Complex, Section 1B, Jalan Kemajuan, Bandar Baru Bangi 43650, Selangor",
+        "Postcode": 43650,
+        "Coordinate": "2.936583854254911, 101.76241874977053",
+        "State": "Selangor",
+        "District": "Bandar Baru Bangi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44085675161769,
+          3.0059688206951547
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Lotus's Klang",
+        "Address": "Lot F10, First Floor, Tesco Klang, No. 3, Jalan Batu Nilam 6/KS6, Bandar Bukit Tinggi 41200, Selangor",
+        "Postcode": 41200,
+        "Coordinate": "3.0059688206951547, 101.44085675161769",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71289373627641,
+          2.9706471132962755
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong IOI City Mall",
+        "Address": "Lot LG201, Lower Ground Floor, Ioi City Mall, Lebuh Irc, Ioi Resort City 62502, Selangor",
+        "Postcode": 62502,
+        "Coordinate": "2.9706471132962755, 101.71289373627641",
+        "State": "Wp Putrajaya",
+        "District": "Putrajaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67526673812354,
+          2.9954842238190267
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Taman Equine",
+        "Address": "Lot G-47, Ground Floor, Aeon Taman Equine Shopping Centre, No.2, Jalan Equine, Taman Equine 43300 , Selangor",
+        "Postcode": 43300,
+        "Coordinate": "2.9954842238190267, 101.67526673812354",
+        "State": "Selangor",
+        "District": "Seri Kembangan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7887720344293,
+          2.991418938677244
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Metro Kajang",
+        "Address": "G 71-76, Ground Floor, Plaza Metro Kajang, Section 7, Jalan Tun Abdul Aziz 43000, Selangor",
+        "Postcode": 43000,
+        "Coordinate": "2.991418938677244, 101.7887720344293",
+        "State": "Selangor",
+        "District": "Kajang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44737969394714,
+          3.0485246563525505
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Shaw Centrepoint",
+        "Address": "Lot Gl-10, Ground Level, Shaw Centrepoint, Jalan Melayu / Jalan Hassan 41400, Selangor",
+        "Postcode": 41400,
+        "Coordinate": "3.0485246563525505, 101.44737969394714",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.47257709764145,
+          3.060887994591556
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Bukit Raja Klang",
+        "Address": "Lot G20, Ground Floor, Aeon Bukit Raja Shopping Centre, Bandar Baru Klang 41150, Selangor",
+        "Postcode": 41150,
+        "Coordinate": "3.060887994591556, 101.47257709764145",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45373097860593,
+          3.0640214019071887
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Klang Parade",
+        "Address": "Lot G07-09, Ground Floor, Klang Parade, Jalan Meru, 41050 , Selangor",
+        "Postcode": 41050,
+        "Coordinate": "3.0640214019071887, 101.45373097860593",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71919648045296,
+          3.0287933293491984
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong The Mines",
+        "Address": "L1-57, Level 1, The Mines, Jalan Dulang, Mines Resort City 43300 , Selangor",
+        "Postcode": 43300,
+        "Coordinate": "3.0287933293491984, 101.71919648045296",
+        "State": "Selangor",
+        "District": "Seri Kembangan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.64119527860592,
+          3.058936962781221
+        ]
+      },
+      "properties": {
+        "Name": "Gold Boutique IOI Mall Puchong",
+        "Address": "Lot G09, Ground Floor, Ioi Mall, Batu 9, Jalan Puchong, Bandar Puchong Jaya, 47170 Puchong, Selangor",
+        "Postcode": 47170,
+        "Coordinate": "3.058936962781221, 101.64119527860592",
+        "State": "Selangor",
+        "District": "Puchong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.76509869579424,
+          3.0337187591620136
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Balakong Cheras Selatan",
+        "Address": "Lot G27, Ground Floor, Aeon Cheras Selatan Shopping Centre, Lebuh Tun Hussien Onn 43200, Selangor",
+        "Postcode": 43200,
+        "Coordinate": "3.0337187591620136, 101.76509869579424",
+        "State": "Selangor",
+        "District": "Cheras"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.64636400928836,
+          3.050403410541092
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Giant Kinrara",
+        "Address": "Lot F24, Giant Hypermarket Bandar Kinrara, Lot 449, Jalan Bk 5A/1, Bandar Kinrara, 47100, Selangor",
+        "Postcode": 47100,
+        "Coordinate": "3.050403410541092, 101.64636400928836",
+        "State": "Selangor",
+        "District": "Puchong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6182317092883,
+          3.0458940842152864
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong IOI Mall Puchong",
+        "Address": "Lot G53A, Ground Floor IOI Mall, Batu 9 Jalan Puchong, Bandar Puchong Jaya 47170, Selangor",
+        "Postcode": 47170,
+        "Coordinate": "3.0458940842152864, 101.6182317092883",
+        "State": "Selangor",
+        "District": "Puchong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67125592093525,
+          3.050450696894033
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Pavilion Bukit Jalil",
+        "Address": "Lot 2.19.00, Level2, Pavilion Bukit Jalil, 2, Persiaran Bukit Jalil 8, Bandar Bukit Jalil 57000, Kuala Lumpur",
+        "Postcode": 57000,
+        "Coordinate": "3.050450696894033, 101.67125592093525",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6064820534649,
+          3.072311218897939
+        ]
+      },
+      "properties": {
+        "Name": "Gold Boutique Sunway Pyramid",
+        "Address": "G 1.72, Ground Floor, Sunway Pyramid, No.3, Jalan Pjs 11/15, Bandar Sunway 46150, Selangor",
+        "Postcode": 46150,
+        "Coordinate": "3.072311218897939, 101.6064820534649",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.54809962850794,
+          3.084475698800811
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Shah Alam",
+        "Address": "Lot F35, First Floor, Aeon Mall Shah Alam, No.1, Jalan Akuatik 13/64, Seksyen 13 40100, Selangor",
+        "Postcode": 40100,
+        "Coordinate": "3.084475698800811, 101.54809962850794",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.60624271113551,
+          3.0723626323028084
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Sunway Pyramid",
+        "Address": "Lg 2.82, Lower Ground Two, Sunway Pyramid, No.3, Jalan Pjs 11/15, Bandar Sunway, 47500 , Selangor",
+        "Postcode": 47500,
+        "Coordinate": "3.0723626323028084, 101.60624271113551",
+        "State": "Selangor",
+        "District": "Subang Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.58505077860592,
+          3.081674276659458
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Subang Parade",
+        "Address": "G 19, Ground Floor, Subang Parade, Subang Jaya 47500 , Selangor",
+        "Postcode": 47500,
+        "Coordinate": "3.081674276659458, 101.58505077860592",
+        "State": "Selangor",
+        "District": "Subang Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.46137358045306,
+          3.109122405575974
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Setia City Mall",
+        "Address": "LG53, Lower Ground floor Setia City Mall 7 Persiaran Setia Dagang Bandar Setia Alam, Seksyen, U13, 40170 Shah Alam, Selangor",
+        "Postcode": 40170,
+        "Coordinate": "3.109122405575974, 101.46137358045306",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67382586511184,
+          3.085320062598079
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Pearl Point Shopping Mall",
+        "Address": "G48 & G58, Ground Floor, Pearl Point Shopping Mall, Batu 5, Jalan Klang Lama 58000, Kuala Lumpur",
+        "Postcode": 58000,
+        "Coordinate": "3.085320062598079, 101.67382586511184",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.64533798045306,
+          3.1003319332802706
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong HQ",
+        "Address": "No . 16 - 20, Jalan 52 / 4 46200, Selangor",
+        "Postcode": 46200,
+        "Coordinate": "3.1003319332802706, 101.64533798045306",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.59595133812378,
+          3.1057313538122435
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Paradigm Mall",
+        "Address": "Lot CF-47, Concourse Floor, Paradigm Mall, No. 1, Jalan Ss7/26A 47301, Selangor",
+        "Postcode": 47301,
+        "Coordinate": "3.1057313538122435, 101.59595133812378",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.62104534977067,
+          3.11750582084795
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong SS2",
+        "Address": "No. 19-23 , Jalan Ss2 / 55 47300, Selangor",
+        "Postcode": 47300,
+        "Coordinate": "3.11750582084795, 101.62104534977067",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67742875161782,
+          3.1177877689442703
+        ]
+      },
+      "properties": {
+        "Name": "Diamond & Gold Mid Valley",
+        "Address": "LG 051, Lower Ground, Lingkaran Syed Putra, Mid Valley Megamall, Mid Valley City, 59200 Kuala Lumpur",
+        "Postcode": 59200,
+        "Coordinate": "3.1177877689442703, 101.67742875161782",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67760643997087,
+          3.117945494822747
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Mid Valley",
+        "Address": "LG 88, Lower Ground, Mid Valley Megamall, Mid Valley City, Lingkaran Syed Putra 59200, Kuala Lumpur",
+        "Postcode": 59200,
+        "Coordinate": "3.117945494822747, 101.67760643997087",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.62696255161784,
+          3.130806994394686
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong 3 Damansara (previously known as Tropicana Mall)",
+        "Address": "Lot G,09 & 10, Ground Floor, No. 3, Jalan SS20/27 Petaling Jaya, Malaysia 47400 , Selangor",
+        "Postcode": 47400,
+        "Coordinate": "3.130806994394686, 101.62696255161784",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72826766326475,
+          3.1260701929089016
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Maluri",
+        "Address": "F33, Ground Floor, Aeon Taman Maluri Shopping Centre, Taman Maluri, Jalan Jejaka, Cheras 55100, Kuala Lumpur",
+        "Postcode": 55100,
+        "Coordinate": "3.1260701929089016, 101.72826766326475",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72426719977064,
+          3.1283599451725803
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Sunway Velocity",
+        "Address": "Lot G57, Ground Floor, Sunway Velocity Mall, Lingkaran Sv, Sunway Velocity 55100, Kuala Lumpur",
+        "Postcode": 55100,
+        "Coordinate": "3.1283599451725803, 101.72426719977064",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61603019579441,
+          3.148178812969958
+        ]
+      },
+      "properties": {
+        "Name": "Diamond & Gold 1 Utama",
+        "Address": "Lot Lg 315C, Lower Ground Floor, 1 Utama Shopping Centre, No. 1, Lebuh Bandar Utama, Bandar Utama Damansara 47800 , Selangor",
+        "Postcode": 47800,
+        "Coordinate": "3.148178812969958, 101.61603019579441",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61608383997094,
+          3.1481681003255364
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong 1 Utama",
+        "Address": "Lot G113, Ground Floor, 1 Utama Shopping Centre, No.1, Lebuh Bandar Utama, Bandar Utama Damansara 47800 , Selangor",
+        "Postcode": 47800,
+        "Coordinate": "3.1481681003255364, 101.61608383997094",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.66759089579436,
+          3.1430624634914617
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Bangsar Shopping Centre",
+        "Address": "Lot F3 & F4, First Floor, Bangsar Shopping Centre, No. 285, Jalan Ma'Arof, Bukit Bandar Raya 59000, Kuala Lumpur",
+        "Postcode": 59000,
+        "Coordinate": "3.1430624634914617, 101.66759089579436",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74192585161775,
+          3.0903595880479395
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Leisure Mall",
+        "Address": "Lg 11-12, Lower Ground , Leisure Mall, Taman Segar , 6 1/2 Miles Off Jalan Cheras 56100, Kuala Lumpur",
+        "Postcode": 56100,
+        "Coordinate": "3.0903595880479395, 101.74192585161775",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.75483136695902,
+          3.12938254076967
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Pandan Kapital",
+        "Address": "Lot 47 & 48, Ground Floor, Pusat Beli Belah Pandan Kapital, Jalan Pandan Utama, Pandan Indah 55100, Kuala Lumpur",
+        "Postcode": 55100,
+        "Coordinate": "3.12938254076967, 101.75483136695902",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.66319423812375,
+          3.1468245867144353
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Gallery Pavilion Damansara Heights",
+        "Address": "Lot 3.35.00, Pavilion Damansara Heights Mall, No 3, Jalan Damanlela 50490, Kuala Lumpur",
+        "Postcode": 50490,
+        "Coordinate": "3.1468245867144353, 101.66319423812375",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71389186695909,
+          3.1489272874981253
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Gallery Pavilion KL",
+        "Address": "Lot 2.02.00, Level 2, Pavilion Kuala Lumpur, 168, Jalan Bukit Bintang 55100, Kuala Lumpur",
+        "Postcode": 55100,
+        "Coordinate": "3.1489272874981253, 101.71389186695909",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71342859293647,
+          3.149137458484265
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Pavilion KL",
+        "Address": "Lot 1.40.00, Level 1, Pavilion Kuala Lumpur, 168, Jalan Bukit Bintang 55100, Kuala Lumpur",
+        "Postcode": 55100,
+        "Coordinate": "3.149137458484265, 101.71342859293647",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.69529788045315,
+          3.1564661605819975
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Kompleks Pernas Sogo",
+        "Address": "Lot 02, Ground Floor, Kompleks Pernas Sogo, 190, Jalan Tuanku Abdul Rahman 50100, Kuala Lumpur",
+        "Postcode": 50100,
+        "Coordinate": "3.1564661605819975, 101.69529788045315",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74186106695906,
+          3.1441973393731875
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Lotus's Ampang",
+        "Address": "Lot 17, Ground Floor, Tesco Ampang, Pt 8880, Jalan Pandan Prima, Dataran Pandan Prima 55100, Kuala Lumpur",
+        "Postcode": 55100,
+        "Coordinate": "3.1441973393731875, 101.74186106695906",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.76462160744131,
+          3.146100150165163
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Spectrum",
+        "Address": "G8, Ground Floor, Spectrum Shopping Mall, Jalan Wawasan 4/2, Bandar Baru Ampang, 68000, Selangor",
+        "Postcode": 68000,
+        "Coordinate": "3.146100150165163, 101.76462160744131",
+        "State": "Selangor",
+        "District": "Ampang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.75105366326481,
+          3.1579923727955936
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Ampang Point",
+        "Address": "Ampang Point Shopping Centre, G 27, Ground Floor, Jalan Ampang 68000, Selangor",
+        "Postcode": 68000,
+        "Coordinate": "3.1579923727955936, 101.75105366326481",
+        "State": "Selangor",
+        "District": "Ampang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.69246230928843,
+          3.1666184210010337
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Sunway Putra Mall",
+        "Address": "Lot G30, Ground Floor, 100, Jalan Putra 50350, Kuala Lumpur",
+        "Postcode": 50350,
+        "Coordinate": "3.1666184210010337, 101.69246230928843",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.75079422278257,
+          3.1773654560209015
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon AU2 Ampang",
+        "Address": "Lot F03, Ground Floor, Aeon AU2 Shopping Centre, No. 6, Jalan Taman Setiawangsa (Jalan 37/56), Au2, Bandar Baru Ampang, Mukim Ulu Kelang 54200, Kuala Lumpur",
+        "Postcode": 54200,
+        "Coordinate": "3.1773654560209015, 101.75079422278257",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.56378961113566,
+          3.2090674490450772
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Sungai Buloh",
+        "Address": "Lot G18, Ground Floor , Kompleks Sungai Buloh, No. 2, Bandar Baru Sungai Buloh , Seksyen U20 47000, Selangor",
+        "Postcode": 47000,
+        "Coordinate": "3.2090674490450772, 101.56378961113566",
+        "State": "Selangor",
+        "District": "Sungai Buloh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.63901239579451,
+          3.2130757199950892
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Kepong",
+        "Address": "G26, Ground Floor, Aeon Metro Prima Shopping Centre, No. 1, Jalan Metro Prima 52100, Kuala Lumpur",
+        "Postcode": 52100,
+        "Coordinate": "3.2130757199950892, 101.63901239579451",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.64373299427893,
+          3.2158821972678027
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Big Kepong",
+        "Address": "Lot No.14-16, F2, First Floor, Aeon Big Kepong, No.2, Jalan Metro Perdana, Taman Usahawan, Kepong 52100, Kuala Lumpur",
+        "Postcode": 52100,
+        "Coordinate": "3.2158821972678027, 101.64373299427893",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73414939394736,
+          3.2022000384756932
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Wangsa Maju",
+        "Address": "Lot G8 , Ground Floor, Aeon Wangsa Maju, Alpha Angle, Jalan R1, Section 1, Wangsa Maju 53300 , Kuala Lumpur",
+        "Postcode": 53300,
+        "Coordinate": "3.2022000384756932, 101.73414939394736",
+        "State": "Wp Kuala Lumpur",
+        "District": "Setapak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.64381186695921,
+          3.2370558959505735
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Selayang Mall",
+        "Address": "Lot G05-06, Ground Floor, Selayang Mall, Jalan Su9, Taman Selayang Utama 68100, Selangor",
+        "Postcode": 68100,
+        "Coordinate": "3.2370558959505735, 101.64381186695921",
+        "State": "Selangor",
+        "District": "Batu Caves"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.53675257860634,
+          3.3165681705346133
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Rawang",
+        "Address": "Lot G30, Ground Floor, Aeon Anggun Rawang Shopping Centre, No.1, Persiaran Anggun, Taman Anggun 48000, Selangor",
+        "Postcode": 48000,
+        "Coordinate": "3.3165681705346133, 101.53675257860634",
+        "State": "Selangor",
+        "District": "Rawang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.79434150928884,
+          3.4242994611330055
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Sky Avenue",
+        "Address": "Lot No. T2B-29, Level T2B, Sky Avenue, Genting Highlands Resort 69000, Pahang",
+        "Postcode": 69000,
+        "Coordinate": "3.4242994611330055, 101.79434150928884",
+        "State": "Pahang",
+        "District": "Genting Highlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.78657612278295,
+          3.397266306215366
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Genting Grand",
+        "Address": "Lot G/LG1.10, Lower Ground Floor, Genting Grand Hotel, 69000, Pahang",
+        "Postcode": 69000,
+        "Coordinate": "3.397266306215366, 101.78657612278295",
+        "State": "Pahang",
+        "District": "Genting Highlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.02162040744322,
+          4.025324664707342
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Teluk Intan",
+        "Address": "Lot G2, Ground Floor, The Store, 775 , Jalan Ah Cheong 36000, Perak",
+        "Postcode": 36000,
+        "Coordinate": "4.025324664707342, 101.02162040744322",
+        "State": "Perak",
+        "District": "Teluk Intan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.67101127860857,
+          4.219467091134529
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Seri Manjung",
+        "Address": "Lot G48, Ground Floor, Aeon Seri Manjung Shopping Centre, Pusat Perniagaan Manjung Point 3 32040, Perak",
+        "Postcode": 32040,
+        "Coordinate": "4.219467091134529, 100.67101127860857",
+        "State": "Perak",
+        "District": "Seri Manjung"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.32269679579575,
+          3.804730415557579
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Kuantan Parade",
+        "Address": "Lot No. 27 & 28, Ground Floor, Kuantan Parade, Jalan Haji Abdul Rahman 25000, Pahang",
+        "Postcode": 25000,
+        "Coordinate": "3.804730415557579, 103.32269679579575",
+        "State": "Pahang",
+        "District": "Kuantan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.32258950744267,
+          3.804773236314219
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong East Coast Mall",
+        "Address": "Lot Gf-58, Ground Floor, East Coast Mall Kuantan, Jalan Putra Square 6 25200, Pahang",
+        "Postcode": 25200,
+        "Coordinate": "3.804773236314219, 103.32258950744267",
+        "State": "Pahang",
+        "District": "Kuantan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.07104676696281,
+          4.546225192132913
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Station 18",
+        "Address": "Lot G12, Ground Floor, Aeon Ipoh Station 18 Shopping Centre, No. 2, Susuran Stesen 18, Station 18 31650, Perak",
+        "Postcode": 31650,
+        "Coordinate": "4.546225192132913, 101.07104676696281",
+        "State": "Perak",
+        "District": "Ipoh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.05975853628053,
+          4.581824970063943
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Big Ipoh Midtown",
+        "Address": "Lot G37, Ground Floor, Aeon Big Ipoh Midtown Shopping Centre, No. 1, Hala Falim 1, Taman Mas Jaya, Falim 30200, Perak",
+        "Postcode": 30200,
+        "Coordinate": "4.581824970063943, 101.05975853628053",
+        "State": "Perak",
+        "District": "Ipoh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.11870107065741,
+          4.614141309742051
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Kinta City",
+        "Address": "G13 , Ground Floor , Aeon Kinta City Shopping Centre, Ipoh Garden 31400, Perak",
+        "Postcode": 31400,
+        "Coordinate": "4.614141309742051, 101.11870107065741",
+        "State": "Perak",
+        "District": "Ipoh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.74605797861102,
+          4.846153552365553
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Taiping Mall",
+        "Address": "Lot G-23A & G-25, Ground Floor, Taiping Mall, Jalan Tupai 34000, Perak",
+        "Postcode": 34000,
+        "Coordinate": "4.846153552365553, 100.74605797861102",
+        "State": "Perak",
+        "District": "Taiping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.72864520929357,
+          4.873056046520625
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Taiping",
+        "Address": "Lot G50, Ground Floor, Pusat Membeli-Belah Aeon, Lot 8576 & 8577, Jalan Kamunting 34000, Perak",
+        "Postcode": 34000,
+        "Coordinate": "4.873056046520625, 100.72864520929357",
+        "State": "Perak",
+        "District": "Taiping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.47760869580169,
+          5.321357329218563
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Mall Bukit Mertajam",
+        "Address": "Lot G19, Ground Floor, Aeon Mall Bukit Mertajam, Jalan Rozhan, Alma 14000, Penang",
+        "Postcode": 14000,
+        "Coordinate": "5.321357329218563, 100.47760869580169",
+        "State": "Pulau Pinang",
+        "District": "Bukit Mertajam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.29136498046053,
+          5.333803689430695
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Mydin Bukit Jambul",
+        "Address": "Lot Lg-001, Lower Ground Floor, Kompleks Bukit Jambul, Jalan Rumbia 11900, Penang",
+        "Postcode": 11900,
+        "Coordinate": "5.333803689430695, 100.29136498046053",
+        "State": "Pulau Pinang",
+        "District": "Bayan Lepas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3066191804605,
+          5.333294695277684
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Queensbay Mall",
+        "Address": "Lot Gf 119-120, Queensbay Mall, 100, Persiaran Bayan Indah 11900, Penang",
+        "Postcode": 11900,
+        "Coordinate": "5.333294695277684, 100.3066191804605",
+        "State": "Pulau Pinang",
+        "District": "Bayan Lepas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.36158051114747,
+          6.081301705460013
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Alor Setar Mall",
+        "Address": "Lot G 5 , Ground Floor , Alor Star Mall, Kawasan Perusahaan, Tandop Baru 05400, Kedah",
+        "Postcode": 5400,
+        "Coordinate": "6.081301705460013, 100.36158051114747",
+        "State": "Kedah",
+        "District": "Alor Setar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.36640354978285,
+          6.125279053889458
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aman Central",
+        "Address": "Lot G53, Ground Floor, Aman Central, No.1, Aman Central Lebuhraya Darul Aman 05100, Kedah",
+        "Postcode": 5100,
+        "Coordinate": "6.125279053889458, 100.36640354978285",
+        "State": "Kedah",
+        "District": "Alor Setar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24027848259452,
+          6.117584988988519
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong Aeon Mall Kota Bahru",
+        "Address": "Lot G31, Ground Floor, Aeon Mall Kota Bharu, Lembah Sireh 15050, Kelantan",
+        "Postcode": 15050,
+        "Coordinate": "6.117584988988519, 102.24027848259452",
+        "State": "Kelantan",
+        "District": "Kota Bharu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24070860930061,
+          6.117710184092061
+        ]
+      },
+      "properties": {
+        "Name": "Poh Kong KB Mall",
+        "Address": "G 35, KB MALL, Pt 101 & 102, Jalan Hamzah, Sek 16 15050, Kelantan",
+        "Postcode": 15050,
+        "Coordinate": "6.117710184092061, 102.24070860930061",
+        "State": "Kelantan",
+        "District": "Kota Bharu"
+      }
+    }
+  ]
+}
