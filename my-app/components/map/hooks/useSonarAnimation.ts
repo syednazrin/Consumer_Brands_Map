@@ -51,7 +51,7 @@ export function useSonarAnimation(
     animationStateRef.current.startTime = Date.now();
 
     function animate() {
-      if (!animationStateRef.current.active) {
+      if (!animationStateRef.current.active || !map) {
         return;
       }
 
