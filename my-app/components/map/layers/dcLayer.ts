@@ -96,7 +96,7 @@ export function updateDCSource(map: mapboxgl.Map, geojson: GeoJSONCollection | n
     
     // Verify the data was set
     const sourceData = (dcSource as mapboxgl.GeoJSONSource)._data;
-    if (sourceData && sourceData.features) {
+    if (sourceData && typeof sourceData !== 'string' && 'features' in sourceData && sourceData.features) {
       console.log('updateDCSource: Verified DC source has', sourceData.features.length, 'features');
     }
   } else {
