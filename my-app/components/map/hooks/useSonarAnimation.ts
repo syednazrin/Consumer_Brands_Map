@@ -71,7 +71,8 @@ export function useSonarAnimation(
       const geoJsonSource = source as mapboxgl.GeoJSONSource;
       const data = geoJsonSource._data;
       
-      if (!data || !data.features || data.features.length === 0) {
+      // Check if data is a GeoJSON object (not a string)
+      if (!data || typeof data === 'string' || !('features' in data) || !data.features || data.features.length === 0) {
         animationStateRef.current.animationFrame = requestAnimationFrame(animate);
         return;
       }
