@@ -1,0 +1,581 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.63393446199163,
+          3.095617904619986
+        ]
+      },
+      "properties": {
+        "Name": "Wisma Wah Chan Showroom",
+        "Address": "No. 1, Jalan 51a/219, Seksyen 51a, 46100 Petaling Jaya, Selangor",
+        "Postcode": 46100,
+        "Coordinate": "3.095617904619986, 101.63393446199163",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.63573670802681,
+          3.109762709902869
+        ]
+      },
+      "properties": {
+        "Name": "PJ Section 14",
+        "Address": "10B-1 & 12A-1, 1, Jalan 14/20, Seksyen 14, 46100 Petaling Jaya, Selangor",
+        "Postcode": 46100,
+        "Coordinate": "3.109762709902869, 101.63573670802681",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6074807945356,
+          3.0731938237153607
+        ]
+      },
+      "properties": {
+        "Name": "Sunway Pyramid",
+        "Address": "Darul Ehsan, Level CP6, Blue Atrium, 3, Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor",
+        "Postcode": 47500,
+        "Coordinate": "3.0731938237153607, 101.6074807945356",
+        "State": "Selangor",
+        "District": "Subang Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.58450942337198,
+          3.081199456917437
+        ]
+      },
+      "properties": {
+        "Name": "Subang Parade",
+        "Address": "Lot A, Basement 5, Jalan SS16/1, Ss 16, 47500 Subang Jaya, Selangor",
+        "Postcode": 47500,
+        "Coordinate": "3.081199456917437, 101.58450942337198",
+        "State": "Selangor",
+        "District": "Subang Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.59632839453549,
+          3.0589323156238084
+        ]
+      },
+      "properties": {
+        "Name": "Mydin USJ",
+        "Address": "Persiaran Subang Permai, Subang Light Industrial Park, 47500 Subang Jaya, Selangor",
+        "Postcode": 47500,
+        "Coordinate": "3.0589323156238084, 101.59632839453549",
+        "State": "Selangor",
+        "District": "Subang Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67711761781044,
+          3.1175842227731216
+        ]
+      },
+      "properties": {
+        "Name": "Midvalley Megamall",
+        "Address": "Lingkaran Syed Putra, Mid Valley City, 59200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 59200,
+        "Coordinate": "3.1175842227731216, 101.67711761781044",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61646353871726,
+          3.1481639726963753
+        ]
+      },
+      "properties": {
+        "Name": "One Utama",
+        "Address": "1, Lebuh Bandar Utama, Bandar Utama, 47800 Petaling Jaya, Selangor",
+        "Postcode": 47800,
+        "Coordinate": "3.1481639726963753, 101.61646353871726",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67092245220798,
+          3.0503053923747756
+        ]
+      },
+      "properties": {
+        "Name": "Pavilion Bukit Jalil",
+        "Address": "2, Persiaran Jalil 8, Bukit Jalil, 57000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 57000,
+        "Coordinate": "3.0503053923747756, 101.67092245220798",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6113942675535,
+          3.1576841215408487
+        ]
+      },
+      "properties": {
+        "Name": "The Curve",
+        "Address": "6, Jln PJU 7/3, Mutiara Damansara, 47810 Petaling Jaya, Selangor",
+        "Postcode": 47810,
+        "Coordinate": "3.1576841215408487, 101.6113942675535",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.59630337733695,
+          3.1565140344949874
+        ]
+      },
+      "properties": {
+        "Name": "Giant Kota Damansara",
+        "Address": "16, Jalan PJU 5/1, Kota Damansara, 47810 Petaling Jaya, Selangor",
+        "Postcode": 47810,
+        "Coordinate": "3.1565140344949874, 101.59630337733695",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6950264350091,
+          3.0632387158778536
+        ]
+      },
+      "properties": {
+        "Name": "Endah Parade",
+        "Address": "Endah Parade, 1, Jalan 1/149e, Taman Sri Endah, 57000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 57000,
+        "Coordinate": "3.0632387158778536, 101.6950264350091",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.54875014293864,
+          3.084131810187895
+        ]
+      },
+      "properties": {
+        "Name": "Giant Shah Alam",
+        "Address": "Lot 2, Giant Hypermarket Stadium, Lot B33-B36, Innermall, Persiaran Sukan, Seksyen 13, 40100 Shah Alam, Selangor",
+        "Postcode": 40100,
+        "Coordinate": "3.084131810187895, 101.54875014293864",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71046536569953,
+          3.142123407889936
+        ]
+      },
+      "properties": {
+        "Name": "Berjaya Times Square",
+        "Address": "Imbi, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+        "Postcode": 55100,
+        "Coordinate": "3.142123407889936, 101.71046536569953",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72265616939048,
+          3.134624906009815
+        ]
+      },
+      "properties": {
+        "Name": "MyTown GF",
+        "Address": "Level 3, No 6, Lot 3-057, Jalan Cochrane, Seksyen 90, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 55100,
+        "Coordinate": "3.134624906009815, 101.72265616939048",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73868702151805,
+          3.0934243648620763
+        ]
+      },
+      "properties": {
+        "Name": "EkoCheras Mall",
+        "Address": "F29 & F30, EkoCheras Mall Level 1 Taman Mutiara Barat Cheras, 56000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 56000,
+        "Coordinate": "3.0934243648620763, 101.73868702151805",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74190132707969,
+          3.0901148954373774
+        ]
+      },
+      "properties": {
+        "Name": "Cheras Leisure Mall",
+        "Address": "6, Jln Manis, Taman Bukit Segar, 56100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 56100,
+        "Coordinate": "3.0901148954373774, 101.74190132707969",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7510000215182,
+          3.1575210207851674
+        ]
+      },
+      "properties": {
+        "Name": "Ampang Point Mall",
+        "Address": "Ampang Point, 53, Jln Memanda 9, Taman Dato Ahmad Razali, 68000 Ampang, Selangor",
+        "Postcode": 68000,
+        "Coordinate": "3.1575210207851674, 101.7510000215182",
+        "State": "Selangor",
+        "District": "Ampang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.75844863686294,
+          3.0487642969270556
+        ]
+      },
+      "properties": {
+        "Name": "AeonBig Tun Hussein Onn",
+        "Address": "Bandar Tun Hussien Onn, Jln, Persiaran Suarasa 2, Tun Hussein Onn, 43200 Cheras, Selangor",
+        "Postcode": 43200,
+        "Coordinate": "3.0487642969270556, 101.75844863686294",
+        "State": "Selangor",
+        "District": "Cheras"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.75122533133532,
+          3.1570710968480333
+        ]
+      },
+      "properties": {
+        "Name": "Ampang Point Shop",
+        "Address": "Ampang Point, 53, Jln Memanda 9, Taman Dato Ahmad Razali, 68000 Ampang, Selangor",
+        "Postcode": 68000,
+        "Coordinate": "3.1570710968480333, 101.75122533133532",
+        "State": "Selangor",
+        "District": "Ampang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72106393871739,
+          3.2043817570784605
+        ]
+      },
+      "properties": {
+        "Name": "Setapak Central",
+        "Address": "67, Jln Taman Ibu Kota, Taman Danau Kota, 53300 Kuala Lumpur, Wilayah Persekutuan",
+        "Postcode": 53300,
+        "Coordinate": "3.2043817570784605, 101.72106393871739",
+        "State": "Wp Kuala Lumpur",
+        "District": "Setapak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71363590988031,
+          2.970620139330841
+        ]
+      },
+      "properties": {
+        "Name": "IOI City Mall",
+        "Address": "Management Office, Unit T2-3A-3 & Unit T2-3A-3A Level 3A, IOI City Tower Two, Lbh IRC, Ioi Resort, 62502 Putrajaya, Selangor",
+        "Postcode": 62502,
+        "Coordinate": "2.970620139330841, 101.71363590988031",
+        "State": "Wp Putrajaya",
+        "District": "Putrajaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74221312522617,
+          3.196330163186115
+        ]
+      },
+      "properties": {
+        "Name": "AeonBig Wangsa Maju",
+        "Address": "6 Section 5, Jalan 8/27a, Wangsa Maju, 53300 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 53300,
+        "Coordinate": "3.196330163186115, 101.74221312522617",
+        "State": "Wp Kuala Lumpur",
+        "District": "Setapak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6926438270801,
+          3.2355722850063877
+        ]
+      },
+      "properties": {
+        "Name": "Giant Batu Caves",
+        "Address": "Taman Samudra, 68100 Batu Caves, Selangor",
+        "Postcode": 68100,
+        "Coordinate": "3.2355722850063877, 101.6926438270801",
+        "State": "Selangor",
+        "District": "Batu Caves"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.48163350802663,
+          3.0625688996171583
+        ]
+      },
+      "properties": {
+        "Name": "Central iCity",
+        "Address": "No. 1, Persiaran Multimedia, Seksyen 7, Jalan Plumbum 7/102, I-City, 40000 Shah Alam, Selangor",
+        "Postcode": 40000,
+        "Coordinate": "3.0625688996171583, 101.48163350802663",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.75171868289878,
+          3.2072259448947293
+        ]
+      },
+      "properties": {
+        "Name": "Giant Taman Permata",
+        "Address": "Jalan Permata 1, Taman Permata, 53300 Kuala Lumpur, Selangor",
+        "Postcode": 53300,
+        "Coordinate": "3.2072259448947293, 101.75171868289878",
+        "State": "Wp Kuala Lumpur",
+        "District": "Setapak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44781486569917,
+          3.048858710576642
+        ]
+      },
+      "properties": {
+        "Name": "Wah Chan Citigate",
+        "Address": "GL. 09, Ground Floor, Shaw Centrepoint, Jalan Raja Hassan, Jalan Melayu, 41400 Klang, Selangor",
+        "Postcode": 41400,
+        "Coordinate": "3.048858710576642, 101.44781486569917",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44758446569915,
+          3.0487687788322235
+        ]
+      },
+      "properties": {
+        "Name": "Shaw Centrepoint",
+        "Address": "Lot G04 & 05, Ground Floor 41400 Klang, Selangor Shaw Centrepoint, Jalan Raja Hassan, Jalan Melayu, 41400 Klang, Selangor",
+        "Postcode": 41400,
+        "Coordinate": "3.0487687788322235, 101.44758446569915",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.43327789453535,
+          3.0096149935084964
+        ]
+      },
+      "properties": {
+        "Name": "Giant Bukit Tinggi",
+        "Address": "Lot A19, Giant Hypermarket Klang, Persiaran Batu Nilam, Bandar Bukit Tinggi 1, 41200 Klang, Selangor",
+        "Postcode": 41200,
+        "Coordinate": "3.0096149935084964, 101.43327789453535",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.92234441966293,
+          2.7194532977794283
+        ]
+      },
+      "properties": {
+        "Name": "Palm Mall",
+        "Address": "Lot 14 & 15, Ground Floor, Palm Mall, Jalan Sungai Ujong, 70200 Seremban, Negeri Sembilan",
+        "Postcode": 70200,
+        "Coordinate": "2.7194532977794283, 101.92234441966293",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.90383712522456,
+          2.695709680318499
+        ]
+      },
+      "properties": {
+        "Name": "Mydin Seremban 2",
+        "Address": "Lot G08, Ground Floor, Mydin Hypermarket, Lot 31156, Persiaran S2 B7, Seremban 2, 70300 Seremban, Negeri Sembilan",
+        "Postcode": 70300,
+        "Coordinate": "2.695709680318499, 101.90383712522456",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.91176005406086,
+          2.6988467513245213
+        ]
+      },
+      "properties": {
+        "Name": "Biz Avenue, Seremban 2",
+        "Address": "Lot 19, Ground Floor, Jln S2 B18, Biz Avenue, 70300 Seremban, Negeri Sembilan",
+        "Postcode": 70300,
+        "Coordinate": "2.6988467513245213, 101.91176005406086",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.98479548465492,
+          2.7025201873691094
+        ]
+      },
+      "properties": {
+        "Name": "Giant Senawang",
+        "Address": "LOT, No. B35-B38, Tingkat Bawah, Giant Hypermarket Senawang, 1571, Jalan Paroi - Senawang, Taman Komersil Senawang, 70400 Seremban, Negeri Sembilan",
+        "Postcode": 70400,
+        "Coordinate": "2.7025201873691094, 101.98479548465492",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71094296880597,
+          2.939425332570183
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Alamanda Putrajaya",
+        "Address": "Lot LG 17, Alamanda Shopping Centre, Presint 1, 62000 Putrajaya",
+        "Postcode": 62000,
+        "Coordinate": "2.939425332570183, 101.71094296880597",
+        "State": "Wp Putrajaya",
+        "District": "Putrajaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73394553627674,
+          3.202392838435164
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Alpha Angle",
+        "Address": "Lot G25 & G26, Alpha Angle Shopping Centre, Wangsa Maju, 53300 Wilayah Persekutuan, Federal Territory of Kuala Lumpur",
+        "Postcode": 53300,
+        "Coordinate": "3.202392838435164, 101.73394553627674",
+        "State": "Wp Kuala Lumpur",
+        "District": "Setapak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.75155590827768,
+          3.1588887821907337
+        ]
+      },
+      "properties": {
+        "Name": "HABIB II @ Ampang Point",
+        "Address": "Ampang Point, lot 94, Lrg Memanda 2, Taman Dato Ahmad Razali, 68000 ampang point, Selangor",
+        "Postcode": 68000,
+        "Coordinate": "3.1588887821907337, 101.75155590827768",
+        "State": "Selangor",
+        "District": "Ampang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67127442093538,
+          3.130617804662529
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Bangsar Village II",
+        "Address": "Lot G9 & G10 Ground Floor Bangsar Village 2, 2, Jalan Telawi 1, 59100 Kuala Lumpur",
+        "Postcode": 59100,
+        "Coordinate": "3.130617804662529, 101.67127442093538",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7122002516176,
+          2.9704778998538752
+        ]
+      },
+      "properties": {
+        "Name": "HABIB IOI City Mall Putrajaya",
+        "Address": "Lot LG-105 & 107A, City, IOI City Mall, Ioi Resort, 62502 Putrajaya, Selangor",
+        "Postcode": 62502,
+        "Coordinate": "2.9704778998538752, 101.7122002516176",
+        "State": "Wp Putrajaya",
+        "District": "Putrajaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.69731209394728,
+          3.1551407860204668
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Semua House",
+        "Address": "GF-08 & GF-09, Semua House, Jalan Bunus Enam, Off, Jalan Masjid India, 50100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 50100,
+        "Coordinate": "3.1551407860204668, 101.69731209394728",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71219728230028,
+          3.158443235399552
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Suria KLCC",
+        "Address": "Concourse Level, Petronas Twin Tower, C48/49, Concourse Level, Jln Ampang, 50088 Kuala Lumpur",
+        "Postcode": 50088,
+        "Coordinate": "3.158443235399552, 101.71219728230028",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72971841113572,
+          3.225385216487939
+        ]
+      },
+      "properties": {
+        "Name": "HABIB KL East Mall",
+        "Address": "Lot G1-35, Ground Floor 1 KL East Mall, 823, Jln Lingkaran Tengah 2, KL Timur, 53100 Kuala Lumpur",
+        "Postcode": 53100,
+        "Coordinate": "3.225385216487939, 101.72971841113572",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67762945161775,
+          3.118351542919428
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Mid Valley Megamall",
+        "Address": "Lot G-063A, Ground Floor, Mid Valley Megamall, Lingkaran Syed Putra, Mid Valley City, 59200 Kuala Lumpur",
+        "Postcode": 59200,
+        "Coordinate": "3.118351542919428, 101.67762945161775",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5962969823002,
+          3.058908462788933
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Mydin Mall USJ",
+        "Address": "Lot G11, 12 & 27, G Floor, Mydin Mall USJ, Persiaran Subang Permai, Usj 1, 47500 Subang Jaya, Selangor",
+        "Postcode": 47500,
+        "Coordinate": "3.058908462788933, 101.5962969823002",
+        "State": "Selangor",
+        "District": "Subang Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.52340926695902,
+          3.084986882278663
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Plaza Shah Alam",
+        "Address": "Lot G6A & G7, Ground Floor, Plaza Shah Alam Jalan Tengku Ampuan Zabedah E9/E, Section 9, 40100 Shah Alam, Selangor",
+        "Postcode": 40100,
+        "Coordinate": "3.084986882278663, 101.52340926695902",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.46083300928844,
+          3.1096114228630896
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Setia City Mall",
+        "Address": "LG-32, Setia City Mall, No 7, Persiaran Setia Dagang, Bandar Setia Alam, Seksyen U13, 40170 Shah Alam, Selangor",
+        "Postcode": 40170,
+        "Coordinate": "3.1096114228630896, 101.46083300928844",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61072893997097,
+          3.1583943354132233
+        ]
+      },
+      "properties": {
+        "Name": "HABIB The Curve",
+        "Address": "Lot G24, Ground Floor, The Curve, Shopping Centre, 6, Jln PJU 7/3, Mutiara Damansara, 47800 Petaling Jaya, Selangor",
+        "Postcode": 47800,
+        "Coordinate": "3.1583943354132233, 101.61072893997097",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67055226695898,
+          3.050400455995646
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Pavilion Bukit Jalil",
+        "Address": "Lot 2.16.00, Level 2, Pavilion Bukit Jalil, 2, Persiaran Bukit Jalil 8, Bandar Bukit Jalil, 57000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 57000,
+        "Coordinate": "3.050400455995646, 101.67055226695898",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71862636854368,
+          3.1433828948667784
+        ]
+      },
+      "properties": {
+        "Name": "HABIB The Exchange TRX",
+        "Address": "L.1.20.0 Level 1, The Exchange TRX, Persiaran TRX, Tun Razak Exchange, 55188 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "Postcode": 55188,
+        "Coordinate": "3.1433828948667784, 101.71862636854368",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7889922497703,
+          2.818451693633835
+        ]
+      },
+      "properties": {
+        "Name": "HABIB AEON Nilai",
+        "Address": "Lot G-27, Ground Floor, AEON Mall Nilai, Persiaran Pusat Bandar, Putra Point, 71800 Bandar Baru Nilai, Negeri Sembilan",
+        "Postcode": 71800,
+        "Coordinate": "2.818451693633835, 101.7889922497703",
+        "State": "Negeri Sembilan",
+        "District": "Nilai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.70600852462982,
+          1.4960096524442585
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Angsana Johor Bahru Mall",
+        "Address": "Lot L 2-35, Angsana Johor Bahru Mall, Lbh Skudai, Pusat Bandar Tampoi, 81200 Johor Bahru, Johor Darul Ta'zim",
+        "Postcode": 81200,
+        "Coordinate": "1.4960096524442585, 103.70600852462982",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.29225462278197,
+          2.270901607985392
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Mydin MITC Melaka",
+        "Address": "Lot GB 18 & 19, Ground Floor Mydin Mall Melaka Hypermarket Lot 15060, 15061 & 15062, Pusat Bandar, Melaka International Trade Centre, 75450 Ayer Keroh, Melaka",
+        "Postcode": 75450,
+        "Coordinate": "2.270901607985392, 102.29225462278197",
+        "State": "Melaka",
+        "District": "Ayer Keroh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9041427381233,
+          2.695659487474413
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Mydin Hypermarket Seremban 2",
+        "Address": "Lot G-04, Ground Floor Mydin Wholesale Hypermarket, Seremban 2, 70300 Seremban, Negeri Sembilan",
+        "Postcode": 70300,
+        "Coordinate": "2.695659487474413, 101.9041427381233",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7781554246298,
+          1.5005850022622202
+        ]
+      },
+      "properties": {
+        "Name": "HABIB The Mall, Mid Valley Southkey",
+        "Address": "Lot LG-029, Lower Ground Floor, The Mall, Mid Valley Southkey, No. 1, Persiaran, Southkey, 80150 Johor Bahru, Johor Darul Ta'zim",
+        "Postcode": 80150,
+        "Coordinate": "1.5005850022622202, 103.7781554246298",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.96316760928813,
+          1.8641867234013854
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Batu Pahat Mall",
+        "Address": "Lot G-31 & G-32, Batu Pahat Mall, Jln Kluang, 83000 Batu Pahat, Johor",
+        "Postcode": 83000,
+        "Coordinate": "1.8641867234013854, 102.96316760928813",
+        "State": "Johor",
+        "District": "Batu Pahat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.36647865162999,
+          6.12526838630482
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Aman Central",
+        "Address": "Aman Central, Lot G-48, Ground Floor No 1, Lebuhraya Darul Aman, 05100 Alor Setar, Kedah",
+        "Postcode": 5100,
+        "Coordinate": "6.12526838630482, 100.36647865162999",
+        "State": "Kedah",
+        "District": "Alor Setar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.30927349395513,
+          5.437404008578015
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Gurney Plaza",
+        "Address": "170-G46, Plaza Gurney, Gurney Dr, 10250 George Town",
+        "Postcode": 10250,
+        "Coordinate": "5.437404008578015, 100.30927349395513",
+        "State": "Pulau Pinang",
+        "District": "Pulau Pinang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.33751771992466,
+          5.416367001955091
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Jalan Masjid Kapitan Keling",
+        "Address": "111 & 117, Jln Masjid Kapitan Keling, George Town, 10200 George Town, Pulau Pinang",
+        "Postcode": 10200,
+        "Coordinate": "5.416367001955091, 100.33751771992466",
+        "State": "Pulau Pinang",
+        "District": "Pulau Pinang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.07400151113985,
+          4.67131442529037
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Meru Raya Ipoh",
+        "Address": "Lot G-11, Ground Floor, Mydin Hypermarket Meru Raya, Pt 229142, Jalan Meru Bestari B2, Bandar Meru Raya, Jelapang, 30020 Ipoh, Perak",
+        "Postcode": 30020,
+        "Coordinate": "4.67131442529037, 101.07400151113985",
+        "State": "Perak",
+        "District": "Ipoh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.48857399395634,
+          5.637125802524438
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Sungai Petani",
+        "Address": "Central Square, GF 45 & 46, 23, Jalan Kampung Baru, 08000 Sungai Petani, Kedah",
+        "Postcode": 8000,
+        "Coordinate": "5.637125802524438, 100.48857399395634",
+        "State": "Kedah",
+        "District": "Sungai Petani"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.72890933629027,
+          6.338824448300588
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Langkawi International Airport",
+        "Address": "L1-L08 Ground Floor, Langkawi International Airport Padang Mat Sirat, Pulau Langkawi, 07000 Langkawi, Kedah",
+        "Postcode": 7000,
+        "Coordinate": "6.338824448300588, 99.72890933629027",
+        "State": "Kedah",
+        "District": "Langkawi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.07106822463341,
+          4.5462893626089755
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Aeon Station 18",
+        "Address": "Lot No G-13, Ground Floor, AEON MALL, 2, Susuran Stesen 18, Station 18, 31650 Ipoh, Perak",
+        "Postcode": 31650,
+        "Coordinate": "4.5462893626089755, 101.07106822463341",
+        "State": "Perak",
+        "District": "Ipoh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.32709103627803,
+          3.81864810152075
+        ]
+      },
+      "properties": {
+        "Name": "HABIB East Coast Mall",
+        "Address": "GF-53A/55/56, Ground Floor, East Coast Mall, Jalan Putra Square 6, Putra Square, 25200 Kuantan, Pahang",
+        "Postcode": 25200,
+        "Coordinate": "3.81864810152075, 103.32709103627803",
+        "State": "Pahang",
+        "District": "Kuantan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.24072909395935,
+          6.117950793614853
+        ]
+      },
+      "properties": {
+        "Name": "HABIB KB Mall Kota Bharu",
+        "Address": "Lot G03B, Ground Floor, KB Mall, Lot PT 101 & 102, Seksyen 16, Jalan Hamzah, 15050 Kota Bharu, Kelantan",
+        "Postcode": 15050,
+        "Coordinate": "6.117950793614853, 102.24072909395935",
+        "State": "Kelantan",
+        "District": "Kota Bharu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.15059184182546,
+          5.33297944256553
+        ]
+      },
+      "properties": {
+        "Name": "HABIB KTCC Mall",
+        "Address": "Lot G-56, KTCC Mall Muara Selatan, 20000 Kuala Terengganu, Terengganu",
+        "Postcode": 20000,
+        "Coordinate": "5.33297944256553, 103.15059184182546",
+        "State": "Terengganu",
+        "District": "Kuala Terengganu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.14389380929586,
+          5.336328688417062
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Mayang Mall",
+        "Address": "GF-30, HABIB Jewels, Mayang Mall, Jalan Sultan Zainal Abidin, Kampung Surau Besar, 20000 Kuala Terengganu, Terengganu",
+        "Postcode": 20000,
+        "Coordinate": "5.336328688417062, 103.14389380929586",
+        "State": "Terengganu",
+        "District": "Kuala Terengganu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0773063804644,
+          5.987144329979801
+        ]
+      },
+      "properties": {
+        "Name": "HABIB Suria Sabah",
+        "Address": "Shopping Mall, No G25 & G26, Lot 1, Suria Sabah, Jln Tun Fuad Stephens, 88000 Kota Kinabalu, Sabah",
+        "Postcode": 88000,
+        "Coordinate": "5.987144329979801, 116.0773063804644",
+        "State": "Sabah",
+        "District": "Kota Kinabalu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.35798613442948,
+          1.535749098107228
+        ]
+      },
+      "properties": {
+        "Name": "HABIB The Spring",
+        "Address": "Lot G13 & G14B, Ground Floor, Land District, The Spring, Lot 7196, Jalan Simpang Tiga, Seksyen 64, 93300 Kuching, Sarawak",
+        "Postcode": 93300,
+        "Coordinate": "1.535749098107228, 110.35798613442948",
+        "State": "Sarawak",
+        "District": "Kuching"
+      }
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.12925795283594,
+          6.03690697893146
+        ]
+      },
+      "properties": {
+        "Name": "Parkson 1Borneo",
+        "Address": "88400",
+        "Postcode": "G-200 & F-200 1Borneo Hypermall, Jalan Sulaman, 88400 Kota Kinabalu, Sabah",
+        "State": "Sabah",
+        "District": "Kota Kinabalu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71126827827541,
+          2.938370183188691
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Alamanda",
+        "Address": "62000",
+        "Postcode": "Ground Floor, Jalan Alamanda, Presint 1, 62000 Putrajaya, Wilayah Persekutuan Putrajaya",
+        "State": "Wp Putrajaya",
+        "District": "Putrajaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.36663832615831,
+          6.124481775497076
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Aman Central",
+        "Address": "5150",
+        "Postcode": "LG G 1 2, Aman Central, 1, Darul Aman Hwy, Kampung Lubok Peringgi, 05150 Alor Setar, Kedah",
+        "State": "Kedah",
+        "District": "Alor Setar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7074741362615,
+          1.4957300773597737
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Angsana JB Mall",
+        "Address": "81200",
+        "Postcode": "Bandar Baru Uda, 81200 Johor Bahru, Johor",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.99182557831209,
+          4.397218956103717
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Bintang Megamall",
+        "Address": "98000",
+        "Postcode": "Lot 1264, Jalan Miri Pujut, Bintang Jaya, 98000 Miri, Sarawak",
+        "State": "Sarawak",
+        "District": "Miri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.32737022122396,
+          3.818069440707277
+        ]
+      },
+      "properties": {
+        "Name": "Parkson East Coast Mall",
+        "Address": "25200",
+        "Postcode": "GF, L1, L2 , East Coast Mall , Jalan Putra Square 6 , Putra Square , 25200 Kuantan , Pahang",
+        "State": "Pahang",
+        "District": "Kuantan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6165525193698,
+          3.1515025126106644
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Elite 1 Utama",
+        "Address": "47800",
+        "Postcode": "1 Utama Shopping Centre (New Wing), 1, Lebuh Bandar Utama, Bandar Utama, 47800 Petaling Jaya, Selangor",
+        "State": "Selangor",
+        "District": "Petaling Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.31132008867948,
+          5.4383950828445515
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Elite Gurney Plaza",
+        "Address": "10250",
+        "Postcode": "170-G-15, 170-01-18 & 58, 170-02-17 & 50, 170-03-79, Plaza Gurney, Persiaran Gurney, 10250, Pulau Pinang, Pulau Pinang, 170, Gurney Dr, Georgetown, 10250 George Town, Penang",
+        "State": "Pulau Pinang",
+        "District": "Pulau Pinang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71470228362975,
+          3.1489386230991796
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Elite Pavilion KL",
+        "Address": "55100",
+        "Postcode": "PAVILION PARKSON LOT 3, 168, Bukit Bintang Rd, Bukit Bintang, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.75493375823365,
+          2.9630069768441127
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Evo Mall",
+        "Address": "43650",
+        "Postcode": "Kompleks EVO, jalan Medan 2D, Seksyen 9, 43650 Bandar Baru Bangi, Selangor",
+        "State": "Selangor",
+        "District": "Bandar Baru Bangi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.2501658406316,
+          5.276297057815529
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Financial Park Labuan Complex",
+        "Address": "87000",
+        "Postcode": "Jln Merdeka, Financial Park, 87000 Labuan, Wilayah Persekutuan Labuan",
+        "State": "Wp Labuan",
+        "District": "Labuan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.06813080453813,
+          5.9707725293679434
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Imago Shopping Mall",
+        "Address": "88100",
+        "Postcode": "Imago Shopping Mall, Jalan Coastal, 88100 Kota Kinabalu, Sabah",
+        "State": "Sabah",
+        "District": "Kota Kinabalu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71385232224901,
+          2.9704317423180338
+        ]
+      },
+      "properties": {
+        "Name": "Parkson IOI City Mall",
+        "Address": "62502",
+        "Postcode": "L1-AT3, L2-AT3, IOI City Mall, Lbh IRC, Ioi Resort, 62502 Putrajaya, Selangor",
+        "State": "Wp Putrajaya",
+        "District": "Putrajaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.08920828336181,
+          4.595639222631591
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Ipoh Parade",
+        "Address": "30450",
+        "Postcode": "105, Jalan Sultan Abdul Jalil, Pusat Perdagangan Greentown, 30450 Ipoh, Perak",
+        "State": "Perak",
+        "District": "Ipoh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45432852173647,
+          3.0643120920407
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Klang Parade",
+        "Address": "41050",
+        "Postcode": "Level GF & 1F, 2112, Jln Meru, Kawasan, 41050 Klang, Selangor",
+        "State": "Selangor",
+        "District": "Klang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.3211793780675,
+          2.036476422059629
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Kluang Parade",
+        "Address": "86000",
+        "Postcode": "Ground, 1st & 2nd Floor, Kluang Parade, 2, Jalan Sentul, Kampung Masjid Lama, 86000 Kluang, Johor Darul Ta'zim",
+        "State": "Johor",
+        "District": "Kluang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.32895842255537,
+          3.8177477553188144
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Mahkota Parade",
+        "Address": "75000",
+        "Postcode": "1, Jln Merdeka, Taman Costa Mahkota, 75000 Melaka",
+        "State": "Melaka",
+        "District": "Melaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.68654381988239,
+          1.5154419990046513
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Paradigm Mall JB",
+        "Address": "81200",
+        "Postcode": "Paradigm Mall, Skudai Hwy, Taman Bukit Mewah, 81200 Johor Bahru, Johor",
+        "State": "Johor",
+        "District": "Johor Bahru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6710783045372,
+          3.0518073882201415
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Pavilion Bukit Jalil",
+        "Address": "57000",
+        "Postcode": "Lot 2.01.00, Lot 3.01.00 & Lot 4.01.00, Pavilion Bukit Jalil, Persiaran Jalil Utama, Bandar Bukit Jalil, 57000 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.48542311988237,
+          5.612679587680226
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Petani Parade",
+        "Address": "8000",
+        "Postcode": "Taman Sejati Indah, 08000 Sungai Petani, Kedah",
+        "State": "Kedah",
+        "District": "Sungai Petani"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3453508757009,
+          1.5586253491991928
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Plaza Merdeka",
+        "Address": "93000",
+        "Postcode": "Plaza Merdeka, 88, Pearl Street, 93000 Kuching, Sarawak",
+        "State": "Sarawak",
+        "District": "Kuching"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.64506731802832,
+          3.23732644603216
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Selayang Mall",
+        "Address": "68100",
+        "Postcode": "Jalan SU 9, Taman Selayang Utama, 68100 Batu Caves, Selangor",
+        "State": "Selangor",
+        "District": "Batu Caves"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.12570611936987,
+          4.676941089445918
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Sentra Mall",
+        "Address": "31200",
+        "Postcode": "Lot No. ATS-F-01, Sentra Mall @Ipoh.1, Laluan Klebang 2, Klebang Perdana, Klebang 2, 31200 Chemor, Perak",
+        "State": "Perak",
+        "District": "Chemor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.94363364820614,
+          2.71968389462552
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Seremban Prima",
+        "Address": "70000",
+        "Postcode": "Lot 4973,Jalan Dato, Jalan Yam Tuan, 70000 Seremban, Negeri Sembilan",
+        "State": "Negeri Sembilan",
+        "District": "Seremban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7223580738468,
+          3.2034206775734777
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Setapak Central",
+        "Address": "53100",
+        "Postcode": "S01, 67, Jln Taman Ibu Kota, Taman Danau Kota, 53100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.46235414264392,
+          3.108417891203238
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Setia City Mall",
+        "Address": "40170",
+        "Postcode": "UG-DS01, Persiaran Setia Dagang, Setia Alam, 40170 Shah Alam, Selangor",
+        "State": "Selangor",
+        "District": "Shah Alam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.95035646220978,
+          1.864869114774898
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Square One",
+        "Address": "83000",
+        "Postcode": "1-1, Jalan Flora Utama 4, Taman Flora Utama, 83000 Batu Pahat, Johor Darul Ta'zim",
+        "State": "Johor",
+        "District": "Batu Pahat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.58601169195524,
+          3.0806845543197223
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Subang Parade",
+        "Address": "47500",
+        "Postcode": "Jalan Kemajuan Subang, Ss 16, 47500 Subang Jaya, Selangor",
+        "State": "Selangor",
+        "District": "Subang Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.460277322249,
+          1.4545079075893141
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Summer Mall",
+        "Address": "94300",
+        "Postcode": "LOT 7455 BLOCK 1, Jln Datuk Mohammad Musa, 94300 Kota Samarahan, Sarawak",
+        "State": "Sarawak",
+        "District": "Kota Samarahan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.39945944501054,
+          5.398417318751318
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Sunway Carnival",
+        "Address": "13700",
+        "Postcode": "3068, UG-01 & F-01, Sunway Carnival Mall, Jalan Todak, Pusat Bandar Seberang Jaya, 13700, Seberang Jaya, Pulau Pinang, 13700",
+        "State": "Pulau Pinang",
+        "District": "Perai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.60984440639126,
+          3.0718816317727438
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Sunway Pyramid",
+        "Address": "47500",
+        "Postcode": "G1.22,LL1.26, LL2.21 & LL3.05, Sunway Pyramid, 3, Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor",
+        "State": "Selangor",
+        "District": "Subang Jaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72457500373483,
+          3.1272495871426544
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Sunway Velocity",
+        "Address": "55100",
+        "Postcode": "391, Jln Cheras, Maluri, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+        "State": "Wp Kuala Lumpur",
+        "District": "Kuala Lumpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.03634324871871,
+          3.1804070015759773
+        ]
+      },
+      "properties": {
+        "Name": "Parkson The Spring Bintulu",
+        "Address": "97000",
+        "Postcode": "Jalan Tun Razak, 97000 Bintulu, Sarawak",
+        "State": "Sarawak",
+        "District": "Bintulu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36882698548385,
+          1.5268538244037613
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Vivacity Megamall",
+        "Address": "93350",
+        "Postcode": "G-DS01, L1-DS02 & L2-DS01, Vivacity Megamall, Jalan Wan Alwi, 93350 Kuching, Sarawak",
+        "State": "Sarawak",
+        "District": "Kuching"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.57803128919201,
+          3.320758156716862
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Wisma Etonic",
+        "Address": "48000",
+        "Postcode": "Pusat Bandar Rawang, 48000 Rawang, Selangor",
+        "State": "Selangor",
+        "District": "Rawang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.82712678867946,
+          2.290015718930576
+        ]
+      },
+      "properties": {
+        "Name": "Parkson Wisma Sanyan",
+        "Address": "96000",
+        "Postcode": "699, Jalan Sanyan, Pekan Sibu, 96000 Sibu, Sarawak",
+        "State": "Sarawak",
+        "District": "Sibu"
+      }
+    }
+  ]
+}
